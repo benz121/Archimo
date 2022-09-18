@@ -72,33 +72,18 @@
   "tabs": {
     "Blogs": [
       {
-        "date": "",
-        "title": "",
+        "date": "May 07 2020",
+        "title": "Navigating the MAZE: Tactics, Techniques and Procedures Associated With MAZE Ransomware Incidents",
         "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html"
       },
       {
-        "date": "",
-        "title": "",
+        "date": "MAR 26 2020",
+        "title": "Ransomware Maze",
         "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ransomware-maze/"
       },
       {
-        "date": "",
-        "title": "",
-        "url": "https://news.sophos.com/en-us/2020/09/17/maze-attackers-adopt-ragnar-locker-virtual-machine-technique/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ransomware-maze/"
-      },
-      {
-        "date": "",
-        "title": "",
+        "date": "Sep 17 2020",
+        "title": "Maze attackers adopt Ragnar Locker virtual machine technique",
         "url": "https://news.sophos.com/en-us/2020/09/17/maze-attackers-adopt-ragnar-locker-virtual-machine-technique/"
       }
     ],

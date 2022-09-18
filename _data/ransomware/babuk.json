@@ -87,38 +87,23 @@
   "tabs": {
     "Blogs": [
       {
-        "date": "",
-        "title": "",
+        "date": "Early 2021",
+        "title": "Technical Analysis of Babuk Ransomware",
         "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-ransomware.pdf"
       },
       {
-        "date": "",
-        "title": "",
+        "date": "Feb 08 2021",
+        "title": "Babuk is distributed packed",
         "url": "https://sebdraven.medium.com/babuk-is-distributed-packed-78e2f5dd2e62"
       },
       {
-        "date": "",
-        "title": "",
+        "date": "Early 2021",
+        "title": "cybersecchronicles_-_babuk",
         "url": "https://www.sogeti.com/globalassets/reports/cybersecchronicles_-_babuk.pdf"
       },
       {
-        "date": "",
-        "title": "",
-        "url": "https://www.trendmicro.com/en_us/research/21/b/new-in-ransomware.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.sogeti.com/globalassets/reports/cybersecchronicles_-_babuk.pdf"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-ransomware.pdf"
-      },
-      {
-        "date": "",
-        "title": "",
+        "date": "Feb 05 2021",
+        "title": "New in Ransomware: Seth-Locker, Babuk",
         "url": "https://www.trendmicro.com/en_us/research/21/b/new-in-ransomware.html"
       }
     ],
