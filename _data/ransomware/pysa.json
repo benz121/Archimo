@@ -1,0 +1,230 @@
+{
+    "details": {
+        "Name": "Pysa",
+        "Type": "Ransomware as a Service (RaaS)",
+        "Origin Country": "",
+        "Alias": [
+            "Mespinoza",
+            "Pysa ",
+            "Mespinoza"
+        ],
+        "Target Countries": "",
+        "status": "Inactive",
+        "Target Industies": "",
+        "OFAC BlackListed": "Yes",
+        "Extensions": [
+            ".pysa",
+            ".locked",
+            ".newversion"
+        ],
+        "website": "",
+        "Decryptors": "",
+        "attribution": ""
+    },
+    "threats": [
+        {
+          "id":1,
+          "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+          "description": "encryption"
+        },
+        {
+          "id":2,
+          "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+          "description": "Double Extrotion"
+        },
+        {
+          "id":3,
+          "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+          "description": "highest demanded 1mil $"
+        }
+    ],
+    "avdDetail": {
+        "wallets": [],
+        "email": [
+            "lambchristoffer@protonmail.com",
+            "ellershaw.kiley@protonmail.com",
+            "raingemaximo@protonmail.com",
+            "aireyeric@protonmail.com,",
+            "gareth.mckie31@protonmail.com",
+            "alanson_street8@protonmail.com",
+            "alanson_street8@protonmail.com,",
+            "aireyeric@protonmail.com",
+            "mespinoza980@protonmail.com"
+        ]
+    },
+    "tabs": {
+        "Blogs": [
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-003.pdf"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.cert.ssi.gouv.fr/uploads/CERTFR-2020-CTI-003.pdf"
+            }
+        ],
+        "Sandbox": [
+            {
+                "name": "virustotal",
+                "links": [
+                    "https://www.virustotal.com/gui/file/a18c85399cd1ec3f1ec85cd66ff2e97a0dcf7ccb17ecf697a5376da8eda4d327/detection",
+                    "https://www.virustotal.com/gui/file/d2e6ae19c57ba2fec342463637471628dcdc2a8053cad001668bde01127b8fa8/detection",
+                    "https://www.virustotal.com/gui/file/e9662b468135f758a9487a1be50159ef57f3050b753de2915763b4ed78839ead%20%20/detection",
+                    "https://www.virustotal.com/gui/file/cf479164662978f1cdbf646a0d5f093d918cda1f62d0ed02036c75d3da24f5a2/detection",
+                    "https://www.virustotal.com/gui/file/1b9ace77f5365ecb452ba65ccf3c5e2ef6726e264f257b22bd8ca97a190ba354/detection",
+                    "https://www.virustotal.com/gui/file/5510ae74b7e2a10fdafa577dc278612f7796b0252b7d1438615e26c49e1fc560/detection",
+                    "https://www.virustotal.com/gui/file/01214479e87889f36b49eb689eab53ad00b41b98f1ee9dd4033bbf71f2fe634c/detection",
+                    "https://www.virustotal.com/gui/file/df43d5e1da691470a4d1d820bcf1a2b27e0f93417ebf283f869acfe83e5e97c2/detection",
+                    "https://www.virustotal.com/gui/file/606baa28741606cffbba545128d500f84d3959c60db9764d866bb5417283de55/detection",
+                    "https://www.virustotal.com/gui/file/4dc802894c45ec4d119d002a7569be6c99a9bba732d0057364da9350f9d3659b/detection"
+                ]
+            },
+            {
+                "name": "anyrun",
+                "links": [
+                    "https://app.any.run/tasks/c5de3d5a-cf24-408d-9f6c-beaca32b0768",
+                    "https://app.any.run/tasks/2425b44d-280d-49c7-8a3f-db0780af4a32/",
+                    "https://app.any.run/tasks/4ab2c3f4-d6df-4257-afc5-9dd1ee585824",
+                    "https://app.any.run/tasks/7298aa40-101f-41c4-9197-25252ce447dd/",
+                    "https://app.any.run/tasks/4e14b61f-f269-466f-a423-bb60ba61f06c",
+                    "https://app.any.run/tasks/0fb22a0f-dfed-4cd8-97ab-24d28338a066/",
+                    "https://app.any.run/tasks/896a14de-a327-4a88-ad67-6c7b8f7108f9/"
+                ]
+            },
+            {
+                "name": "hybrid",
+                "links": [
+                    "https://www.hybrid-analysis.com/sample/5510ae74b7e2a10fdafa577dc278612f7796b0252b7d1438615e26c49e1fc560/5dc9acd9038838b085779532",
+                    "https://www.hybrid-analysis.com/sample/606baa28741606cffbba545128d500f84d3959c60db9764d866bb5417283de55/5d98735b038838f483c9559c",
+                    "https://www.hybrid-analysis.com/sample/df43d5e1da691470a4d1d820bcf1a2b27e0f93417ebf283f869acfe83e5e97c2/5dffd6957bec9f691a3caa1b",
+                    "https://www.hybrid-analysis.com/sample/01214479e87889f36b49eb689eab53ad00b41b98f1ee9dd4033bbf71f2fe634c/5da436570388383076fd6fe0",
+                    "https://www.hybrid-analysis.com/sample/4dc802894c45ec4d119d002a7569be6c99a9bba732d0057364da9350f9d3659b/5ff43cedac12f719391b247a",
+                    "https://www.hybrid-analysis.com/sample/1b9ace77f5365ecb452ba65ccf3c5e2ef6726e264f257b22bd8ca97a190ba354/5d98fcbf028838a34307d45a"
+                ]
+            },
+            {
+                "name": "vmray",
+                "links": [
+                    "https://www.vmray.com/analyses/e9662b468135/report/overview.html",
+                    "https://www.vmray.com/analyses/01214479e878/report/overview.html",
+                    "https://www.vmray.com/analyses/df43d5e1da69/report/overview.html",
+                    "https://www.vmray.com/analyses/1b9ace77f536/report/overview.html"
+                ]
+            },
+            {
+                "name": "joe",
+                "links": []
+            },
+            {
+                "name": "triage",
+                "links": []
+            },
+            {
+                "name": "intezer",
+                "links": [
+                    "https://analyze.intezer.com/#/analyses/4725db3a-ad85-4c19-b99d-438fcf3c3859",
+                    "https://analyze.intezer.com/#/analyses/da860691-379d-45b6-a132-1930a7afbef6",
+                    "https://analyze.intezer.com/#/analyses/3f55336e-f0b4-4a31-b689-8c8870742618",
+                    "https://analyze.intezer.com/#/analyses/a2bebf37-2517-4a17-aa56-e51e5b27bc0b"
+                ]
+            }
+        ],
+        "MITRE": {
+            "Name": "Pysa",
+            "ID": "S0583",
+            "Description": "[Pysa](https://attack.mitre.org/software/S0583) is a ransomware that was first used in October 2018 and has been seen to target particularly high-value finance, government and healthcare organizations.(Citation: CERT-FR PYSA April 2020)",
+            "link": "https://attack.mitre.org/software/S0583",
+            "os": "Windows",
+            "citations": [
+                "CERT-FR PYSA April 2020"
+            ],
+            "GroupName": "",
+            "GroupId": "",
+            "techniques": [
+                {
+                    "id": "T1110",
+                    "name": "Brute Force",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has used brute force attempts against a central management console, as well as some Active Directory accounts.(Citation: CERT-FR PYSA April 2020)"
+                },
+                {
+                    "id": "T1552.001",
+                    "name": "Credentials In Files",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has extracted credentials from the password database before encrypting the files.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1486",
+                    "name": "Data Encrypted for Impact",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has used RSA and AES-CBC encryption algorithm to encrypt a list of targeted file extensions.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1562.001",
+                    "name": "Disable or Modify Tools",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has the capability to stop antivirus services and disable Windows Defender.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1070.004",
+                    "name": "File Deletion",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has deleted batch files after execution. (Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1490",
+                    "name": "Inhibit System Recovery",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has the functionality to delete shadow copies.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1003.001",
+                    "name": "LSASS Memory",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) can perform OS credential dumping using [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: CERT-FR PYSA April 2020)"
+                },
+                {
+                    "id": "T1036.005",
+                    "name": "Match Legitimate Name or Location",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has executed a malicious executable by naming it svchost.exe.(Citation: CERT-FR PYSA April 2020)"
+                },
+                {
+                    "id": "T1112",
+                    "name": "Modify Registry",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has modified the registry key \u201cSOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System\u201d and added the ransom note.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1046",
+                    "name": "Network Service Discovery",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) can perform network reconnaissance using the Advanced Port Scanner tool.(Citation: CERT-FR PYSA April 2020)"
+                },
+                {
+                    "id": "T1059.001",
+                    "name": "PowerShell",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has used Powershell scripts to deploy its ransomware.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1059.006",
+                    "name": "Python",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has used Python scripts to deploy ransomware.(Citation: CERT-FR PYSA April 2020)"
+                },
+                {
+                    "id": "T1021.001",
+                    "name": "Remote Desktop Protocol",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has laterally moved using RDP connections.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1569.002",
+                    "name": "Service Execution",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) has used [PsExec](https://attack.mitre.org/software/S0029) to copy and execute the ransomware.(Citation: CERT-FR PYSA April 2020)"
+                },
+                {
+                    "id": "T1489",
+                    "name": "Service Stop",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) can stop services and processes.(Citation: CERT-FR PYSA April 2020) "
+                },
+                {
+                    "id": "T1016",
+                    "name": "System Network Configuration Discovery",
+                    "description": "[Pysa](https://attack.mitre.org/software/S0583) can perform network reconnaissance using the Advanced IP Scanner tool.(Citation: CERT-FR PYSA April 2020)"
+                }
+            ]
+        },
+        "KillChain": ""
+    }
+}

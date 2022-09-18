@@ -1,0 +1,21 @@
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+permalink: pretty
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+include: ["node_modules/tailwindcss","_pages","_ransomware"]
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+collections:
+  ransomware:
+    output: true
+    # permalink: /ransomware/:name/

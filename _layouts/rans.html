@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  {% include navbar.html html=content %}
+  <a id="topbutton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+    <path fill-rule="evenodd" d="M5.23 15.79a.75.75 0 01-.02-1.06l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 11-1.08 1.04L10 11.832 6.29 15.77a.75.75 0 01-1.06.02zm0-6a.75.75 0 01-.02-1.06l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 11-1.08 1.04L10 5.832 6.29 9.77a.75.75 0 01-1.06.02z" clip-rule="evenodd" />
+  </svg>
+  </a>
+
+  <!-- tabs -->
+
+  <div class="">
+    {{ content }}
+  </div>
+  <div id="blog-search-overlay"></div>
+  <script src="{{ '/assets/clipboard.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/copy.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/search-script.js' | relative_url }}"></script>
+  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</body>
+<!-- Configuration -->
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('postsearchresult'),
+    json: "{{ '/search.json' | relative_url }}",
+    searchResultTemplate: '<li class="pl-4 pr-2 py-1 border-b-2 border-gray-100 relative cursor-pointer hover:bg-gray-100 hover:text-gray-900">\
+      <a href="{{ site.url }}{url}" class="no-underline blog-search-result-item">\
+          <span class="text-base font-semibold">{title} <span class="text-xs px-4 no-underline font-mono font-light"> -{alias}</span></span>\
+          <br><span class="text-xs no-underline capitalize"> {url}</span>\
+      </a>\
+  </li>',
+    limit: 1000,
+    debounceTime: 10
+  })
+</script>
+<!--  <br><span style="font-size:10px;color:gray;">{date} | date_to_string</span>\ -->
+<script>
+  var searchInput = $("#search-input");
+  var searchResults = $("#postsearchresult");
+
+  $(document).click(function (e) {
+    if ($(e.target).closest('#search-input, #postsearchresult').length == 0) {
+      searchResults.hide();
+      document.querySelector(".searchinp").classList.remove("active");
+      document.getElementById("blog-search-overlay").classList.remove("blog-search-overlay");
+      document.getElementById("postsearchresult1").classList.add("hidden");
+    }
+  });
+</script>
+<script>
+  // const searchWrapper = document.querySelector(".searchinp");
+  const inputBox = document.querySelector("#search-input");
+  var searchResults = $("#postsearchresult");
+  inputBox.onkeyup = (e) => {
+    let userData = e.target.value;
+    if (userData) {
+      searchResults.show();
+      document.querySelector(".searchinp").classList.add("active");
+      document.getElementById("blog-search-overlay").classList.add("blog-search-overlay");
+      document.getElementById("postsearchresult1").classList.remove("hidden");
+      
+
+    } else {
+      document.querySelector(".searchinp").classList.remove("active");
+      document.getElementById("blog-search-overlay").classList.remove("blog-search-overlay");
+    }
+  }
+</script>
+<script>
+  var btn = $('#topbutton');
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+</script>
+<script>
+
+  $(window).on('scroll',function () {
+    if ($(window).scrollTop() > 330) {
+      $('.displayonscroll').css({'display': 'flex'});
+    } else {
+      $('.displayonscroll').css({'display': 'none'});
+    }
+  });
+
+</script>
+</html>

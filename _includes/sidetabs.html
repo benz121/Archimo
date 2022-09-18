@@ -1,0 +1,108 @@
+<div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+    <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent"
+        role="tablist">
+        <li class="mr-2" role="presentation">
+            <button
+                class="inline-block p-4 rounded-t-lg border-b-2 text-blue-600 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-500 border-blue-600 dark:border-blue-500"
+                id="blog-tab" data-tabs-target="#blog" type="button" role="tab" aria-controls="blog"
+                aria-selected="false">
+                Blogs
+            </button>
+        </li>
+        <li class="mr-2" role="presentation">
+            <button
+                class="inline-block p-4 rounded-t-lg border-b-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 dark:border-gray-700"
+                id="sandbox-tab" data-tabs-target="#sandbox" type="button" role="tab" aria-controls="sandbox"
+                aria-selected="true">
+                SandBox
+            </button>
+        </li>
+        <li class="mr-2" role="presentation">
+            <button
+                class="inline-block p-4 rounded-t-lg border-b-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 dark:border-gray-700"
+                id="mitre-tab" data-tabs-target="#mitre" type="button" role="tab" aria-controls="mitre"
+                aria-selected="false">
+                MITRE
+            </button>
+        </li>
+        <li role="presentation">
+            <button
+                class="inline-block p-4 rounded-t-lg border-b-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 dark:border-gray-700"
+                id="killchain-tab" data-tabs-target="#killchain" type="button" role="tab" aria-controls="killchain"
+                aria-selected="false">
+                KillChain
+            </button>
+        </li>
+        <li role="presentation">
+            <button
+                class="inline-block p-4 rounded-t-lg border-b-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 dark:border-gray-700"
+                id="forensics-tab" data-tabs-target="#forensics" type="button" role="tab" aria-controls="forensics"
+                aria-selected="false">
+                Forensics
+            </button>
+        </li>
+    </ul>
+</div>
+<div id="myTabContent">
+    <div class="p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="blog" role="tabpanel" aria-labelledby="blog-tab">
+        <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
+            This is some placeholder content the
+            <strong class="font-medium text-gray-800 dark:text-white">Blog</strong>.
+            Clicking another tab will toggle the visibility of this one for the next.
+            The tab JavaScript swaps classes to control the content visibility and
+            styling.
+        </p>
+        {% include listgroup_blog.html html=content %}
+    </div>
+    <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="sandbox" role="tabpanel"
+        aria-labelledby="sandbox-tab">
+        <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
+            All the malware sample links are sorted based on their
+            <span class="font-bold"> Upload Date </span> to the sandbox. you will need
+            an account to download a sample from any sandbox. For free malware sample
+            go here
+            <a href="#" class="cursor-pointer underline font-bold hover:text-black">
+                Malware Bazzar.</a>
+        </p>
+        {% include accordian_sandbox.html html=content %}
+    </div>
+    <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="mitre" role="tabpanel"
+        aria-labelledby="mitre-tab">
+        <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
+            This is some placeholder content the
+            <strong class="font-medium text-gray-800 dark:text-white">mitre tab's associated content</strong>. Clicking
+            another tab will toggle the visibility of this one for the
+            next. The tab JavaScript swaps classes to control the content visibility
+            and styling.
+        </p>
+        {% include listgroup_mitre.html html=content %}
+    </div>
+    <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="killchain" role="tabpanel"
+        aria-labelledby="killchain-tab">
+        <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
+            The
+            <strong class="font-bold text-gray-800 dark:text-white">Cyber Kill Chain</strong>
+            framework mainly focuses on how to get into a system. But in a real world
+            sceneraio all the steps in the kill chain are combined to one or two
+            steps. Any way this is loop which repeats itself when an attacker
+            compromises a system and wants to move to another. Lets take an imaginary
+            scenario of this ransomware and apply the KillChain framwork to it.
+        </p>
+        <div class="mt-4 p-4">
+            {% include killchain_timeline.html html=content %}
+        </div>
+    </div>
+    <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="forensics" role="tabpanel"
+        aria-labelledby="forensics-tab">
+        <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
+            The
+            <strong class="font-bold text-gray-800 dark:text-white">Cyber Kill Chain</strong>
+            framework mainly focuses on how to get into a system. But in a real world
+            sceneraio all the steps in the kill chain are combined to one or two
+            steps. Any way this is loop which repeats itself when an attacker
+            compromises a system and wants to move to another. Lets take an imaginary
+            scenario of this ransomware and apply the KillChain framwork to it.
+        </p>
+        <div class="mt-4 p-4">Forensics</div>
+    </div>
+</div>

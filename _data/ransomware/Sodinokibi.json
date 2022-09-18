@@ -1,0 +1,225 @@
+{
+  "details": {
+    "Name": "Sodinokibi",
+    "Type": "",
+    "Origin Country": "",
+    "Alias": ["Sodinokibi"],
+    "Target Countries": "",
+    "status": "",
+    "Target Industies": "",
+    "OFAC BlackListed": "",
+    "Extensions": [".fpa6378b9h", ".<", ".hg6u62", ".2gi81a0o", ".F5Z8A"],
+    "website": "",
+    "Decryptors": [
+      {
+        "id": "Bitdefender",
+        "linksby": "Tool made by  Bitdefender ",
+        "guide": "https://www.nomoreransom.org/uploads/REvil_documentation.pdf",
+        "download": "http://download.bitdefender.com/am/malware_removal/BDREvilDecryptor.exe"
+      }
+    ],
+    "attribution": ""
+  },
+  "threats": "",
+  "avdDetail": {
+    "wallets": ["3yxglz7nteicqrou3t75tpcc5532cztc46qyd"],
+    "email": []
+  },
+  "tabs": {
+    "Blogs": [
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.carbonblack.com/blog/tau-threat-discovery-conti-ransomware/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.cybereason.com/blog/cybereason-vs.-conti-ransomware"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://cybleinc.com/2021/01/21/conti-ransomware-resurfaces-targeting-government-large-organizations/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.crowdstrike.com/blog/wizard-spider-adversary-update/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.carbonblack.com/blog/tau-threat-discovery-conti-ransomware/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://cybleinc.com/2021/01/21/conti-ransomware-resurfaces-targeting-government-large-organizations/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.cybereason.com/blog/cybereason-vs.-conti-ransomware"
+      }
+    ],
+    "Sandbox": [
+      {
+        "name": "virustotal",
+        "links": [
+          "https://www.virustotal.com/gui/file/d36e6282363c0f9c05b7b04412d10249323d8b0000f2c25f96c6f9de207eedf8/detection",
+          "https://www.virustotal.com/ru/file/71a20e270052665d18bc0fe4d1f9608e51f4fd427442e7abc3e5d43c4e987bdb/analysis/1556456111/",
+          "https://www.virustotal.com/gui/file/f5ed4d0550d7615ed7ade2f4a30a2495fbab2b64100e5825f6cfac9348056d26/detection",
+          "https://www.virustotal.com/gui/file/f864922f947a6bb7d894245b53795b54b9378c0f7633c521240488e86f60c2c5/detection",
+          "https://www.virustotal.com/gui/file/c8c169ad2628ff3860c4d0bd04afeb81262051f664f9d5a334c32c78e791a7f8/detection",
+          "https://www.virustotal.com/gui/file/0fa207940ea53e2b54a2b769d8ab033a6b2c5e08c78bf4d7dade79849960b54d/detection",
+          "https://www.virustotal.com/gui/file/c3ed8705aecf16a07e86717d4dd6a33847cf0b87bb2d58e56a502bbf952d5f03/detection"
+        ]
+      },
+      {
+        "name": "anyrun",
+        "links": [
+          "https://app.any.run/tasks/9a9a7109-8497-4e1e-b3d7-b9ab0871ea9e/",
+          "https://app.any.run/tasks/34033910-c3e3-4f71-9827-406f884256d7"
+        ]
+      },
+      {
+        "name": "hybrid",
+        "links": [
+          "https://www.hybrid-analysis.com/sample/0fa207940ea53e2b54a2b769d8ab033a6b2c5e08c78bf4d7dade79849960b54d/5cc841c2038838f5993e01c8"
+        ]
+      },
+      {
+        "name": "vmray",
+        "links": [
+          "https://www.vmray.com/analyses/d36e6282363c/report/overview.html",
+          "https://www.vmray.com/analyses/0fa207940ea5/report/overview.html"
+        ]
+      },
+      {
+        "name": "joe",
+        "links": [
+          "https://www.joesandbox.com/analysis/126984/0/html",
+          "https://www.joesandbox.com/analysis/353325/0/html"
+        ]
+      },
+      {
+        "name": "triage",
+        "links": []
+      },
+      {
+        "name": "intezer",
+        "links": [
+          "https://analyze.intezer.com/analyses/91e3920f-ae83-4064-96e9-4b684fb581da",
+          "https://analyze.intezer.com/#/files/c8c169ad2628ff3860c4d0bd04afeb81262051f664f9d5a334c32c78e791a7f8",
+          "https://analyze.intezer.com/analyses/eff48e91-1d83-4a53-9305-e2c9ff30eca7",
+          "https://analyze.intezer.com/#/analyses/3149e127-e894-4a68-96f0-40d31232a9c0"
+        ]
+      }
+    ],
+    "MITRE": {
+      "Name": "Conti",
+      "ID": "S0575",
+      "Description": "[Conti](https://attack.mitre.org/software/S0575) is a Ransomware-as-a-Service (RaaS) that was first observed in December 2019. [Conti](https://attack.mitre.org/software/S0575) has been deployed via [TrickBot](https://attack.mitre.org/software/S0266) and used against major corporations and government agencies, particularly those in North America. As with other ransomware families, actors using [Conti](https://attack.mitre.org/software/S0575) steal sensitive files and information from compromised networks, and threaten to publish this data unless the ransom is paid.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)(Citation: Cybleinc Conti January 2020)",
+      "link": "https://attack.mitre.org/software/S0575",
+      "os": "Windows",
+      "citations": [
+        "CrowdStrike Wizard Spider October 2020",
+        "CrowdStrike Wizard Spider October 2020",
+        "CarbonBlack Conti July 2020",
+        "Cybleinc Conti January 2020",
+        "Cybereason Conti Jan 2021"
+      ],
+      "GroupName": "Wizard Spider",
+      "GroupId": "G0102",
+      "techniques": [
+        {
+          "id": "T1486",
+          "name": "Data Encrypted for Impact",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can use <code>CreateIoCompletionPort()</code>, <code>PostQueuedCompletionStatus()</code>, and <code>GetQueuedCompletionPort()</code> to rapidly encrypt files, excluding those with the extensions of .exe, .dll, and .lnk. It has used a different AES-256 encryption key per file with a bundled RAS-4096 public encryption key that is unique for each victim. [Conti](https://attack.mitre.org/software/S0575) can use \u201cWindows Restart Manager\u201d to ensure files are unlocked and open for encryption.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)(Citation: Cybleinc Conti January 2020)(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1140",
+          "name": "Deobfuscate/Decode Files or Information",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) has decrypted its payload using a hardcoded AES-256 key.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1055.001",
+          "name": "Dynamic-link Library Injection",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) has loaded an encrypted DLL into memory and then executes it.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1083",
+          "name": "File and Directory Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can discover files on a local system.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1490",
+          "name": "Inhibit System Recovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can delete Windows Volume Shadow Copies using <code>vssadmin</code>.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1106",
+          "name": "Native API",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) has used API calls during execution.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020) "
+        },
+        {
+          "id": "T1135",
+          "name": "Network Share Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can enumerate remote open SMB network shares using <code>NetShareEnum()</code>.(Citation: CarbonBlack Conti July 2020)(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1027",
+          "name": "Obfuscated Files or Information",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can use compiler-based obfuscation for its code, encrypt DLLs, and hide Windows API calls.(Citation: CarbonBlack Conti July 2020)(Citation: Cybereason Conti Jan 2021)(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1057",
+          "name": "Process Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can enumerate through all open processes to search for any that have the string \u201csql\u201d in their process name.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1018",
+          "name": "Remote System Discovery",
+          "description": "\n[Conti](https://attack.mitre.org/software/S0575) has the ability to discover hosts on a target network.(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1021.002",
+          "name": "SMB/Windows Admin Shares",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can spread via SMB and encrypts files on different hosts, potentially compromising an entire network.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1489",
+          "name": "Service Stop",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can stop up to 146 Windows services related to security, backup, database, and email solutions through the use of <code>net stop</code>.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1016",
+          "name": "System Network Configuration Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can retrieve the ARP cache from the local system by using the <code>GetIpNetTable()</code> API call and check to ensure IP addresses it connects to are for local, non-Internet, systems.(Citation: CarbonBlack Conti July 2020) "
+        },
+        {
+          "id": "T1049",
+          "name": "System Network Connections Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can enumerate routine network connections from a compromised host.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1080",
+          "name": "Taint Shared Content",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can spread itself by infecting other remote machines via network shared drives.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020) "
+        },
+        {
+          "id": "T1059.003",
+          "name": "Windows Command Shell",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can utilize command line options to allow an attacker control over how it scans and encrypts files.(Citation: CarbonBlack Conti July 2020)"
+        }
+      ]
+    },
+    "KillChain": ""
+  }
+}

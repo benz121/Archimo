@@ -1,0 +1,23 @@
+---
+layout: none
+---
+[
+  {% for post in site.ransomware %}
+  {% if site.data.ransomware[post.filename].details.Alias != empty %}
+    {
+      "title"    : "{{ post.name | strip_html | escape }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "Type"     : "{{post.Type}}",
+      "alias"    : "{{site.data.ransomware[post.filename].details.Alias | join: ','}}"
+    } 
+    {% else %}
+    {
+      "title"    : "{{ post.name | strip_html | escape }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "Type"     : "{{post.Type}}",
+      "alias"    : "N/A"
+    } 
+  {% endif %}
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

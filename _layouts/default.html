@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="{{ '/assets/css/fruity.css' | relative_url }}">
+    
+  </head>
+  <body>
+   
+    <!-- navbar -->
+    {% include navbar.html html=content %}
+
+    <!-- tabs -->
+
+    <div class="container">
+    {{ content }}
+    </div>
+</div>
+<script src="{{ '/assets/clipboard.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/copy.js' | relative_url }}"></script>
+<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+  </body>
+  </html>

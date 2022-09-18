@@ -1,0 +1,248 @@
+{
+  "details": {
+    "Name": "Wasted Locker",
+    "Origin Country": "Iran",
+    "Type": "Ransomware as a Service (RaaS)",
+    "Alias": [],
+    "Target Countries": ["Russia", "MiddleEast"],
+    "status": "Active",
+    "Number Of Campaings": 12,
+    "Target Industies": ["oil", "gas", "petro"],
+    "OFAC BlackListed": "yes",
+    "Extensions": [".sdfd", "<rand6>@sdfsd.com"],
+    "website": [
+      "yes",
+      "http://moishddxqnpdxpababec6exozpl2yr7idfhdldiz5525ao25bmasxhid.onion"
+    ],
+    "Decryptors": [],
+    "attribution": []
+  },
+  "threats": [
+    {
+      "id":1,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+      "description": "encryption"
+    },
+    {
+      "id":2,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+      "description": "Double Extrotion"
+    },
+    {
+      "id":3,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+      "description": "highest demanded 1mil $"
+    }
+],
+  "avdDetail": {
+    "wallets": [
+      "address1",
+      "address2",
+      "address3",
+      "address4"
+    ],
+    "email": ["asfaesd@asdfj.com", "asfasdasuiu.aask.soc"]
+  },
+  "tabs": {
+    "Blogs": [
+      {
+        "date": "2022-07-31",
+        "title": "Cyber Threats That Are Out Of This World",
+        "url": "https://blog.bushidotoken.net/2022/07/space-invaders-cyber-threats-that-are.html"
+      },
+      {
+        "date": "2022-07-02",
+        "title": "To HADES and Back: UNC2165 Shifts to LOCKBIT to Evade Sanctions",
+        "url": "https://www.mandiant.com/resources/blog/unc2165-shifts-to-evade-sanctions"
+      }
+    ],
+    "Sandbox": [
+      {
+        "name": "virustotal",
+        "links": [
+          "https://www.virustotal.com/gui/file/558ce8f30dc57914bfbe111f1132acc5a7420812f7e779050015b02a78856c9a/detection",
+          "https://www.virustotal.com/gui/file/d3b477505145f896c5cd4fd948f1825acf46c82af83c0dde505310f01fc573ed/detection",
+          "https://www.virustotal.com/gui/file/6d2efda037fe23b1fe3a5bae44f5b9f7ddfdf621c5df6cb6999d801bbdf79b0f",
+          "https://www.virustotal.com/gui/file/7f4dba54da91c99423b5862088da784363c7edc76d63e26d72270cd1fdf6dbec",
+          "https://www.virustotal.com/gui/file/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c/detection",
+          "https://www.virustotal.com/gui/file/3e2d6f380eca084e9081ce2260df95358188320c6720920d404fd786b5b5927d/detection",
+          "https://www.virustotal.com/gui/file/800d81a21291518ddeabd64f0024f057468af7789a99eecceb47193e88e36ee9/detection",
+          "https://www.virustotal.com/gui/file/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/detection",
+          "https://www.virustotal.com/gui/file/731c26e87dc8995a8f5ed1d22aa49286b98bcfeb5ee2a792a1763a491eb7f21b/detection",
+          "https://www.virustotal.com/gui/file/7c1f5cf8f242dfbd920180d8423777a4e540c37c09d787d4674b259bdbe0dc42/detection",
+          "https://www.virustotal.com/gui/file/9d920183e97fee807e34297f007aa330154a43402d6cd45e19adf7bbfb382807/detection",
+          "https://www.virustotal.com/gui/file/17ba67b2b5ec20c5fec06a580e293eefc665fc89f8bfc00d6b9b715bffa2d845/detection",
+          "https://www.virustotal.com/gui/file/b6e3cdf6757bb325e62cd43f31eb590e8ec63f25674b89ff65d70707af999951/detection",
+          "https://www.virustotal.com/gui/file/844cc2551f8bbfd505800bd3d135d93064600a55c45894f89f80b81fea3b0fa1/detection",
+          "https://www.virustotal.com/gui/file/55f1ce7d7b3cf941ea355a07623b02a6ec2007d1f5069717a449dd31405bb86b/detection",
+          "https://www.virustotal.com/gui/file/5378249a2b439e92691fb87751adc9fc4e2dea1792309d695b7f1d9c6887b09d",
+          "https://www.virustotal.com/gui/file/ee8c2a00545c5a761b9026a183f146efbaa4c84f010a8df8c923c21b39c38f02/detection",
+          "https://www.virustotal.com/gui/file/d6ab910259c9bc68196aeec3e9ff4864bada22738c02ecf5ada7912ced292d28/detection",
+          "https://www.virustotal.com/gui/file/716408476bc23c3e74a852ed6246dd60e8ed18533bedc13d4984279c97cd1a74/detection",
+          "https://www.virustotal.com/gui/file/eae876886f19ba384f55778634a35a1d975414e83f22f6111e3e792f706301fe/detection",
+          "https://www.virustotal.com/gui/file/30f5748dc2b143c6dde82aa215bef058cd2dc534fb476fe94f3e8950ea23ce50/detection",
+          "https://www.virustotal.com/gui/file/3814d381f3944799777f936061703db44e922bc0f98a7ec1c98f202a0a245974/detection"
+        ]
+      },
+      {
+        "name": "anyrun",
+        "links": [
+          "https://app.any.run/tasks/a2d02e11-1410-4c4d-a4cb-81a1f01453ba/",
+          "https://app.any.run/tasks/7fa46b29-6258-4f45-9098-c4d20ecccf69/",
+          "https://app.any.run/tasks/78364ebb-a5f6-4b2d-8b73-eba5c6881f6a/",
+          "https://app.any.run/tasks/e346fd5d-df8a-4821-a0aa-7f67595ea34c/",
+          "https://app.any.run/tasks/7e9cac29-10a9-420e-9078-c643cb74c5c0",
+          "https://app.any.run/tasks/996bcbae-56c5-49cc-9749-26c5b22b5102/",
+          "https://app.any.run/tasks/15b43695-751c-43b5-88b6-1a8e45ec561e/",
+          "https://app.any.run/tasks/2509910f-807c-4359-ad44-0f2b8b31e893/",
+          "https://app.any.run/tasks/48d75938-739f-495f-a630-83aee786c790/",
+          "https://app.any.run/tasks/f372b3a6-4343-4726-a98d-97bedc49f5fe/"
+        ]
+      },
+      {
+        "name": "hybrid",
+        "links": [
+          "https://www.hybrid-analysis.com/sample/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/5e1df0022f0e7a775451b1fa"
+        ]
+      },
+      {
+        "name": "vmray",
+        "links": [
+          "https://www.vmray.com/analyses/2f334c080214/report/overview.html",
+          "https://www.vmray.com/analyses/800d81a21291/report/overview.html",
+          "https://www.vmray.com/analyses/844cc2551f8b/report/overview.html",
+          "https://www.vmray.com/analyses/b6e3cdf6757b/report/overview.html"
+        ]
+      },
+      {
+        "name": "joe",
+        "links": []
+      },
+      {
+        "name": "triage",
+        "links": [
+          "https://tria.ge/211024-eabwbsdaa2/behavioral1",
+          "https://tria.ge/211121-qfxwjadhfq",
+          "https://tria.ge/210610-9aj6xcwssa"
+        ]
+      },
+      {
+        "name": "intezer",
+        "links": [
+          "https://analyze.intezer.com/#/analyses/b712f108-1cef-47bf-a5ce-0defc784ac64",
+          "https://analyze.intezer.com/#/analyses/1c90899a-60e0-440b-8d50-342d75ce5ad8",
+          "https://analyze.intezer.com/#/analyses/4894d088-4a9a-40a4-ac1d-66be619ac045",
+          "https://analyze.intezer.com/analyses/c845a013-40c1-4f7b-83e6-3a52004e80a5",
+          "https://analyze.intezer.com/analyses/eaf55a59-fd6f-4090-94be-ac999551ea53",
+          "https://analyze.intezer.com/analyses/f2f9b731-8537-4ba4-9b83-d5bc85ee8a8f",
+          "https://analyze.intezer.com/#/files/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c",
+          "https://analyze.intezer.com/analyses/b9d55765-9f94-4a56-8b0c-05e100570e64"
+        ]
+      }
+    ],
+    "MITRE": {
+      "Name": "Wasted Locker",
+      "ID": "",
+      "Description": "",
+      "link": "",
+      "os": "Windows",
+      "citations": [],
+      "GroupName": "",
+      "GroupId": "",
+      "techniques": [
+        {
+          "id": "T1486",
+          "name": "Data Encrypted for Impact",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can use <code>CreateIoCompletionPort()</code>, <code>PostQueuedCompletionStatus()</code>, and <code>GetQueuedCompletionPort()</code> to rapidly encrypt files, excluding those with the extensions of .exe, .dll, and .lnk. It has used a different AES-256 encryption key per file with a bundled RAS-4096 public encryption key that is unique for each victim. [Conti](https://attack.mitre.org/software/S0575) can use \u201cWindows Restart Manager\u201d to ensure files are unlocked and open for encryption.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)(Citation: Cybleinc Conti January 2020)(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1140",
+          "name": "Deobfuscate/Decode Files or Information",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) has decrypted its payload using a hardcoded AES-256 key.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1055.001",
+          "name": "Dynamic-link Library Injection",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) has loaded an encrypted DLL into memory and then executes it.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1083",
+          "name": "File and Directory Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can discover files on a local system.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1490",
+          "name": "Inhibit System Recovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can delete Windows Volume Shadow Copies using <code>vssadmin</code>.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1106",
+          "name": "Native API",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) has used API calls during execution.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020) "
+        },
+        {
+          "id": "T1135",
+          "name": "Network Share Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can enumerate remote open SMB network shares using <code>NetShareEnum()</code>.(Citation: CarbonBlack Conti July 2020)(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1027",
+          "name": "Obfuscated Files or Information",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can use compiler-based obfuscation for its code, encrypt DLLs, and hide Windows API calls.(Citation: CarbonBlack Conti July 2020)(Citation: Cybereason Conti Jan 2021)(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1057",
+          "name": "Process Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can enumerate through all open processes to search for any that have the string \u201csql\u201d in their process name.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1018",
+          "name": "Remote System Discovery",
+          "description": "\n[Conti](https://attack.mitre.org/software/S0575) has the ability to discover hosts on a target network.(Citation: CrowdStrike Wizard Spider October 2020)"
+        },
+        {
+          "id": "T1021.002",
+          "name": "SMB/Windows Admin Shares",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can spread via SMB and encrypts files on different hosts, potentially compromising an entire network.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1489",
+          "name": "Service Stop",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can stop up to 146 Windows services related to security, backup, database, and email solutions through the use of <code>net stop</code>.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1016",
+          "name": "System Network Configuration Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can retrieve the ARP cache from the local system by using the <code>GetIpNetTable()</code> API call and check to ensure IP addresses it connects to are for local, non-Internet, systems.(Citation: CarbonBlack Conti July 2020) "
+        },
+        {
+          "id": "T1049",
+          "name": "System Network Connections Discovery",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can enumerate routine network connections from a compromised host.(Citation: CarbonBlack Conti July 2020)"
+        },
+        {
+          "id": "T1080",
+          "name": "Taint Shared Content",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can spread itself by infecting other remote machines via network shared drives.(Citation: Cybereason Conti Jan 2021)(Citation: CarbonBlack Conti July 2020) "
+        },
+        {
+          "id": "T1059.003",
+          "name": "Windows Command Shell",
+          "description": "[Conti](https://attack.mitre.org/software/S0575) can utilize command line options to allow an attacker control over how it scans and encrypts files.(Citation: CarbonBlack Conti July 2020)"
+        }
+      ]
+    },
+    "KillChain": {
+      "Recon": {
+        "name": "Reconnanosesncs",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
+        "description": "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
+      },
+      "Weaponization": {
+        "name": "Weaponization",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
+        "description": "Weaponization Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
+      }
+    }
+  }
+}

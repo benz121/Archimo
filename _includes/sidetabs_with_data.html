@@ -1,0 +1,57 @@
+<!-- <h2 class="text-lg font-bold ">{{page.name}} </h2> -->
+<div class="mb-4 border-b bg-white sticky w-full z-10 left-0 border-gray-200 dark:border-gray-700" style="top: 4.5rem;">
+    <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent"
+        role="tablist">
+{% assign filname = page.filename %}
+        {% for items in site.data.ransomware[filname].tabs %}
+        {% if items[0] == "Blogs" %}
+        <li class="mr-2" role="presentation">
+            <button
+                class="inline-block p-4 rounded-t-lg border-b-2 text-blue-600 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-500 border-blue-600 dark:border-blue-500"
+                id="{{ items[0] }}-tab" data-tabs-target="#{{ items[0] }}" type="button" role="tab" aria-controls="{{ items[0] }}"
+                aria-selected="true">
+                {{ items[0] }}
+            </button>
+        </li>
+        {% else %}
+        <li class="mr-2" role="presentation">
+            <button
+                class="inline-block p-4 rounded-t-lg border-b-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 dark:border-transparent text-gray-500 dark:text-gray-400 border-gray-100 dark:border-gray-700"
+                id="{{ items[0] }}-tab" data-tabs-target="#{{ items[0] }}" type="button" role="tab" aria-controls="{{ items[0] }}"
+                aria-selected="false">
+                {{ items[0] }}
+            </button>
+        </li>
+        {% endif %}
+        {% endfor %}
+        <h2 class="text-3xl displayonscroll font-mono text-red-600 hidden items-center float-right mx-auto font-bold ">{{page.name}} </h2>
+    </ul>
+
+</div>
+<div id="myTabContent">
+    {% for items in site.data.ransomware[filname].tabs %}
+    {% assign foo = items[1] %}
+    <div class="p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="{{ items[0] }}" role="tabpanel" aria-labelledby="{{ items[0] }}-tab">
+
+        
+        {% if items[0] == "Blogs" %}
+        <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
+            {{site.data.ransomware[filname].tabs.MITRE.Description}}
+            
+        </p>
+            {% include listgroup_blog.html content=foo %}
+        {% elsif items[0] == "Sandbox" %}
+            {% include accordian_sandbox.html content=foo %}
+        {% elsif items[0] == "MITRE" %}
+            {% include listgroup_mitre.html content=foo %}
+        {% elsif items[0] == "KillChain" %}
+            {% include killchain_timeline.html content=foo %}
+            {% elsif items[0] == "Forensics" %}
+            {% include killchain_timeline.html content=foo %}
+        {% endif %}
+
+    </div>
+
+    {% endfor %}
+
+</div>

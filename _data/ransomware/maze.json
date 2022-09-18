@@ -1,0 +1,355 @@
+{
+  "details": {
+    "Name": "Maze",
+    "Type": "Ransomware as a Service (RaaS)",
+    "Origin Country": "",
+    "Alias": ["Maze", "ChaCha","Conti","sekhmet","egregor"],
+    "Target Countries": "",
+    "status": "Inactive",
+    "Target Industies": "",
+    "OFAC BlackListed": "Yes",
+    "Extensions": [
+      ".0HOgD",
+      ".rC0syGH",
+      ".FBrRDWC",
+      ".t6brFnQ",
+      ".MJNW",
+      ".LKc07P",
+      ".DL1fZE",
+      ".(random4-7)",
+      ".CONTI"
+    ],
+    "website": "",
+    "Decryptors": [
+      {
+        "id": "KasperskyLab",
+        "linksby": "Tool made by  Kaspersky Lab ",
+        "guide": "https://www.nomoreransom.org/uploads/RakhniDecryptor_how-to_guide.pdf",
+        "download": "https://media.kaspersky.com/utilities/VirusUtilities/EN/rakhnidecryptor.zip"
+      },
+      {
+        "id": "Emsisoft",
+        "linksby": "Tool made by  Emsisoft ",
+        "guide": "https://decrypter.emsisoft.com/howtos/emsisoft_howto_mazesekhmetegregor.pdf",
+        "download": "https://www.emsisoft.com/ransomware-decryption-tools/download/maze-sekhmet-egregor"
+      }
+    ],
+    "attribution": [
+        ["CrowdStrike","WizardSpider"],["FireEye","Maze"],["CarbonBlack","Conti"]
+    ]
+  },
+  "threats": [
+    {
+      "id":1,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+      "description": "encryption"
+    },
+    {
+      "id":2,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+      "description": "Double Extrotion"
+    },
+    {
+      "id":3,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+      "description": "highest demanded 1mil $"
+    }
+],
+  "avdDetail": {
+    "wallets": ["3NQ1JyX5iphB9PhAyawMCkyS8iV1xzoTpT"],
+    "email": [
+      "vourrealdecrypt@airmail.cc",
+      "getmyfilesback@airmail.cc",
+      "filedecryptor@nuke.africa",
+      "koreadec@tutanota.com",
+      "xersami@protonmail.com",
+      "flapalinta1950@protonmail.com",
+      "fahydremu1981@protonmail.com",
+      "flapalinta1950@protonmail.com,",
+      "mantiticvi1976@protonmail.com"
+    ]
+  },
+  "tabs": {
+    "Blogs": [
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ransomware-maze/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://news.sophos.com/en-us/2020/09/17/maze-attackers-adopt-ragnar-locker-virtual-machine-technique/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ransomware-maze/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://news.sophos.com/en-us/2020/09/17/maze-attackers-adopt-ragnar-locker-virtual-machine-technique/"
+      }
+    ],
+    "Sandbox": [
+      {
+        "name": "virustotal",
+        "links": [
+          "https://www.virustotal.com/gui/file/e8a091a84dd2ea7ee429135ff48e9f48f7787637ccb79f6c3eb42f34588bc684/detection",
+          "https://www.virustotal.com/gui/file/067f1b8f1e0b2bfe286f5169e17834e8cf7f4266b8d97f28ea78995dc81b0e7b/detection",
+          "https://www.virustotal.com/gui/file/6a22220c0fe5f578da11ce22945b63d93172b75452996defdc2ff48756bde6af/detection",
+          "https://www.virustotal.com/gui/file/58fe9776f33628fd965d1bcc442ec8dc5bfae0c648dcaec400f6090633484806/detection",
+          "https://www.virustotal.com/gui/file/c040defb9c90074b489857f328d3e0040ac0ddab26cde132f17cccae7f1309cc/detection",
+          "https://www.virustotal.com/gui/file/f9dfdce85f83d7a416ecc162a9f68643357b1fd10ea29e6b2cd934b967192a74/detection",
+          "https://www.virustotal.com/gui/file/9dd37920692e36cad14e904bd720f0bde5ab473867c3e7d0d8b427a600af2cf8/detection",
+          "https://www.virustotal.com/gui/file/2d2eebc4d408c5f261c8cd130246bca1736376a5b434f422033ff02566354da6/detection",
+          "https://www.virustotal.com/gui/file/91514e6be3f581a77daa79e2a4905dcbdf6bdcc32ee0f713599a94d453a26fc1/detection",
+          "https://www.virustotal.com/gui/file/3885589a3c94d0475a6d994e4644e682f4cff93f8b4d65f37508ffe706861363/detection",
+          "https://www.virustotal.com/gui/file/9be70b7fe15cd64aed5b1adc88c2d5270bce534d167c4a42d143ae0059c3da1c/detection",
+          "https://www.virustotal.com/gui/file/558ce8f30dc57914bfbe111f1132acc5a7420812f7e779050015b02a78856c9a/detection",
+          "https://www.virustotal.com/gui/file/d3b477505145f896c5cd4fd948f1825acf46c82af83c0dde505310f01fc573ed/detection",
+          "https://www.virustotal.com/gui/file/6d2efda037fe23b1fe3a5bae44f5b9f7ddfdf621c5df6cb6999d801bbdf79b0f",
+          "https://www.virustotal.com/gui/file/7f4dba54da91c99423b5862088da784363c7edc76d63e26d72270cd1fdf6dbec",
+          "https://www.virustotal.com/gui/file/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c/detection",
+          "https://www.virustotal.com/gui/file/3e2d6f380eca084e9081ce2260df95358188320c6720920d404fd786b5b5927d/detection",
+          "https://www.virustotal.com/gui/file/800d81a21291518ddeabd64f0024f057468af7789a99eecceb47193e88e36ee9/detection",
+          "https://www.virustotal.com/gui/file/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/detection",
+          "https://www.virustotal.com/gui/file/731c26e87dc8995a8f5ed1d22aa49286b98bcfeb5ee2a792a1763a491eb7f21b/detection",
+          "https://www.virustotal.com/gui/file/7c1f5cf8f242dfbd920180d8423777a4e540c37c09d787d4674b259bdbe0dc42/detection",
+          "https://www.virustotal.com/gui/file/9d920183e97fee807e34297f007aa330154a43402d6cd45e19adf7bbfb382807/detection",
+          "https://www.virustotal.com/gui/file/17ba67b2b5ec20c5fec06a580e293eefc665fc89f8bfc00d6b9b715bffa2d845/detection",
+          "https://www.virustotal.com/gui/file/b6e3cdf6757bb325e62cd43f31eb590e8ec63f25674b89ff65d70707af999951/detection",
+          "https://www.virustotal.com/gui/file/844cc2551f8bbfd505800bd3d135d93064600a55c45894f89f80b81fea3b0fa1/detection",
+          "https://www.virustotal.com/gui/file/55f1ce7d7b3cf941ea355a07623b02a6ec2007d1f5069717a449dd31405bb86b/detection",
+          "https://www.virustotal.com/gui/file/5378249a2b439e92691fb87751adc9fc4e2dea1792309d695b7f1d9c6887b09d",
+          "https://www.virustotal.com/gui/file/ee8c2a00545c5a761b9026a183f146efbaa4c84f010a8df8c923c21b39c38f02/detection",
+          "https://www.virustotal.com/gui/file/d6ab910259c9bc68196aeec3e9ff4864bada22738c02ecf5ada7912ced292d28/detection",
+          "https://www.virustotal.com/gui/file/716408476bc23c3e74a852ed6246dd60e8ed18533bedc13d4984279c97cd1a74/detection",
+          "https://www.virustotal.com/gui/file/eae876886f19ba384f55778634a35a1d975414e83f22f6111e3e792f706301fe/detection",
+          "https://www.virustotal.com/gui/file/30f5748dc2b143c6dde82aa215bef058cd2dc534fb476fe94f3e8950ea23ce50/detection",
+          "https://www.virustotal.com/gui/file/3814d381f3944799777f936061703db44e922bc0f98a7ec1c98f202a0a245974/detection"
+        
+        ]
+      },
+      {
+        "name": "anyrun",
+        "links": [
+          "https://app.any.run/tasks/7792b635-4875-4128-9479-13c2391cd0c8/",
+          "https://app.any.run/tasks/975bedfc-a1ef-41a6-ad7a-6af4a5adaff0/",
+          "https://app.any.run/tasks/16a0ac37-70c4-49c1-b952-f19ca08cd53a/",
+          "https://app.any.run/tasks/a2c7ef7e-231e-4291-a5fd-3193d1f07790/",
+          "https://app.any.run/tasks/f4920c26-0b50-4bdf-9c3d-48829942fed6/",
+          "https://app.any.run/tasks/a2d02e11-1410-4c4d-a4cb-81a1f01453ba/",
+          "https://app.any.run/tasks/7fa46b29-6258-4f45-9098-c4d20ecccf69/",
+          "https://app.any.run/tasks/78364ebb-a5f6-4b2d-8b73-eba5c6881f6a/",
+          "https://app.any.run/tasks/e346fd5d-df8a-4821-a0aa-7f67595ea34c/",
+          "https://app.any.run/tasks/7e9cac29-10a9-420e-9078-c643cb74c5c0",
+          "https://app.any.run/tasks/996bcbae-56c5-49cc-9749-26c5b22b5102/",
+          "https://app.any.run/tasks/15b43695-751c-43b5-88b6-1a8e45ec561e/",
+          "https://app.any.run/tasks/2509910f-807c-4359-ad44-0f2b8b31e893/",
+          "https://app.any.run/tasks/48d75938-739f-495f-a630-83aee786c790/",
+          "https://app.any.run/tasks/f372b3a6-4343-4726-a98d-97bedc49f5fe/"
+        
+        ]
+      },
+      {
+        "name": "hybrid",
+        "links": [
+          "https://www.hybrid-analysis.com/sample/f9dfdce85f83d7a416ecc162a9f68643357b1fd10ea29e6b2cd934b967192a74/5cf26a6e0388386188a3afd0",
+          "https://www.hybrid-analysis.com/sample/9be70b7fe15cd64aed5b1adc88c2d5270bce534d167c4a42d143ae0059c3da1c?environmentId=120",
+          "https://www.hybrid-analysis.com/sample/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/5e1df0022f0e7a775451b1fa"
+
+        ]
+      },
+      {
+        "name": "vmray",
+        "links": [
+          "https://www.vmray.com/analyses/9be70b7fe15c/report/overview.html",
+          "https://www.vmray.com/analyses/3885589a3c94/report/overview.html",
+          "https://www.vmray.com/analyses/2d2eebc4d408/report/overview.html",
+          "https://www.vmray.com/analyses/e8a091a84dd2/report/overview.html",
+          "https://www.vmray.com/analyses/f9dfdce85f83/report/overview.html",
+          "https://www.vmray.com/analyses/2f334c080214/report/overview.html",
+          "https://www.vmray.com/analyses/800d81a21291/report/overview.html",
+          "https://www.vmray.com/analyses/844cc2551f8b/report/overview.html",
+          "https://www.vmray.com/analyses/b6e3cdf6757b/report/overview.html"
+        
+        ]
+      },
+      {
+        "name": "joe",
+        "links": []
+      },
+      {
+        "name": "triage",
+        "links": [
+            "https://tria.ge/211024-eabwbsdaa2/behavioral1",
+            "https://tria.ge/211121-qfxwjadhfq",
+            "https://tria.ge/210610-9aj6xcwssa"
+        
+        ]
+      },
+      {
+        "name": "intezer",
+        "links": [
+          "https://analyze.intezer.com/#/files/067f1b8f1e0b2bfe286f5169e17834e8cf7f4266b8d97f28ea78995dc81b0e7b",
+          "https://analyze.intezer.com/#/analyses/6dbf03e6-4172-45b3-aeb9-29c6f696b245",
+          "https://analyze.intezer.com/#/analyses/4847b0d2-16d1-4cd5-9ddb-0205f9471d06",
+          "https://analyze.intezer.com/#/files/91514e6be3f581a77daa79e2a4905dcbdf6bdcc32ee0f713599a94d453a26fc1",
+          "https://analyze.intezer.com/#/analyses/b712f108-1cef-47bf-a5ce-0defc784ac64",
+          "https://analyze.intezer.com/#/analyses/1c90899a-60e0-440b-8d50-342d75ce5ad8",
+          "https://analyze.intezer.com/#/analyses/4894d088-4a9a-40a4-ac1d-66be619ac045",
+          "https://analyze.intezer.com/analyses/c845a013-40c1-4f7b-83e6-3a52004e80a5",
+          "https://analyze.intezer.com/analyses/eaf55a59-fd6f-4090-94be-ac999551ea53",
+          "https://analyze.intezer.com/analyses/f2f9b731-8537-4ba4-9b83-d5bc85ee8a8f",
+          "https://analyze.intezer.com/#/files/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c",
+          "https://analyze.intezer.com/analyses/b9d55765-9f94-4a56-8b0c-05e100570e64"
+        ]
+      }
+    ],
+    "MITRE": {
+      "Name": "Maze",
+      "ID": "S0449",
+      "Description": "[Maze](https://attack.mitre.org/software/S0449) ransomware, previously known as \"ChaCha\", was discovered in May 2019. In addition to encrypting files on victim machines for impact, [Maze](https://attack.mitre.org/software/S0449) operators conduct information stealing campaigns prior to encryption and post the information online to extort affected companies.(Citation: FireEye Maze May 2020)(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020)",
+      "link": "https://attack.mitre.org/software/S0449",
+      "os": "Windows",
+      "citations": [
+        "FireEye Maze May 2020",
+        "FireEye Maze May 2020",
+        "McAfee Maze March 2020",
+        "Sophos Maze VM September 2020"
+      ],
+      "GroupName": "FIN6",
+      "GroupId": "G0037",
+      "techniques": [
+        {
+          "id": "T1027.001",
+          "name": "Binary Padding",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has inserted large blocks of junk code, including some components to decrypt strings and other important information for later in the encryption process.(Citation: McAfee Maze March 2020)"
+        },
+        {
+          "id": "T1486",
+          "name": "Data Encrypted for Impact",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has disrupted systems by encrypting files on targeted machines, claiming to decrypt files if a ransom payment is made. [Maze](https://attack.mitre.org/software/S0449) has used the ChaCha algorithm, based on Salsa20, and an RSA algorithm to encrypt files.(Citation: FireEye Maze May 2020)"
+        },
+        {
+          "id": "T1562.001",
+          "name": "Disable or Modify Tools",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has disabled dynamic analysis and other security tools including IDA debugger, x32dbg, and OllyDbg.(Citation: McAfee Maze March 2020) It has also disabled Windows Defender's Real-Time Monitoring feature and attempted to disable endpoint protection services.(Citation: Sophos Maze VM September 2020)"
+        },
+        {
+          "id": "T1568",
+          "name": "Dynamic Resolution",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has forged POST strings with a random choice from a list of possibilities including \"forum\", \"php\", \"view\", etc. while making connection with the C2, hindering detection efforts.(Citation: McAfee Maze March 2020)"
+        },
+        {
+          "id": "T1055.001",
+          "name": "Dynamic-link Library Injection",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has injected the malware DLL into a target process.(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020)\t"
+        },
+        {
+          "id": "T1070",
+          "name": "Indicator Removal on Host",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has used the \u201cWow64RevertWow64FsRedirection\u201d function following attempts to delete the shadow volumes, in order to leave the system in the same state as it was prior to redirection.(Citation: McAfee Maze March 2020)\t"
+        },
+        {
+          "id": "T1490",
+          "name": "Inhibit System Recovery",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has attempted to delete the shadow volumes of infected machines, once before and once after the encryption process.(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020)"
+        },
+        {
+          "id": "T1036.004",
+          "name": "Masquerade Task or Service",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) operators have created scheduled tasks masquerading as \"Windows Update Security\", \"Windows Update Security Patches\", and \"Google Chrome Security Update\" designed to launch the ransomware.(Citation: Sophos Maze VM September 2020) "
+        },
+        {
+          "id": "T1218.007",
+          "name": "Msiexec",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has delivered components for its ransomware attacks using MSI files, some of which have been executed from the command-line using <code>msiexec</code>.(Citation: Sophos Maze VM September 2020)"
+        },
+        {
+          "id": "T1106",
+          "name": "Native API",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has used several Windows API functions throughout the encryption process including IsDebuggerPresent, TerminateProcess, Process32FirstW, among others.(Citation: McAfee Maze March 2020)\t"
+        },
+        {
+          "id": "T1027",
+          "name": "Obfuscated Files or Information",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has decrypted strings and other important information during the encryption process. [Maze](https://attack.mitre.org/software/S0449) also calls certain functions dynamically to hinder analysis.(Citation: McAfee Maze March 2020)\t"
+        },
+        {
+          "id": "T1057",
+          "name": "Process Discovery",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has gathered all of the running system processes.(Citation: McAfee Maze March 2020)\t"
+        },
+        {
+          "id": "T1547.001",
+          "name": "Registry Run Keys / Startup Folder",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has created a file named \"startup_vrun.bat\" in the Startup folder of a virtual machine to establish persistence.(Citation: Sophos Maze VM September 2020)"
+        },
+        {
+          "id": "T1564.006",
+          "name": "Run Virtual Instance",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) operators have used VirtualBox and a Windows 7 virtual machine to run the ransomware; the virtual machine's configuration file mapped the shared network drives of the target company, presumably so [Maze](https://attack.mitre.org/software/S0449) can encrypt files on the shared drives as well as the local machine.(Citation: Sophos Maze VM September 2020) "
+        },
+        {
+          "id": "T1053.005",
+          "name": "Scheduled Task",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has created scheduled tasks using name variants such as \"Windows Update Security\", \"Windows Update Security Patches\", and \"Google Chrome Security Update\", to launch [Maze](https://attack.mitre.org/software/S0449) at a specific time.(Citation: Sophos Maze VM September 2020)"
+        },
+        {
+          "id": "T1489",
+          "name": "Service Stop",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has stopped SQL services to ensure it can encrypt any database.(Citation: Sophos Maze VM September 2020) "
+        },
+        {
+          "id": "T1082",
+          "name": "System Information Discovery",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has checked the language of the infected system using the \"GetUSerDefaultUILanguage\" function.(Citation: McAfee Maze March 2020)"
+        },
+        {
+          "id": "T1614.001",
+          "name": "System Language Discovery",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has checked the language of the machine with function <code>GetUserDefaultUILanguage</code> and terminated execution if the language matches with an entry in the predefined list.(Citation: McAfee Maze March 2020)"
+        },
+        {
+          "id": "T1049",
+          "name": "System Network Connections Discovery",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has used the \"WNetOpenEnumW\", \"WNetEnumResourceW\u201d, \u201cWNetCloseEnum\u201d and \u201cWNetAddConnection2W\u201d functions to enumerate the network resources on the infected machine.(Citation: McAfee Maze March 2020)"
+        },
+        {
+          "id": "T1529",
+          "name": "System Shutdown/Reboot",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has issued a shutdown command on a victim machine that, upon reboot, will run the ransomware within a VM.(Citation: Sophos Maze VM September 2020)"
+        },
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has communicated to hard-coded IP addresses via HTTP.(Citation: McAfee Maze March 2020)"
+        },
+        {
+          "id": "T1059.003",
+          "name": "Windows Command Shell",
+          "description": "The [Maze](https://attack.mitre.org/software/S0449) encryption process has used batch scripts with various commands.(Citation: FireEye Maze May 2020)(Citation: Sophos Maze VM September 2020)"
+        },
+        {
+          "id": "T1047",
+          "name": "Windows Management Instrumentation",
+          "description": "[Maze](https://attack.mitre.org/software/S0449) has used WMI to attempt to delete the shadow volumes on a machine, and to connect a virtual machine to the network domain of the victim organization's network.(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020) "
+        }
+      ]
+    },
+    "KillChain": ""
+  }
+}

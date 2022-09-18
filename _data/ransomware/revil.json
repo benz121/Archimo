@@ -1,0 +1,521 @@
+{
+  "details": {
+    "Name": "Revil",
+    "Origin Country": "Russia",
+    "Type": "Ransomware as a Service (RaaS)",
+    "Alias": ["Sodin", "Sodinokibi"],
+    "Target Countries": ["US","MiddleEast"],
+    "status": "Active",
+    "Target Industies": ["HealthCare","Oil&Gas","Educational Institutions"],
+    "OFAC BlackListed": "Yes",
+    "Extensions": [
+      ".e5W7fivNP",
+      ".bydes",
+      ".BcDdBdBcbc",
+      ".CaEdDadCcE",
+      ".bbCceaBDEc",
+      ".avdn",
+      ".bBCbeaeaae",
+      ".BCAEAEAEED",
+      ".JGHh4eBP8Fd1I",
+      ".bdCDdCBaAd"
+    ],
+    "website":["yes","http://moishddxqnpdxpababec6exozpl2yr7idfhdldiz5525ao25bmasxhid.onion"],
+    "Decryptors": [
+      {
+        "id": "Bitdefender",
+        "linksby": "Tool made by  Bitdefender ",
+        "guide": "https://www.nomoreransom.org/uploads/REvil_documentation.pdf",
+        "download": "http://download.bitdefender.com/am/malware_removal/BDREvilDecryptor.exe"
+      },
+      {
+        "id": "Bitdefender1",
+        "linksby": "Tool made by  Bitdefender1 ",
+        "guide": "https://www.nomoreransom.org/uploads/REvil_documentation.pdf",
+        "download": "http://download.com/am/malware_removal/BDREvilDecryptor.exe"
+      }
+    ],
+    "attribution": [
+        ["CrowdStrike","CarbonSpider"],["FBI","FIN7"],["Talos","Sodinokibi"],["Kaspersky","Sodin"]
+    ]
+  },
+  "threats": [
+    {
+      "id":1,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+      "description": "encryption"
+    },
+    {
+      "id":2,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+      "description": "Double Extrotion"
+    },
+    {
+      "id":3,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+      "description": "highest demanded 1mil $"
+    }
+],
+  "avdDetail": {
+    "wallets": [
+      "329b5d5965774f5bdf724b7e7bfd33",
+      "3d5b02e4ce98a8a514d2755488",
+      "3Ny14YzMxYTA4TUhqNSt4SEkzZmthR",
+      "3Pg4atmvjJTE8nqFqzQ5Pug1SCtyKSuviy",
+      "1LS82ZUZHV1dGZGFMMCswZy9SMW1kZFRYQWlUaXZ",
+      "335BkP3nZMTNhMNe85rTM7FQjvV8Xuy1FV",
+      "1f7d9ccdacbbf96b2f828eae253ce6a",
+      "3e30b669a37a2daddd9f2acb2ac0",
+      "3B34E6896F2395E56DB1D10EB41FEDBA",
+      "10fd9f0e6abb0aeded5ee942567c9e",
+      "3475ef7fff5cef303891cd4108437f0",
+      "35nC4aE67j1PisdhYxKfYtNfDWu1kqz6V2",
+      "1c64bd94357269a3e113a314b4808"
+    ],
+    "email": []
+  },
+  "tabs": {
+    "Blogs": [
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.bleepingcomputer.com/news/security/revil-ransomware-has-a-new-windows-safe-mode-encryption-mode/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-sodinokibi-ransomware.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.gdatasoftware.com/blog/2019/06/31724-strange-bits-sodinokibi-spam-cinarat-and-fake-g-data"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.group-ib.com/whitepapers/ransomware-uncovered.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://securityintelligence.com/posts/ransomware-2020-attack-trends-new-techniques-affecting-organizations-worldwide/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://securelist.com/sodin-ransomware/91473/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-crescendo/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-what-the-code-tells-us/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.picussecurity.com/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-sodinokibi-ransomware.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.group-ib.com/whitepapers/ransomware-uncovered.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.gdatasoftware.com/blog/2019/06/31724-strange-bits-sodinokibi-spam-cinarat-and-fake-g-data"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://securelist.com/sodin-ransomware/91473/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-what-the-code-tells-us/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.picussecurity.com/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-crescendo/"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+      }
+    ],
+    "Sandbox": [
+      {
+        "name": "virustotal",
+        "links": [
+          "https://www.virustotal.com/gui/file/fed9e1bfcbd37a9f6df28c65adbb07ecc9745ed96a03ddaf3716d4324730b3df/detection",
+          "https://www.virustotal.com/gui/file/01aa2cf8db4badde36f1896d341e31c0fe91a51772f1aa50b9f59ba368973993/detection",
+          "https://www.virustotal.com/gui/file/771376ceaedc086a5005336e56423572b1d827e6fa53a6487dd274a577d26c43/detection",
+          "https://www.virustotal.com/",
+          "https://www.virustotal.com/gui/file/12bc439445f10a04b574d49ed8ccc405e2dfaa493747585439643e8a2129e5e5/detection",
+          "https://www.virustotal.com/gui/file/fa4626e2c5984d7868a685c5102530bd8260d0b31ef06d2ce2da7636da48d2d6/detection",
+          "https://www.virustotal.com/gui/file/de1793d8db7f58f0ef53bee7fb0942ef4c6c348e4a547b6cfeb74ffa8de56cdf/detection",
+          "https://www.virustotal.com/gui/file/05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2/detection",
+          "https://www.virustotal.com/gui/file/cc4d665c468bcb850baf9baab764bb58e8b0ddcb8a8274b6335db5af86af72fb/detection",
+          "https://www.virustotal.com/gui/file/982d910b04625e284fc6ff5217f6708433af0939d6ac2301cd88ceea3e362b87/detection",
+          "https://www.virustotal.com/gui/file/1c2513c56929fe7826d7aa78ea57ddb1c713e5443aebae2f147d10d14f585400/detection",
+          "https://www.virustotal.com/gui/file/f9d9f8ee449c2f4953ae5b21ab1978f8881d559734f57dfb2fe7722e55c895ec/detection",
+          "https://www.virustotal.com/gui/file/fcf076de61f050573def84a471da943d940a8c9fd8120021eca893fea9bcaed3/detection",
+          "https://www.virustotal.com/gui/file/cd674d6aab60773d6af8554cbc28e902221aeec9b9734c98bb5a1a836c2f166c/detection",
+          "https://www.virustotal.com/gui/file/87c3639e83b5ea1d26b75215a974c5126185017bf9392601ceb41fc5aa58284f/detection",
+          "https://www.virustotal.com/gui/file/3b6d04d6b629c1bdab4f15b0aa0d1e7792078b21cf876ec4c630243de1b47ac3/detection"
+        ]
+      },
+      {
+        "name": "anyrun",
+        "links": [
+          "https://app.any.run/tasks/673109dc-d36a-4937-947b-76b03a6d25f1/",
+          "https://app.any.run/tasks/c550e70e-17a1-473f-a69b-85866ff52cc8/",
+          "https://app.any.run/tasks/eebf2636-7a9c-446c-9732-49c2ebfa91d6/",
+          "https://app.any.run/tasks/5a6c0582-2fea-456f-b214-865cca02bbc7/",
+          "https://app.any.run/tasks/472b5424-60e6-4553-bf69-c0a441dcc3d7/",
+          "https://app.any.run/tasks/cca08b38-00a9-4b4b-a37f-b5dadc91d985/",
+          "https://app.any.run/tasks/a18d7792-cb45-420a-a504-385d760bfd20/"
+        ]
+      },
+      {
+        "name": "hybrid",
+        "links": [
+          "https://www.hybrid-analysis.com/sample/3b6d04d6b629c1bdab4f15b0aa0d1e7792078b21cf876ec4c630243de1b47ac3?environmentId=120",
+          "https://www.hybrid-analysis.com/sample/12bc439445f10a04b574d49ed8ccc405e2dfaa493747585439643e8a2129e5e5?environmentId=120",
+          "https://www.hybrid-analysis.com/sample/fa4626e2c5984d7868a685c5102530bd8260d0b31ef06d2ce2da7636da48d2d6?environmentId=120",
+          "https://www.hybrid-analysis.com/sample/fed9e1bfcbd37a9f6df28c65adbb07ecc9745ed96a03ddaf3716d4324730b3df/5edd43b099d5000fe24708aa"
+        ]
+      },
+      {
+        "name": "vmray",
+        "links": [
+          "https://www.vmray.com/analyses/f9d9f8ee449c/report/overview.html",
+          "https://www.vmray.com/analyses/05af0cf40590/report/overview.html",
+          "https://www.vmray.com/analyses/3b6d04d6b629/report/overview.html",
+          "https://www.vmray.com/analyses/fcf076de61f0/report/overview.html",
+          "https://www.vmray.com/analyses/01aa2cf8db4b/report/overview.html",
+          "https://www.vmray.com/analyses/87c3639e83b5/report/overview.html",
+          "https://www.vmray.com/analyses/1c2513c56929/report/overview.html"
+        ]
+      },
+      {
+        "name": "joe",
+        "links": ["https://www.joesandbox.com/analysis/235948/0/html"]
+      },
+      {
+        "name": "triage",
+        "links": [
+          "https://tria.ge/reports/200621-wraj43zgpa/behavioral1",
+          "https://tria.ge/reports/200607-gdq88mtksj/static1",
+          "https://tria.ge/reports/200613-xm7v6eqp82/static1"
+        ]
+      },
+      {
+        "name": "intezer",
+        "links": [
+          "https://analyze.intezer.com/#/analyses/39c60c4c-f9e5-4fdb-a33e-50fd5ab2f25a",
+          "https://analyze.intezer.com/#/analyses/1d184d82-d1c9-4471-ac6d-943b408530ba",
+          "https://analyze.intezer.com/#/analyses/70332d68-73d6-4fb1-8975-d58bb06b90ee",
+          "https://analyze.intezer.com/#/analyses/3e32f050-42b3-4958-a47c-fc690c2b7448",
+          "https://analyze.intezer.com/#/analyses/146979da-f11f-4a82-b016-3ed4ee3e0aa5",
+          "https://analyze.intezer.com/#/analyses/729513f3-a121-4778-873e-5c7caa093e15",
+          "https://analyze.intezer.com/#/analyses/52715b66-669a-4421-ad2f-7cc05397508a/sub/8e3840b2-ad24-431f-a1d3-f641255ee86c",
+          "https://analyze.intezer.com/#/files/982d910b04625e284fc6ff5217f6708433af0939d6ac2301cd88ceea3e362b87",
+          "https://analyze.intezer.com/#/analyses/daaee4c8-ff8a-441e-8f40-a121299f69ae",
+          "https://analyze.intezer.com/#/analyses/7495340d-e2b2-4c00-a00d-03e67409f35c",
+          "https://analyze.intezer.com/files/cd674d6aab60773d6af8554cbc28e902221aeec9b9734c98bb5a1a836c2f166c?vt"
+        ]
+      }
+    ],
+    "MITRE": {
+      "Name": "REvil",
+      "ID": "S0496",
+      "Description": "[REvil](https://attack.mitre.org/software/S0496) is a ransomware family that has been linked to the [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) group and operated as ransomware-as-a-service (RaaS) since at least April 2019. [REvil](https://attack.mitre.org/software/S0496), which as been used against organizations in the manufacturing, transportation, and electric sectors, is highly configurable and shares code similarities with the GandCrab RaaS.(Citation: Secureworks REvil September 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)",
+      "link": "https://attack.mitre.org/software/S0496",
+      "os": "Windows",
+      "citations": [
+        "FBI Flash FIN7 USB",
+        "CrowdStrike Carbon Spider August 2021",
+        "Secureworks REvil September 2019",
+        "IBM Ransomware Trends September 2020",
+        "Secureworks GandCrab and REvil September 2019",
+        "Cylance Sodinokibi July 2019",
+        "Talos Sodinokibi April 2019",
+        "Secureworks REvil September 2019",
+        "Intel 471 REvil March 2020",
+        "Tetra Defense Sodinokibi March 2020",
+        "Picus Sodinokibi January 2020",
+        "Kaspersky Sodin July 2019",
+        "G Data Sodinokibi June 2019",
+        "Secureworks GandCrab and REvil September 2019",
+        "Group IB Ransomware May 2020",
+        "McAfee REvil October 2019",
+        "McAfee Sodinokibi October 2019",
+        "BleepingComputer REvil 2021"
+      ],
+      "GroupName": "FIN7",
+      "GroupId": "G0046",
+      "techniques": [
+        {
+          "id": "T1573.002",
+          "name": "Asymmetric Cryptography",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has encrypted C2 communications with the ECIES algorithm.(Citation: Kaspersky Sodin July 2019)",
+          "commands_used":[
+            "wbadmin delete catalog -quiet",
+            "bcdedit /set {default} recoveryenabled no",
+            "wmic shadowcopy delete",
+            "bcdedit /set {default} bootstatuspolicy ignoreallfailures",
+            "vssadmin delete shadows /all /quiet"
+
+          ]
+        },
+        {
+          "id": "T1134.002",
+          "name": "Create Process with Token",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can launch an instance of itself with administrative rights using runas.(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1485",
+          "name": "Data Destruction",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has the capability to destroy files and folders.(Citation: Kaspersky Sodin July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1486",
+          "name": "Data Encrypted for Impact",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can encrypt files on victim systems and demands a ransom to decrypt the files.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Talos Sodinokibi April 2019)(Citation: McAfee REvil October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)(Citation: Tetra Defense Sodinokibi March 2020)"
+        },
+        {
+          "id": "T1140",
+          "name": "Deobfuscate/Decode Files or Information",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can decode encrypted strings to enable execution of commands and payloads.(Citation: G Data Sodinokibi June 2019)(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1562.001",
+          "name": "Disable or Modify Tools",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can connect to and disable the Symantec server on the victim's network.(Citation: Cylance Sodinokibi July 2019)"
+        },
+        {
+          "id": "T1069.002",
+          "name": "Domain Groups",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can identify the domain membership of a compromised host.(Citation: Kaspersky Sodin July 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1189",
+          "name": "Drive-by Compromise",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has infected victim machines through compromised websites and exploit kits.(Citation: Secureworks REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks GandCrab and REvil September 2019)"
+        },
+        {
+          "id": "T1041",
+          "name": "Exfiltration Over C2 Channel",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can exfiltrate host and malware information to C2 servers.(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1070.004",
+          "name": "File Deletion",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can mark its binary code for deletion after reboot.(Citation: Intel 471 REvil March 2020)"
+        },
+        {
+          "id": "T1083",
+          "name": "File and Directory Discovery",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has the ability to identify specific files and directories that are not to be encrypted.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1105",
+          "name": "Ingress Tool Transfer",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can download a copy of itself from an attacker controlled IP address to the victim machine.(Citation: Talos Sodinokibi April 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Picus Sodinokibi January 2020)"
+        },
+        {
+          "id": "T1490",
+          "name": "Inhibit System Recovery",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can use vssadmin to delete volume shadow copies and bcdedit to disable recovery features.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Talos Sodinokibi April 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)(Citation: Tetra Defense Sodinokibi March 2020)"
+        },
+        {
+          "id": "T1204.002",
+          "name": "Malicious File",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has been executed via malicious MS Word e-mail attachments.(Citation: G Data Sodinokibi June 2019)(Citation: McAfee REvil October 2019)(Citation: Picus Sodinokibi January 2020)"
+        },
+        {
+          "id": "T1036.005",
+          "name": "Match Legitimate Name or Location",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can mimic the names of known executables.(Citation: Picus Sodinokibi January 2020)"
+        },
+        {
+          "id": "T1112",
+          "name": "Modify Registry",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can save encryption parameters and system information to the Registry.(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1106",
+          "name": "Native API",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can use Native API for execution and to retrieve active services.(Citation: Secureworks REvil September 2019)(Citation: Intel 471 REvil March 2020)"
+        },
+        {
+          "id": "T1027",
+          "name": "Obfuscated Files or Information",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has used encrypted strings and configuration files.(Citation: G Data Sodinokibi June 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1059.001",
+          "name": "PowerShell",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has used PowerShell to delete volume shadow copies and download files.(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Talos Sodinokibi April 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)"
+        },
+        {
+          "id": "T1055",
+          "name": "Process Injection",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can inject itself into running processes on a compromised host.(Citation: McAfee REvil October 2019)"
+        },
+        {
+          "id": "T1012",
+          "name": "Query Registry",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can query the Registry to get random file extensions to append to encrypted files.(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1562.009",
+          "name": "Safe Mode Boot",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can force a reboot in safe mode with networking.(Citation: BleepingComputer REvil 2021)"
+        },
+        {
+          "id": "T1489",
+          "name": "Service Stop",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has the capability to stop services and kill processes.(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1566.001",
+          "name": "Spearphishing Attachment",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has been distributed via malicious e-mail attachments including MS Word Documents.(Citation: G Data Sodinokibi June 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Picus Sodinokibi January 2020)"
+        },
+        {
+          "id": "T1082",
+          "name": "System Information Discovery",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can identify the username, machine name, system language, keyboard layout, OS version, and system drive information on a compromised host.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1614.001",
+          "name": "System Language Discovery",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can check the system language using <code>GetUserDefaultUILanguage</code> and <code>GetSystemDefaultUILanguage</code>. If the language is found in the list, the process terminates.(Citation: Kaspersky Sodin July 2019)\n"
+        },
+        {
+          "id": "T1007",
+          "name": "System Service Discovery",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can enumerate active services.(Citation: Intel 471 REvil March 2020)"
+        },
+        {
+          "id": "T1134.001",
+          "name": "Token Impersonation/Theft",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can obtain the token from the user that launched the explorer.exe process to avoid affecting the desktop of the SYSTEM user.(Citation: McAfee Sodinokibi October 2019)"
+        },
+        {
+          "id": "T1059.005",
+          "name": "Visual Basic",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has used obfuscated VBA macros for execution.(Citation: G Data Sodinokibi June 2019)(Citation: Picus Sodinokibi January 2020)"
+        },
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) has used HTTP and HTTPS in communication with C2.(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1059.003",
+          "name": "Windows Command Shell",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can use the Windows command line to delete volume shadow copies and disable recovery.(Citation: Cylance Sodinokibi July 2019)(Citation: Talos Sodinokibi April 2019)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)"
+        },
+        {
+          "id": "T1047",
+          "name": "Windows Management Instrumentation",
+          "description": "[REvil](https://attack.mitre.org/software/S0496) can use WMI to monitor for and kill specific processes listed in its configuration file.(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Group IB Ransomware May 2020)"
+        }
+      ]
+    },
+    "KillChain": {
+      "Recon": {
+        "name": "Reconnanosesncs",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
+        "description": "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
+      },
+      "Weaponization": {
+        "name": "Weaponization",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
+        "description": "Weaponization Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
+      }
+    }
+  }
+}

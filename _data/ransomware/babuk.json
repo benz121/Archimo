@@ -1,0 +1,291 @@
+{
+  "details": {
+    "Name": "Babuk",
+    "Type": "Ransomware as a Service (RaaS)",
+    "Origin Country": "",
+    "Alias": ["Babuk", "Babyk", "Vasa Locker"],
+    "Target Countries": "",
+    "status": "Active",
+    "Target Industies": "",
+    "OFAC BlackListed": "No",
+    "Extensions": [
+      ".kings",
+      ".__NIST_K571__",
+      ".Astra\u00a0",
+      ".democ",
+      ".encrypted",
+      ".Rook",
+      ".cyber",
+      ".crypt",
+      ".zazas",
+      ".blastoise",
+      ".babyk",
+      ".REDTM",
+      ".AstraLocker",
+      ".chernobyl\u00a0",
+      ".doydo",
+      ".ljubi"
+    ],
+    "website": "",
+    "Decryptors": [
+      {
+        "id": "Avast",
+        "linksby": "Tool made by  Avast ",
+        "guide": "https://www.nomoreransom.org/uploads/Avast_how-to-guide.pdf",
+        "download": "https://files.avast.com/files/decryptor/avast_decryptor_babuk.exe"
+      }
+    ],
+    "attribution": [
+      ["Trend Micro", "Babuk"],
+      ["Sogeti CERT ESEC", "Babuk"],
+      ["McAfee", "Babuk"]
+    ]
+  },
+  "threats": [
+    {
+      "id": 1,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+      "description": "encryption"
+    },
+    {
+      "id": 2,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+      "description": "Double Extrotion"
+    },
+    {
+      "id": 3,
+      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+      "description": "highest demanded 1mil $"
+    }
+  ],
+  "avdDetail": {
+    "wallets": [
+      "35cbee78fecd7af05d85a5a905",
+      "1sHa17MgmoYmMoErrJstV6nC1DqYoKxT38r6TUh",
+      "1PbjpEYvCK7GCB4FmaZEewMjhT7N6rWnn2",
+      "bc1qpjftnrmahzc8cjs23snk2rq0vt6l0ehu4gqxus",
+      "3NRDqCmH3qfksLRLeQJ9mjbFCUXEyZkStiRDWtDo"
+    ],
+    "email": [
+      "babuckransom@tutanote.comURL:",
+      "recover300dollars@gmail.com\u0412\u0430\u0440\u0438\u0430\u043d\u0442",
+      "Trojan.Generic@ML.86",
+      "babukrip@protonmail.chYOUR",
+      "successroket@onionmail.org\u0424\u0430\u0439\u043b:",
+      "valorantskins108@gmail.com\u0424\u0430\u0439\u043b",
+      "reketboot@onionmail.org,",
+      "alexnoyz@gmx.de,",
+      "alexnoyz2@mein.gmx\u0412",
+      "ljubisupporte@protonmail.comTor-URL:",
+      "babukrip@protonmail.ch\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+      "chernobylransomware@protonmail.comBTC:",
+      "decryptydata2@gmx.net\u0424\u0430\u0439\u043b:",
+      "decryptydata@gmx.de,",
+      "cyberwar4@rambler.ru==="
+    ]
+  },
+  "tabs": {
+    "Blogs": [
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-ransomware.pdf"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://sebdraven.medium.com/babuk-is-distributed-packed-78e2f5dd2e62"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.sogeti.com/globalassets/reports/cybersecchronicles_-_babuk.pdf"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.trendmicro.com/en_us/research/21/b/new-in-ransomware.html"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.sogeti.com/globalassets/reports/cybersecchronicles_-_babuk.pdf"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-ransomware.pdf"
+      },
+      {
+        "date": "",
+        "title": "",
+        "url": "https://www.trendmicro.com/en_us/research/21/b/new-in-ransomware.html"
+      }
+    ],
+    "Sandbox": [
+      {
+        "name": "virustotal",
+        "links": [
+          "https://www.virustotal.com/gui/file/049e53f72c8afa5ccb850429d55a00e2fbe799e68247fd13f5058146cf0f4cf8/detection",
+          "https://www.virustotal.com/gui/file/597f7c7dea4d318bdab40158490f504a9c62a3f5691984ee26c7ebb92cce39d8/detection",
+          "https://www.virustotal.com/gui/file/fc420e38021f9e90beedd397248c147106d2e01a6f8eabaf56f477a6afaaa496/detection",
+          "https://www.virustotal.com/gui/file/06d370217abec9468bc22c30ba3be72b8de1a7459f9e927656dcf2613a314bf6/detection",
+          "https://www.virustotal.com/gui/file/f87be226e26e873275bde549539f70210ffe5e3a129448ae807a319cbdcf7789",
+          "https://www.virustotal.com/gui/file/45ccb45a98a7d5b71b1f3e65676da1f1d1107158bd29de2ee4607902263a0497/detection",
+          "https://www.virustotal.com/gui/file/58ccba4fb2b3ed8b5f92adddd6ee331a6afdedfc755145e0432a7cb324c28053/detection",
+          "https://www.virustotal.com/gui/file/b8ce0174783c9c7ec30f96f8857c356e61365562463457d3ef0d1f62f4d302a8",
+          "https://www.virustotal.com/gui/file/ee74eb7977f2c0d99ebfb20db94e100493f86cb1221dc535b8f2ae3cdc4fd1ef/detection",
+          "https://www.virustotal.com/gui/file/36e4a3de5c4395d295bdf1d70a215d9669b626c58083ec2d8ab29513830faaa6/detection",
+          "https://www.virustotal.com/gui/file/c94a81fdf688d220827320e88cc0b89af8690142abe5c602131b6659297c7d24",
+          "https://www.virustotal.com/gui/file/8e831b6613a1817688e79bb72c367ed5c43cb112d83f10523a7f4d9271c18da0",
+          "https://www.virustotal.com/gui/file/38e05d599877bf18855ad4d178bcd76718cfad1505328d0444363d1f592b0838/detection",
+          "https://www.virustotal.com/gui/file/a35f6f7d78950a7f36e1660663aef5da56101ab0fc1c0f77b7f4642993943d03",
+          "https://www.virustotal.com/gui/file/82e560a078cd7bb4472d5af832a04c4bc8f1001bac97b1574efe9863d3f66550/detection",
+          "https://www.virustotal.com/gui/file/59e0e38b068f736e7f618c714a116ad13fb50a1932942cff9e474de317fb4592/detection",
+          "https://www.virustotal.com/gui/file/81f75c288ab8cf156f16af7bf090f86c31996fe417981a088e55b917396941b1/detection",
+          "https://www.virustotal.com/gui/file/8140004ff3cf4923c928708505754497e48d26d822a95d63bd2ed54e14f19766/detection",
+          "https://www.virustotal.com/gui/file/8203c2f00ecd3ae960cb3247a7d7bfb35e55c38939607c85dbdb5c92f0495fa9/detection",
+          "https://www.virustotal.com/gui/file/5ec6f908c37d11d3bb7782303cb0e08ff4fc82958384b1afc0441e1ff1a1e021/detection",
+          "https://www.virustotal.com/gui/file/377ee36bc4c83fc8a2ec34ecf901894ba77daeddd3a8ec5021eb6402f2490de2/detection"
+        ]
+      },
+      {
+        "name": "anyrun",
+        "links": [
+          "https://app.any.run/tasks/537b015d-8d36-4137-a05e-0a1e3bd7a3a2/",
+          "https://app.any.run/tasks/f3d93661-b463-4465-975c-c8b621d6c069/",
+          "https://app.any.run/tasks/f88663ea-9dbb-4e57-82b8-bbf358e1b279",
+          "https://app.any.run/tasks/07d3115c-7944-4613-8961-3e45f9046bdb/",
+          "https://app.any.run/tasks/c6c066c6-f9e7-4b0e-b8f6-258f9dedf75f/",
+          "https://app.any.run/tasks/6bc31631-e13c-4b9b-8218-4100525748dc/"
+        ]
+      },
+      {
+        "name": "hybrid",
+        "links": []
+      },
+      {
+        "name": "vmray",
+        "links": [
+          "https://www.vmray.com/analyses/06d370217abe/report/overview.html",
+          "https://www.vmray.com/analyses/8140004ff3cf/report/overview.html",
+          "https://www.vmray.com/analyses/ee74eb7977f2/report/overview.html"
+        ]
+      },
+      {
+        "name": "joe",
+        "links": [
+          "https://www.joesandbox.com/analysis/335556/0/html",
+          "https://www.joesandbox.com/analysis/347507/0/html"
+        ]
+      },
+      {
+        "name": "triage",
+        "links": [
+          "https://tria.ge/211216-19e8pachh4",
+          "https://tria.ge/220126-2aezbabbfq",
+          "https://tria.ge/210128-b3gdrfb24s"
+        ]
+      },
+      {
+        "name": "intezer",
+        "links": [
+          "https://analyze.intezer.com/files/597f7c7dea4d318bdab40158490f504a9c62a3f5691984ee26c7ebb92cce39d8",
+          "https://analyze.intezer.com/analyses/2aaa1dd8-772b-4b9a-8121-11e3f02e6d8e",
+          "https://analyze.intezer.com/analyses/d75c30fa-3339-4c35-a3e6-064e65dc5edc",
+          "https://analyze.intezer.com/analyses/13a7006f-3b72-441b-a3e6-1a190979b93b",
+          "https://analyze.intezer.com/analyses/ddc167a7-cd0e-4f7b-9f32-7552cb45b2f1",
+          "https://analyze.intezer.com/analyses/b6e8b7d4-8c9e-4dce-9dbf-0f87b345ca21"
+        ]
+      }
+    ],
+    "MITRE": {
+      "Name": "Babuk",
+      "ID": "S0638",
+      "Description": "[Babuk](https://attack.mitre.org/software/S0638) is a Ransomware-as-a-service (RaaS) malware that has been used since at least 2021. The operators of [Babuk](https://attack.mitre.org/software/S0638) employ a \"Big Game Hunting\" approach to targeting major enterprises and operate a leak site to post stolen data as part of their extortion scheme.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: CyberScoop Babuk February 2021)",
+      "link": "https://attack.mitre.org/software/S0638",
+      "os": "Linux, Windows",
+      "citations": [
+        "Trend Micro Ransomware February 2021",
+        "Sogeti CERT ESEC Babuk March 2021",
+        "McAfee Babuk February 2021",
+        "Medium Babuk February 2021"
+      ],
+      "GroupName": "",
+      "GroupId": "",
+      "techniques": [
+        {
+          "id": "T1486",
+          "name": "Data Encrypted for Impact",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) can use ChaCha8 and ECDH to encrypt data.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Medium Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
+        },
+        {
+          "id": "T1140",
+          "name": "Deobfuscate/Decode Files or Information",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to unpack itself into memory using XOR.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: Medium Babuk February 2021)"
+        },
+        {
+          "id": "T1562.001",
+          "name": "Disable or Modify Tools",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) can stop anti-virus services on a compromised host.(Citation: Sogeti CERT ESEC Babuk March 2021)"
+        },
+        {
+          "id": "T1083",
+          "name": "File and Directory Discovery",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to enumerate files on a targeted system.(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
+        },
+        {
+          "id": "T1490",
+          "name": "Inhibit System Recovery",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to delete shadow volumes using <code>vssadmin.exe delete shadows /all /quiet</code>.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)"
+        },
+        {
+          "id": "T1106",
+          "name": "Native API",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) can use multiple Windows API calls for actions on compromised hosts including discovery and execution.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Medium Babuk February 2021)"
+        },
+        {
+          "id": "T1135",
+          "name": "Network Share Discovery",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to enumerate network shares.(Citation: Sogeti CERT ESEC Babuk March 2021)"
+        },
+        {
+          "id": "T1057",
+          "name": "Process Discovery",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to check running processes on a targeted system.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
+        },
+        {
+          "id": "T1489",
+          "name": "Service Stop",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) can stop specific services related to backups.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
+        },
+        {
+          "id": "T1027.002",
+          "name": "Software Packing",
+          "description": "Versions of [Babuk](https://attack.mitre.org/software/S0638) have been packed.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Medium Babuk February 2021)"
+        },
+        {
+          "id": "T1082",
+          "name": "System Information Discovery",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) can enumerate disk volumes, get disk information, and query service status.(Citation: McAfee Babuk February 2021)"
+        },
+        {
+          "id": "T1049",
+          "name": "System Network Connections Discovery",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) can use \u201cWNetOpenEnumW\u201d and \u201cWNetEnumResourceW\u201d to enumerate files in network resources for encryption.(Citation: McAfee Babuk February 2021)"
+        },
+        {
+          "id": "T1007",
+          "name": "System Service Discovery",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) can enumerate all services running on a compromised host.(Citation: McAfee Babuk February 2021)"
+        },
+        {
+          "id": "T1059.003",
+          "name": "Windows Command Shell",
+          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to use the command line to control execution on compromised hosts.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)"
+        }
+      ]
+    },
+    "KillChain": ""
+  }
+}
