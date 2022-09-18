@@ -1,6 +1,6 @@
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/Archimo" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Archimo" # the name of your site, e.g. ACME Corp.
 permalink: pretty
 
 sass:
@@ -18,4 +18,4 @@ kramdown:
 collections:
   ransomware:
     output: true
-    # permalink: /ransomware/:name/
+    permalink: /ransom/:name/
