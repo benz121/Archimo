@@ -1,15 +1,15 @@
 {
   "details": {
     "Name": "Sodinokibi",
-    "Type": "",
-    "Origin Country": "",
+    "Type": "Ransomware as a services",
+    "Origin Country": "Iran",
     "Alias": ["Sodinokibi"],
-    "Target Countries": "",
-    "status": "",
-    "Target Industies": "",
-    "OFAC BlackListed": "",
+    "Target Countries": [],
+    "status": "Inactive",
+    "Target Industies": [],
+    "OFAC BlackListed": "Yes",
     "Extensions": [".fpa6378b9h", ".<", ".hg6u62", ".2gi81a0o", ".F5Z8A"],
-    "website": "",
+    "website": [],
     "Decryptors": [
       {
         "id": "Bitdefender",
@@ -18,9 +18,9 @@
         "download": "http://download.bitdefender.com/am/malware_removal/BDREvilDecryptor.exe"
       }
     ],
-    "attribution": ""
+    "attribution": []
   },
-  "threats": "",
+  "threats": [],
   "avdDetail": {
     "wallets": ["3yxglz7nteicqrou3t75tpcc5532cztc46qyd"],
     "email": []

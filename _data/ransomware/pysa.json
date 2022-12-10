@@ -2,24 +2,24 @@
     "details": {
         "Name": "Pysa",
         "Type": "Ransomware as a Service (RaaS)",
-        "Origin Country": "",
+        "Origin Country": "China",
         "Alias": [
             "Mespinoza",
             "Pysa ",
             "Mespinoza"
         ],
-        "Target Countries": "",
+        "Target Countries": ["US","MiddleEast"],
         "status": "Inactive",
-        "Target Industies": "",
+        "Target Industies": ["HealthCare","Oil&Gas","Educational Institutions"],
         "OFAC BlackListed": "Yes",
         "Extensions": [
             ".pysa",
             ".locked",
             ".newversion"
         ],
-        "website": "",
-        "Decryptors": "",
-        "attribution": ""
+        "website":["yes","http://moishddxqnpdxpababec6exozpl2yr7idfhdldiz5525ao25bmasxhid.onion"],
+        "Decryptors": [],
+        "attribution": []
     },
     "threats": [
         {

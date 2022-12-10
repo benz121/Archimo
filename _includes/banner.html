@@ -7,8 +7,8 @@
         - {{site.data.ransomware[filname].details.Alias | join: ", "}}
       </span>
     </h2>
-    <div class="overflow-x-auto relative">
-      <table class="w-fit text-xs text-left font-mono text-gray-500 dark:text-gray-400">
+    <div class="relative autoscrollbar mostly-customized-scrollbar">
+      <table class="w-full text-xs text-left font-mono text-gray-500 dark:text-gray-400">
         <tbody>
           {% for i in site.data.ransomware[filname] %}
           {% if i[0] == "details" %}
@@ -18,10 +18,10 @@
           {% elsif j[0] == "Target Countries" or j[0] == "Target Industies" or j[0] == "website" or j[0] == "Extensions"
           %}
           <tr class="dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" class="px-6 font-semibold text-gray-900 whitespace-nowrap dark:text-white">
+            <th scope="row" class="px-6 font-semibold text-gray-900 dark:text-white">
               {{j[0] | capitalize }}
             </th>
-            <td class="px-2">
+            <td class="px-2 whitespace-nowrap">
               {{ j[1] | join: ", " }}
             </td>
           </tr>
@@ -117,6 +117,7 @@
       </table>
     </div>
   </div>
+  
   <div class="col-span-1 min-h-[50px] border-0 border-red-700">
     <div class="grid grid-cols-1 sm:grid-cols-2">
       <div class="col-span-1 p-2 min-h-[50px] border-0 border-green-700">
@@ -143,4 +144,5 @@
       </div>
     </div>
   </div>
+  
 </div>
