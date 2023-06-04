@@ -46,8 +46,8 @@
             {% include listgroup_mitre.html content=foo %}
         {% elsif items[0] == "KillChain" %}
             {% include killchain_timeline.html content=foo %}
-        {% elsif items[0] == "Forensics" %}
-            {% include timeline.html content=foo %}
+            {% elsif items[0] == "Forensics" %}
+            {% include killchain_timeline.html content=foo %}
         {% endif %}
 
     </div>

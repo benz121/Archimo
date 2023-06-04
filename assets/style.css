@@ -27,7 +27,7 @@
 }
 /* modification for topbutton copy */
 .autoscrollbar {
-  /* background: rgb(248, 246, 246); */
+  background: rgb(248, 246, 246);
   /* max-height: 300px; */
   overflow: hidden;
 }
