@@ -1,6 +1,6 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/Archimo" # the subpath of your site, e.g. /blog
-title: "Archimo" # the name of your site, e.g. ACME Corp.
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
 permalink: pretty
 
 sass:
@@ -18,4 +18,6 @@ kramdown:
 collections:
   ransomware:
     output: true
-    permalink: /ransom/:name/
+    # permalink: /ransomware/:name/
+# _config.yml
+status_db_path: status.db
