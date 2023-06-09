@@ -24,5 +24,8 @@
 <script src="{{ '/assets/clipboard.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/copy.js' | relative_url }}"></script>
 <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
-  </body>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>  </body>
   </html>

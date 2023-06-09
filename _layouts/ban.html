@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/output.css' | relative_url }}">
+  <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
-  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
   <link rel="icon" href="https://benz121.github.io/logo.svg" type="image/x-icon">
 </head>
 
@@ -29,23 +30,24 @@
   <div id="blog-search-overlay"></div>
   
 </body>
-<script src="{{ '/assets/clipboard.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/copy.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/search-script.js' | relative_url }}"></script>
-<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  <script src="{{ '/assets/clipboard.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/copy.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/search-script.js' | relative_url }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <!-- Configuration -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
+
 <script>
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('postsearchresult'),
     json: "{{ '/search.json' | relative_url }}",
-    searchResultTemplate: '<li class="pl-4 pr-2 py-1 border-b-2 border-gray-100 relative cursor-pointer hover:bg-gray-100 hover:text-gray-900">\
+    searchResultTemplate: '<li class="pl-4 pr-2 py-1 border-b-2 group border-gray-100 relative cursor-pointer hover:bg-gray-100 hover:text-gray-900">\
       <a href="{{ site.baseurl }}{url}" class="no-underline blog-search-result-item">\
           <span class="text-base font-semibold">{title} <span class="text-xs px-4 no-underline font-mono font-light"> -{alias}</span></span>\
           <br><span class="text-xs no-underline capitalize"> {url}</span>\

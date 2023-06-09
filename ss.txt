@@ -1,0 +1,135 @@
+[34;42m.[00m
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── _config.yml
+├── [34;42m_data[00m
+│   ├── [34;42mposts[00m
+│   │   └── lockbit.json
+│   ├── [34;42mransomware[00m
+│   │   ├── Sodinokibi.json
+│   │   ├── babuk.json
+│   │   ├── conti.json
+│   │   ├── makop.json
+│   │   ├── maze.json
+│   │   ├── pysa.json
+│   │   ├── revil.json
+│   │   └── wastedlocker.json
+│   └── [34;42mstatus[00m
+│       └── status.json
+├── [34;42m_includes[00m
+│   ├── Archimo.code-workspace
+│   ├── accordian_sandbox.html
+│   ├── banner.html
+│   ├── card.html
+│   ├── killchain_timeline.html
+│   ├── listgroup_blog.html
+│   ├── listgroup_mitre.html
+│   ├── navbar.html
+│   ├── sidetabs.html
+│   ├── sidetabs_with_data.html
+│   └── timeline.html
+├── [34;42m_layouts[00m
+│   ├── ban.html
+│   ├── default.html
+│   └── rans.html
+├── [34;42m_pages[00m
+│   ├── about.md
+│   └── new_banner.md
+├── [34;42m_ransomware[00m
+│   ├── babuk.html
+│   ├── conti.html
+│   ├── makop.html
+│   ├── maze.html
+│   ├── pysa.html
+│   ├── revil.html
+│   └── wastedlocker.html
+├── [34;42m_sass[00m
+│   └── main.scss
+├── [34;42m_site[00m
+│   ├── README.md
+│   ├── [34;42m_ransomware[00m
+│   │   ├── [34;42mbabuk[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mconti[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mmakop[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mmaze[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mpysa[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mrevil[00m
+│   │   │   └── index.html
+│   │   └── [34;42mwastedlocker[00m
+│   │       └── index.html
+│   ├── about.html
+│   ├── [34;42massets[00m
+│   │   ├── clipboard.min.js
+│   │   ├── copy.js
+│   │   ├── [34;42mcss[00m
+│   │   │   ├── autumn.css
+│   │   │   ├── bw.css
+│   │   │   ├── fruity.css
+│   │   │   ├── input.css
+│   │   │   ├── main.css
+│   │   │   ├── native.css
+│   │   │   ├── output.css
+│   │   │   ├── style.css
+│   │   │   └── syntax.css
+│   │   ├── [01;35mdefault-monochrome.svg[00m
+│   │   ├── [01;35mdefault.png[00m
+│   │   ├── [01;35mdefault.svg[00m
+│   │   ├── [34;42mjs[00m
+│   │   │   └── search-script.js
+│   │   └── style.css
+│   ├── banner.html
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── [34;42mransom[00m
+│   │   ├── [34;42mbabuk[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mconti[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mmakop[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mmaze[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mpysa[00m
+│   │   │   └── index.html
+│   │   ├── [34;42mrevil[00m
+│   │   │   └── index.html
+│   │   └── [34;42mwastedlocker[00m
+│   │       └── index.html
+│   ├── search.json
+│   ├── ss.txt
+│   └── tailwind.config.js
+├── [34;42massets[00m
+│   ├── clipboard.min.js
+│   ├── copy.js
+│   ├── [34;42mcss[00m
+│   │   ├── autumn.css
+│   │   ├── bw.css
+│   │   ├── fruity.css
+│   │   ├── input.css
+│   │   ├── main.css
+│   │   ├── native.css
+│   │   ├── output.css
+│   │   ├── style.css
+│   │   └── syntax.css
+│   ├── [01;35mdefault-monochrome.svg[00m
+│   ├── [01;35mdefault.png[00m
+│   ├── [01;35mdefault.svg[00m
+│   ├── [34;42mjs[00m
+│   │   └── search-script.js
+│   └── style.css
+├── index.md
+├── package.json
+├── postcss.config.js
+├── search.json
+├── ss.txt
+└── tailwind.config.js
+
+1071 directories, 8608 files

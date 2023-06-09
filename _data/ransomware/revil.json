@@ -36,7 +36,7 @@
       }
     ],
     "attribution": [
-        ["CrowdStrike","CarbonSpider"],["FBI","FIN7"],["Talos","Sodinokibi"],["Kaspersky","Sodin"]
+        ["CrowdStrike","CarbonSpider"],["FBI","FIN7"],["Talos","Sodinokibi"],["Kaspersky","Sodin"],["Kaspersksy","Sodind"]
     ]
   },
   "threats": [
