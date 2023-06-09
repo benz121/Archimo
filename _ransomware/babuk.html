@@ -27,20 +27,16 @@ color: yellow
           {% elsif items[0] == "KillChain" %}
               {% include killchain_timeline.html content=foo %}
           {% elsif items[0] == "Forensics" %}
-
-```mermaid
-   stateDiagram-v2
-      [*] --> Still
-      Still --> [*]
-      Still --> Moving
-      Moving --> Still
-      Moving --> Crash
-      Crash --> [*]
-```
-
-          {% endif %}
+<div class="mermaid">
+flowchart LR
+  A[Christmas] -->|Get money| B(Go shopping)
+  B --> C{Let me think}
+  C -->|One| D[Laptop]
+  C -->|Two| E[iPhone]
+  C -->|Three| F[fa:fa-car Car]
+</div>
+{% endif %}
       </div>
       {% endfor %}
-  </div>
   </div>
 </div>

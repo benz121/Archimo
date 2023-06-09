@@ -225,6 +225,7 @@
                 }
             ]
         },
-        "KillChain": ""
+        "KillChain": "",
+        "Forensics": ""
     }
 }
