@@ -8,7 +8,7 @@ color: yellow
 <div class="flex p-5 h-screen">
 <!-- </div>h-[calc(100vh-60px)] "> -->
   {% include sidetabs.html %}
-  <div class="content ml-4 w-9/12">
+  <div class="content ml-6 mr-12 border-0 border-red-400 w-9/12">
     {% include sidetabs_with_data.html %}
     <div id="myTabContent">
       {% assign processtree = include.content %}
@@ -27,16 +27,30 @@ color: yellow
           {% elsif items[0] == "KillChain" %}
               {% include killchain_timeline.html content=foo %}
           {% elsif items[0] == "Forensics" %}
-<div class="mermaid">
-flowchart LR
-  A[Christmas] -->|Get money| B(Go shopping)
-  B --> C{Let me think}
-  C -->|One| D[Laptop]
-  C -->|Two| E[iPhone]
-  C -->|Three| F[fa:fa-car Car]
+          <h2 class="font-semibold font-serif p-2 text-2xl">Attack Timeline During  Aug-Dec 2019</h2>
+<div class=" h-72 m-2 shadow-md shadow-white rounded border-0 border-green-600">
+  <div class="mermaid panzoom-container">
+    flowchart LR
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+  </div>
 </div>
-{% endif %}
-      </div>
+<h2 class="font-semibold font-serif p-2 text-2xl">Attack Timeline During  Aug-Dec 2020</h2>
+<div class=" h-56 m-2 shadow-md shadow-white rounded border-0 border-green-600">
+  <div class="mermaid panzoom-container">
+    flowchart LR
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+  </div>
+</div> 
+  {% endif %}
+</div>
       {% endfor %}
   </div>
 </div>

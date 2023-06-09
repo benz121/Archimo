@@ -28,6 +28,43 @@
   </div>
   <div id="blog-search-overlay"></div>
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10.2.3/dist/mermaid.min.js" integrity="sha256-JFptYy4KzJ5OQP+Q9fubNf3cxpPPmZKqUOovyEONKrQ=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+  <script>
+    const containers = document.querySelectorAll('.panzoom-container');
+
+containers.forEach(function(container) {
+  const panzoomInstance = Panzoom(container, {
+    minScale: 0.1,
+    maxScale: 10,
+    contain: 'center'
+  });
+  container.style.overflow = 'hidden'; // Hide any overflow content
+
+  panzoomInstance.pan(10, 10);
+  panzoomInstance.zoom(1, { animate: true });
+  const zoomInButton = document.createElement('button');
+  zoomInButton.textContent = '+';
+  zoomInButton.setAttribute('id', 'zoom-in-button'); // Add the ID to the button
+  zoomInButton.classList.add('p-2','bg-red-500', 'rounded');
+  zoomInButton.addEventListener('click', function() {
+    panzoomInstance.zoomIn();
+  });
+  container.parentElement.insertBefore(zoomInButton, container);
+
+  const zoomoutButton = document.createElement('button');
+  zoomoutButton.textContent = '-';
+  zoomoutButton.setAttribute('id', 'zoom-out-button'); // Add the ID to the button
+  zoomoutButton.classList.add('p-2','bg-red-500', 'rounded');
+  zoomoutButton.addEventListener('click', function() {
+    panzoomInstance.zoomOut();
+  });
+  container.parentElement.insertBefore(zoomoutButton, container);
+  container.parentElement.addEventListener('wheel', function(event) {
+    panzoomInstance.zoomWithWheel(event);
+  });
+});
+
+  </script>
 </body>
 
   <script src="{{ '/assets/clipboard.min.js' | relative_url }}"></script>
