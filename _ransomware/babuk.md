@@ -27,6 +27,7 @@ color: yellow
           {% elsif items[0] == "KillChain" %}
               {% include killchain_timeline.html content=foo %}
           {% elsif items[0] == "Forensics" %}
+
 ```mermaid
    stateDiagram-v2
       [*] --> Still
@@ -36,6 +37,7 @@ color: yellow
       Moving --> Crash
       Crash --> [*]
 ```
+
           {% endif %}
       </div>
       {% endfor %}

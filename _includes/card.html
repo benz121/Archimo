@@ -2,7 +2,7 @@
 {% assign url = include.url %}
 <div
     class="card lg:h-56 lg:w-60 m-2 border border-gray-100 shadow-sm rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-300">
-    <a href="{{ site.baseurl }}{{url}}" rel="noopener noreferrer">
+    <a href="{{url}}" rel="noopener noreferrer">
         <div class="m-4">
             <h2 class="text-lg mb-2">
                 {% if site.data.ransomware[filname].details.status == "Active" %}
