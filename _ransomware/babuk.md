@@ -5,7 +5,8 @@ filename: babuk
 Type: Ransomware
 color: yellow
 ---
-<div class="flex p-5 h-[calc(100vh-60px)] ">
+<div class="flex p-5 h-screen">
+<!-- </div>h-[calc(100vh-60px)] "> -->
   {% include sidetabs.html %}
   <div class="content ml-4 w-9/12">
     {% include sidetabs_with_data.html %}
@@ -26,18 +27,18 @@ color: yellow
           {% elsif items[0] == "KillChain" %}
               {% include killchain_timeline.html content=foo %}
           {% elsif items[0] == "Forensics" %}
-<pre class="mermaid">
-flowchart TD
-  A[Christmas] -->|Get money| B(Go shopping)
-  B --> C{Let me think}
-  C -->|One| D[Laptop]
-  C -->|Two| E[iPhone]
-  C -->|Three| F[fa:fa-car Car]
-</pre>
+```mermaid
+   stateDiagram-v2
+      [*] --> Still
+      Still --> [*]
+      Still --> Moving
+      Moving --> Still
+      Moving --> Crash
+      Crash --> [*]
+```
           {% endif %}
       </div>
       {% endfor %}
-  
   </div>
   </div>
 </div>

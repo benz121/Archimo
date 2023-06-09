@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-
+<div class="flex items-center justify-center">
 <pre class="mermaid">
 stateDiagram
    direction LR
@@ -23,12 +23,13 @@ stateDiagram
    Moving --> Crash:::movement
    Crash:::badBadEvent --> [*]
 </pre>
-<pre class="mermaid">
-   stateDiagram-v2
-      [*] --> Still
-      Still --> [*]
-      Still --> Moving
-      Moving --> Still
-      Moving --> Crash
-      Crash --> [*]
-</pre>
+      <pre class="mermaid">
+         stateDiagram-v2
+            [*] --> Still
+            Still --> [*]
+            Still --> Moving
+            Moving --> Still
+            Moving --> Crash
+            Crash --> [*]
+      </pre>
+</div>
