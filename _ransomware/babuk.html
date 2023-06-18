@@ -5,10 +5,10 @@ filename: babuk
 Type: Ransomware
 color: yellow
 ---
-<div class="flex p-5 h-screen">
+<div class="flex flex-col md:flex-row p-2 sm:p-3 md:p-4 lg:p-5">
 <!-- </div>h-[calc(100vh-60px)] "> -->
   {% include sidetabs.html %}
-  <div class="content ml-6 mr-12 border-0 border-red-400 w-9/12">
+  <div class="content ml-6 sm:ml-2 mr-12 sm:mr-2 border-0 border-red-400 w-9/12 sm:w-11/12">
     {% include sidetabs_with_data.html %}
     <div id="myTabContent">
       {% assign processtree = include.content %}
