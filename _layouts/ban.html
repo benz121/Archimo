@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/output.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" /> -->
   <link rel="icon" href="https://benz121.github.io/logo.svg" type="image/x-icon">
 </head>
 
@@ -42,24 +42,25 @@ containers.forEach(function(container) {
 
   panzoomInstance.pan(10, 10);
   panzoomInstance.zoom(1, { animate: true });
-  const zoomInButton = document.createElement('button');
-  zoomInButton.textContent = '+';
-  zoomInButton.setAttribute('id', 'zoom-in-button'); // Add the ID to the button
-  zoomInButton.classList.add('p-2','bg-red-500', 'rounded');
-  zoomInButton.addEventListener('click', function() {
-    panzoomInstance.zoomIn();
-  });
-  container.parentElement.insertBefore(zoomInButton, container);
+  // const zoomInButton = document.createElement('button');
+  // zoomInButton.textContent = '+';
+  // zoomInButton.setAttribute('id', 'zoom-in-button'); // Add the ID to the button
+  // zoomInButton.classList.add('p-2','bg-red-500', 'rounded','text-white');
+  // zoomInButton.addEventListener('click', function() {
+  //   panzoomInstance.zoomIn();
+  // });
+  // container.parentElement.parentElement.appendChild(zoomInButton, container);
 
-  const zoomoutButton = document.createElement('button');
-  zoomoutButton.textContent = '-';
-  zoomoutButton.setAttribute('id', 'zoom-out-button'); // Add the ID to the button
-  zoomoutButton.classList.add('p-2','bg-red-500', 'rounded');
-  zoomoutButton.addEventListener('click', function() {
-    panzoomInstance.zoomOut();
-  });
-  container.parentElement.insertBefore(zoomoutButton, container);
-  container.parentElement.addEventListener('wheel', function(event) {
+  // const zoomoutButton = document.createElement('button');
+  // zoomoutButton.textContent = '-';
+  // zoomoutButton.setAttribute('id', 'zoom-out-button'); // Add the ID to the button
+  // zoomoutButton.classList.add('p-2','bg-red-500', 'rounded','text-white');
+  // zoomoutButton.addEventListener('click', function() {
+  //   panzoomInstance.zoomOut();
+  // });
+  // container.parentElement.parentElement.appendChild(zoomoutButton, container);
+
+  container.addEventListener('wheel', function(event) {
     panzoomInstance.zoomWithWheel(event);
   });
 });
