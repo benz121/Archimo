@@ -143,7 +143,9 @@
                         <td
                             class="py-2 px-4 max-w-xs truncate sticky left-0 bg-white text-xs font-semibold text-gray-600">
                             <span
-                                class="text{{ status.status == 'offline' ? 'red' : 'green' }}">{{status.status}}</span>
+                                class="inline-flex items-center justify-center px-2 py-0.5 text-xs border font-medium rounded {% if status.status == 'online' %}bg-green-100 border-green-300 text-green-800{% else %}bg-red-100 border-red-300 text-red-800 {% endif %} ">
+                                {{status.status | capitalize}}
+                            </span>
                         </td>
                         <td class="py-2 px-2 whitespace-nowrap text-xs text-gray-800">
                             <a href="http://{{status.address}}.onion" class="hover:underline text-blue-500">
