@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/loading.css' | relative_url}}">
   <link rel="stylesheet" href="{{ '/assets/css/output.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
@@ -12,8 +13,8 @@
   <link rel="icon" href="https://benz121.github.io/logo.svg" type="image/x-icon">
 </head>
 
-<body>
-
+<body onload="loadfunc()">
+{% include loading.html %}
   <!-- navbar -->
   {% include navbar.html html=content %}
   <a id="topbutton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
@@ -27,6 +28,12 @@
     {{ content }}
   </div>
   <div id="blog-search-overlay"></div>
+  <script>
+    var load = document.getElementById("loading");
+    function loadfunc() {
+      load.style.display = 'none';
+    }
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10.2.3/dist/mermaid.min.js" integrity="sha256-JFptYy4KzJ5OQP+Q9fubNf3cxpPPmZKqUOovyEONKrQ=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
   <script>
