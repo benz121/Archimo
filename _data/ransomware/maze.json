@@ -1,340 +1,494 @@
 {
-  "details": {
-    "Name": "Maze",
-    "Type": "Ransomware as a Service (RaaS)",
-    "Origin Country": "",
-    "Alias": ["Maze", "ChaCha","Conti","sekhmet","egregor"],
-    "Target Countries": "",
-    "status": "Inactive",
-    "Target Industies": "",
-    "OFAC BlackListed": "Yes",
-    "Extensions": [
-      ".0HOgD",
-      ".rC0syGH",
-      ".FBrRDWC",
-      ".t6brFnQ",
-      ".MJNW",
-      ".LKc07P",
-      ".DL1fZE",
-      ".(random4-7)",
-      ".CONTI"
-    ],
-    "website": "",
-    "Decryptors": [
-      {
-        "id": "KasperskyLab",
-        "linksby": "Tool made by  Kaspersky Lab ",
-        "guide": "https://www.nomoreransom.org/uploads/RakhniDecryptor_how-to_guide.pdf",
-        "download": "https://media.kaspersky.com/utilities/VirusUtilities/EN/rakhnidecryptor.zip"
-      },
-      {
-        "id": "Emsisoft",
-        "linksby": "Tool made by  Emsisoft ",
-        "guide": "https://decrypter.emsisoft.com/howtos/emsisoft_howto_mazesekhmetegregor.pdf",
-        "download": "https://www.emsisoft.com/ransomware-decryption-tools/download/maze-sekhmet-egregor"
-      }
-    ],
-    "attribution": [
-        ["CrowdStrike","WizardSpider"],["FireEye","Maze"],["CarbonBlack","Conti"]
-    ]
-  },
-  "threats": [
-    {
-      "id":1,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
-      "description": "encryption"
+    "details": {
+        "Name": "Maze",
+        "Type": "Ransomware as a Service (RaaS)",
+        "Origin Country": "",
+        "Alias": [
+            "Maze",
+            "ChaCha",
+            "Conti",
+            "sekhmet",
+            "egregor"
+        ],
+        "Target Countries": "",
+        "status": "Inactive",
+        "Target Industies": "",
+        "OFAC BlackListed": "Yes",
+        "Extensions": [
+            ".0HOgD",
+            ".rC0syGH",
+            ".FBrRDWC",
+            ".t6brFnQ",
+            ".MJNW",
+            ".LKc07P",
+            ".DL1fZE",
+            ".(random4-7)",
+            ".CONTI"
+        ],
+        "website": "",
+        "Decryptors": [
+            {
+                "id": "KasperskyLab",
+                "linksby": "Tool made by  Kaspersky Lab ",
+                "guide": "https://www.nomoreransom.org/uploads/RakhniDecryptor_how-to_guide.pdf",
+                "download": "https://media.kaspersky.com/utilities/VirusUtilities/EN/rakhnidecryptor.zip"
+            },
+            {
+                "id": "Emsisoft",
+                "linksby": "Tool made by  Emsisoft ",
+                "guide": "https://decrypter.emsisoft.com/howtos/emsisoft_howto_mazesekhmetegregor.pdf",
+                "download": "https://www.emsisoft.com/ransomware-decryption-tools/download/maze-sekhmet-egregor"
+            }
+        ],
+        "attribution": [
+            [
+                "CrowdStrike",
+                "WizardSpider"
+            ],
+            [
+                "FireEye",
+                "Maze"
+            ],
+            [
+                "CarbonBlack",
+                "Conti"
+            ]
+        ]
     },
-    {
-      "id":2,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
-      "description": "Double Extrotion"
-    },
-    {
-      "id":3,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
-      "description": "highest demanded 1mil $"
-    }
-],
-  "avdDetail": {
-    "wallets": ["3NQ1JyX5iphB9PhAyawMCkyS8iV1xzoTpT"],
-    "email": [
-      "vourrealdecrypt@airmail.cc",
-      "getmyfilesback@airmail.cc",
-      "filedecryptor@nuke.africa",
-      "koreadec@tutanota.com",
-      "xersami@protonmail.com",
-      "flapalinta1950@protonmail.com",
-      "fahydremu1981@protonmail.com",
-      "flapalinta1950@protonmail.com,",
-      "mantiticvi1976@protonmail.com"
-    ]
-  },
-  "tabs": {
-    "Blogs": [
-      {
-        "date": "May 07 2020",
-        "title": "Navigating the MAZE: Tactics, Techniques and Procedures Associated With MAZE Ransomware Incidents",
-        "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html"
-      },
-      {
-        "date": "MAR 26 2020",
-        "title": "Ransomware Maze",
-        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ransomware-maze/"
-      },
-      {
-        "date": "Sep 17 2020",
-        "title": "Maze attackers adopt Ragnar Locker virtual machine technique",
-        "url": "https://news.sophos.com/en-us/2020/09/17/maze-attackers-adopt-ragnar-locker-virtual-machine-technique/"
-      }
-    ],
-    "Sandbox": [
-      {
-        "name": "virustotal",
-        "links": [
-          "https://www.virustotal.com/gui/file/e8a091a84dd2ea7ee429135ff48e9f48f7787637ccb79f6c3eb42f34588bc684/detection",
-          "https://www.virustotal.com/gui/file/067f1b8f1e0b2bfe286f5169e17834e8cf7f4266b8d97f28ea78995dc81b0e7b/detection",
-          "https://www.virustotal.com/gui/file/6a22220c0fe5f578da11ce22945b63d93172b75452996defdc2ff48756bde6af/detection",
-          "https://www.virustotal.com/gui/file/58fe9776f33628fd965d1bcc442ec8dc5bfae0c648dcaec400f6090633484806/detection",
-          "https://www.virustotal.com/gui/file/c040defb9c90074b489857f328d3e0040ac0ddab26cde132f17cccae7f1309cc/detection",
-          "https://www.virustotal.com/gui/file/f9dfdce85f83d7a416ecc162a9f68643357b1fd10ea29e6b2cd934b967192a74/detection",
-          "https://www.virustotal.com/gui/file/9dd37920692e36cad14e904bd720f0bde5ab473867c3e7d0d8b427a600af2cf8/detection",
-          "https://www.virustotal.com/gui/file/2d2eebc4d408c5f261c8cd130246bca1736376a5b434f422033ff02566354da6/detection",
-          "https://www.virustotal.com/gui/file/91514e6be3f581a77daa79e2a4905dcbdf6bdcc32ee0f713599a94d453a26fc1/detection",
-          "https://www.virustotal.com/gui/file/3885589a3c94d0475a6d994e4644e682f4cff93f8b4d65f37508ffe706861363/detection",
-          "https://www.virustotal.com/gui/file/9be70b7fe15cd64aed5b1adc88c2d5270bce534d167c4a42d143ae0059c3da1c/detection",
-          "https://www.virustotal.com/gui/file/558ce8f30dc57914bfbe111f1132acc5a7420812f7e779050015b02a78856c9a/detection",
-          "https://www.virustotal.com/gui/file/d3b477505145f896c5cd4fd948f1825acf46c82af83c0dde505310f01fc573ed/detection",
-          "https://www.virustotal.com/gui/file/6d2efda037fe23b1fe3a5bae44f5b9f7ddfdf621c5df6cb6999d801bbdf79b0f",
-          "https://www.virustotal.com/gui/file/7f4dba54da91c99423b5862088da784363c7edc76d63e26d72270cd1fdf6dbec",
-          "https://www.virustotal.com/gui/file/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c/detection",
-          "https://www.virustotal.com/gui/file/3e2d6f380eca084e9081ce2260df95358188320c6720920d404fd786b5b5927d/detection",
-          "https://www.virustotal.com/gui/file/800d81a21291518ddeabd64f0024f057468af7789a99eecceb47193e88e36ee9/detection",
-          "https://www.virustotal.com/gui/file/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/detection",
-          "https://www.virustotal.com/gui/file/731c26e87dc8995a8f5ed1d22aa49286b98bcfeb5ee2a792a1763a491eb7f21b/detection",
-          "https://www.virustotal.com/gui/file/7c1f5cf8f242dfbd920180d8423777a4e540c37c09d787d4674b259bdbe0dc42/detection",
-          "https://www.virustotal.com/gui/file/9d920183e97fee807e34297f007aa330154a43402d6cd45e19adf7bbfb382807/detection",
-          "https://www.virustotal.com/gui/file/17ba67b2b5ec20c5fec06a580e293eefc665fc89f8bfc00d6b9b715bffa2d845/detection",
-          "https://www.virustotal.com/gui/file/b6e3cdf6757bb325e62cd43f31eb590e8ec63f25674b89ff65d70707af999951/detection",
-          "https://www.virustotal.com/gui/file/844cc2551f8bbfd505800bd3d135d93064600a55c45894f89f80b81fea3b0fa1/detection",
-          "https://www.virustotal.com/gui/file/55f1ce7d7b3cf941ea355a07623b02a6ec2007d1f5069717a449dd31405bb86b/detection",
-          "https://www.virustotal.com/gui/file/5378249a2b439e92691fb87751adc9fc4e2dea1792309d695b7f1d9c6887b09d",
-          "https://www.virustotal.com/gui/file/ee8c2a00545c5a761b9026a183f146efbaa4c84f010a8df8c923c21b39c38f02/detection",
-          "https://www.virustotal.com/gui/file/d6ab910259c9bc68196aeec3e9ff4864bada22738c02ecf5ada7912ced292d28/detection",
-          "https://www.virustotal.com/gui/file/716408476bc23c3e74a852ed6246dd60e8ed18533bedc13d4984279c97cd1a74/detection",
-          "https://www.virustotal.com/gui/file/eae876886f19ba384f55778634a35a1d975414e83f22f6111e3e792f706301fe/detection",
-          "https://www.virustotal.com/gui/file/30f5748dc2b143c6dde82aa215bef058cd2dc534fb476fe94f3e8950ea23ce50/detection",
-          "https://www.virustotal.com/gui/file/3814d381f3944799777f936061703db44e922bc0f98a7ec1c98f202a0a245974/detection"
-        
-        ]
-      },
-      {
-        "name": "anyrun",
-        "links": [
-          "https://app.any.run/tasks/7792b635-4875-4128-9479-13c2391cd0c8/",
-          "https://app.any.run/tasks/975bedfc-a1ef-41a6-ad7a-6af4a5adaff0/",
-          "https://app.any.run/tasks/16a0ac37-70c4-49c1-b952-f19ca08cd53a/",
-          "https://app.any.run/tasks/a2c7ef7e-231e-4291-a5fd-3193d1f07790/",
-          "https://app.any.run/tasks/f4920c26-0b50-4bdf-9c3d-48829942fed6/",
-          "https://app.any.run/tasks/a2d02e11-1410-4c4d-a4cb-81a1f01453ba/",
-          "https://app.any.run/tasks/7fa46b29-6258-4f45-9098-c4d20ecccf69/",
-          "https://app.any.run/tasks/78364ebb-a5f6-4b2d-8b73-eba5c6881f6a/",
-          "https://app.any.run/tasks/e346fd5d-df8a-4821-a0aa-7f67595ea34c/",
-          "https://app.any.run/tasks/7e9cac29-10a9-420e-9078-c643cb74c5c0",
-          "https://app.any.run/tasks/996bcbae-56c5-49cc-9749-26c5b22b5102/",
-          "https://app.any.run/tasks/15b43695-751c-43b5-88b6-1a8e45ec561e/",
-          "https://app.any.run/tasks/2509910f-807c-4359-ad44-0f2b8b31e893/",
-          "https://app.any.run/tasks/48d75938-739f-495f-a630-83aee786c790/",
-          "https://app.any.run/tasks/f372b3a6-4343-4726-a98d-97bedc49f5fe/"
-        
-        ]
-      },
-      {
-        "name": "hybrid",
-        "links": [
-          "https://www.hybrid-analysis.com/sample/f9dfdce85f83d7a416ecc162a9f68643357b1fd10ea29e6b2cd934b967192a74/5cf26a6e0388386188a3afd0",
-          "https://www.hybrid-analysis.com/sample/9be70b7fe15cd64aed5b1adc88c2d5270bce534d167c4a42d143ae0059c3da1c?environmentId=120",
-          "https://www.hybrid-analysis.com/sample/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/5e1df0022f0e7a775451b1fa"
-
-        ]
-      },
-      {
-        "name": "vmray",
-        "links": [
-          "https://www.vmray.com/analyses/9be70b7fe15c/report/overview.html",
-          "https://www.vmray.com/analyses/3885589a3c94/report/overview.html",
-          "https://www.vmray.com/analyses/2d2eebc4d408/report/overview.html",
-          "https://www.vmray.com/analyses/e8a091a84dd2/report/overview.html",
-          "https://www.vmray.com/analyses/f9dfdce85f83/report/overview.html",
-          "https://www.vmray.com/analyses/2f334c080214/report/overview.html",
-          "https://www.vmray.com/analyses/800d81a21291/report/overview.html",
-          "https://www.vmray.com/analyses/844cc2551f8b/report/overview.html",
-          "https://www.vmray.com/analyses/b6e3cdf6757b/report/overview.html"
-        
-        ]
-      },
-      {
-        "name": "joe",
-        "links": []
-      },
-      {
-        "name": "triage",
-        "links": [
-            "https://tria.ge/211024-eabwbsdaa2/behavioral1",
-            "https://tria.ge/211121-qfxwjadhfq",
-            "https://tria.ge/210610-9aj6xcwssa"
-        
-        ]
-      },
-      {
-        "name": "intezer",
-        "links": [
-          "https://analyze.intezer.com/#/files/067f1b8f1e0b2bfe286f5169e17834e8cf7f4266b8d97f28ea78995dc81b0e7b",
-          "https://analyze.intezer.com/#/analyses/6dbf03e6-4172-45b3-aeb9-29c6f696b245",
-          "https://analyze.intezer.com/#/analyses/4847b0d2-16d1-4cd5-9ddb-0205f9471d06",
-          "https://analyze.intezer.com/#/files/91514e6be3f581a77daa79e2a4905dcbdf6bdcc32ee0f713599a94d453a26fc1",
-          "https://analyze.intezer.com/#/analyses/b712f108-1cef-47bf-a5ce-0defc784ac64",
-          "https://analyze.intezer.com/#/analyses/1c90899a-60e0-440b-8d50-342d75ce5ad8",
-          "https://analyze.intezer.com/#/analyses/4894d088-4a9a-40a4-ac1d-66be619ac045",
-          "https://analyze.intezer.com/analyses/c845a013-40c1-4f7b-83e6-3a52004e80a5",
-          "https://analyze.intezer.com/analyses/eaf55a59-fd6f-4090-94be-ac999551ea53",
-          "https://analyze.intezer.com/analyses/f2f9b731-8537-4ba4-9b83-d5bc85ee8a8f",
-          "https://analyze.intezer.com/#/files/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c",
-          "https://analyze.intezer.com/analyses/b9d55765-9f94-4a56-8b0c-05e100570e64"
-        ]
-      }
-    ],
-    "MITRE": {
-      "Name": "Maze",
-      "ID": "S0449",
-      "Description": "[Maze](https://attack.mitre.org/software/S0449) ransomware, previously known as \"ChaCha\", was discovered in May 2019. In addition to encrypting files on victim machines for impact, [Maze](https://attack.mitre.org/software/S0449) operators conduct information stealing campaigns prior to encryption and post the information online to extort affected companies.(Citation: FireEye Maze May 2020)(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020)",
-      "link": "https://attack.mitre.org/software/S0449",
-      "os": "Windows",
-      "citations": [
-        "FireEye Maze May 2020",
-        "FireEye Maze May 2020",
-        "McAfee Maze March 2020",
-        "Sophos Maze VM September 2020"
-      ],
-      "GroupName": "FIN6",
-      "GroupId": "G0037",
-      "techniques": [
+    "threats": [
         {
-          "id": "T1027.001",
-          "name": "Binary Padding",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has inserted large blocks of junk code, including some components to decrypt strings and other important information for later in the encryption process.(Citation: McAfee Maze March 2020)"
+            "id": 1,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+            "description": "encryption"
         },
         {
-          "id": "T1486",
-          "name": "Data Encrypted for Impact",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has disrupted systems by encrypting files on targeted machines, claiming to decrypt files if a ransom payment is made. [Maze](https://attack.mitre.org/software/S0449) has used the ChaCha algorithm, based on Salsa20, and an RSA algorithm to encrypt files.(Citation: FireEye Maze May 2020)"
+            "id": 2,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+            "description": "Double Extrotion"
         },
         {
-          "id": "T1562.001",
-          "name": "Disable or Modify Tools",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has disabled dynamic analysis and other security tools including IDA debugger, x32dbg, and OllyDbg.(Citation: McAfee Maze March 2020) It has also disabled Windows Defender's Real-Time Monitoring feature and attempted to disable endpoint protection services.(Citation: Sophos Maze VM September 2020)"
-        },
-        {
-          "id": "T1568",
-          "name": "Dynamic Resolution",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has forged POST strings with a random choice from a list of possibilities including \"forum\", \"php\", \"view\", etc. while making connection with the C2, hindering detection efforts.(Citation: McAfee Maze March 2020)"
-        },
-        {
-          "id": "T1055.001",
-          "name": "Dynamic-link Library Injection",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has injected the malware DLL into a target process.(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020)\t"
-        },
-        {
-          "id": "T1070",
-          "name": "Indicator Removal on Host",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has used the \u201cWow64RevertWow64FsRedirection\u201d function following attempts to delete the shadow volumes, in order to leave the system in the same state as it was prior to redirection.(Citation: McAfee Maze March 2020)\t"
-        },
-        {
-          "id": "T1490",
-          "name": "Inhibit System Recovery",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has attempted to delete the shadow volumes of infected machines, once before and once after the encryption process.(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020)"
-        },
-        {
-          "id": "T1036.004",
-          "name": "Masquerade Task or Service",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) operators have created scheduled tasks masquerading as \"Windows Update Security\", \"Windows Update Security Patches\", and \"Google Chrome Security Update\" designed to launch the ransomware.(Citation: Sophos Maze VM September 2020) "
-        },
-        {
-          "id": "T1218.007",
-          "name": "Msiexec",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has delivered components for its ransomware attacks using MSI files, some of which have been executed from the command-line using <code>msiexec</code>.(Citation: Sophos Maze VM September 2020)"
-        },
-        {
-          "id": "T1106",
-          "name": "Native API",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has used several Windows API functions throughout the encryption process including IsDebuggerPresent, TerminateProcess, Process32FirstW, among others.(Citation: McAfee Maze March 2020)\t"
-        },
-        {
-          "id": "T1027",
-          "name": "Obfuscated Files or Information",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has decrypted strings and other important information during the encryption process. [Maze](https://attack.mitre.org/software/S0449) also calls certain functions dynamically to hinder analysis.(Citation: McAfee Maze March 2020)\t"
-        },
-        {
-          "id": "T1057",
-          "name": "Process Discovery",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has gathered all of the running system processes.(Citation: McAfee Maze March 2020)\t"
-        },
-        {
-          "id": "T1547.001",
-          "name": "Registry Run Keys / Startup Folder",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has created a file named \"startup_vrun.bat\" in the Startup folder of a virtual machine to establish persistence.(Citation: Sophos Maze VM September 2020)"
-        },
-        {
-          "id": "T1564.006",
-          "name": "Run Virtual Instance",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) operators have used VirtualBox and a Windows 7 virtual machine to run the ransomware; the virtual machine's configuration file mapped the shared network drives of the target company, presumably so [Maze](https://attack.mitre.org/software/S0449) can encrypt files on the shared drives as well as the local machine.(Citation: Sophos Maze VM September 2020) "
-        },
-        {
-          "id": "T1053.005",
-          "name": "Scheduled Task",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has created scheduled tasks using name variants such as \"Windows Update Security\", \"Windows Update Security Patches\", and \"Google Chrome Security Update\", to launch [Maze](https://attack.mitre.org/software/S0449) at a specific time.(Citation: Sophos Maze VM September 2020)"
-        },
-        {
-          "id": "T1489",
-          "name": "Service Stop",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has stopped SQL services to ensure it can encrypt any database.(Citation: Sophos Maze VM September 2020) "
-        },
-        {
-          "id": "T1082",
-          "name": "System Information Discovery",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has checked the language of the infected system using the \"GetUSerDefaultUILanguage\" function.(Citation: McAfee Maze March 2020)"
-        },
-        {
-          "id": "T1614.001",
-          "name": "System Language Discovery",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has checked the language of the machine with function <code>GetUserDefaultUILanguage</code> and terminated execution if the language matches with an entry in the predefined list.(Citation: McAfee Maze March 2020)"
-        },
-        {
-          "id": "T1049",
-          "name": "System Network Connections Discovery",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has used the \"WNetOpenEnumW\", \"WNetEnumResourceW\u201d, \u201cWNetCloseEnum\u201d and \u201cWNetAddConnection2W\u201d functions to enumerate the network resources on the infected machine.(Citation: McAfee Maze March 2020)"
-        },
-        {
-          "id": "T1529",
-          "name": "System Shutdown/Reboot",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has issued a shutdown command on a victim machine that, upon reboot, will run the ransomware within a VM.(Citation: Sophos Maze VM September 2020)"
-        },
-        {
-          "id": "T1071.001",
-          "name": "Web Protocols",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has communicated to hard-coded IP addresses via HTTP.(Citation: McAfee Maze March 2020)"
-        },
-        {
-          "id": "T1059.003",
-          "name": "Windows Command Shell",
-          "description": "The [Maze](https://attack.mitre.org/software/S0449) encryption process has used batch scripts with various commands.(Citation: FireEye Maze May 2020)(Citation: Sophos Maze VM September 2020)"
-        },
-        {
-          "id": "T1047",
-          "name": "Windows Management Instrumentation",
-          "description": "[Maze](https://attack.mitre.org/software/S0449) has used WMI to attempt to delete the shadow volumes on a machine, and to connect a virtual machine to the network domain of the victim organization's network.(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020) "
+            "id": 3,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+            "description": "highest demanded 1mil $"
         }
-      ]
+    ],
+    "avdDetail": {
+        "wallets": [
+            "3NQ1JyX5iphB9PhAyawMCkyS8iV1xzoTpT"
+        ],
+        "email": [
+            "vourrealdecrypt@airmail.cc",
+            "getmyfilesback@airmail.cc",
+            "filedecryptor@nuke.africa",
+            "koreadec@tutanota.com",
+            "xersami@protonmail.com",
+            "flapalinta1950@protonmail.com",
+            "fahydremu1981@protonmail.com",
+            "flapalinta1950@protonmail.com,",
+            "mantiticvi1976@protonmail.com"
+        ]
     },
-    "KillChain": ""
-  }
+    "tabs": {
+        "Blogs": [
+            {
+                "date": "May 07 2020",
+                "title": "Navigating the MAZE: Tactics, Techniques and Procedures Associated With MAZE Ransomware Incidents",
+                "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html"
+            },
+            {
+                "date": "MAR 26 2020",
+                "title": "Ransomware Maze",
+                "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ransomware-maze/"
+            },
+            {
+                "date": "Sep 17 2020",
+                "title": "Maze attackers adopt Ragnar Locker virtual machine technique",
+                "url": "https://news.sophos.com/en-us/2020/09/17/maze-attackers-adopt-ragnar-locker-virtual-machine-technique/"
+            }
+        ],
+        "Sandbox": [
+            {
+                "name": "virustotal",
+                "links": [
+                    "https://www.virustotal.com/gui/file/e8a091a84dd2ea7ee429135ff48e9f48f7787637ccb79f6c3eb42f34588bc684/detection",
+                    "https://www.virustotal.com/gui/file/067f1b8f1e0b2bfe286f5169e17834e8cf7f4266b8d97f28ea78995dc81b0e7b/detection",
+                    "https://www.virustotal.com/gui/file/6a22220c0fe5f578da11ce22945b63d93172b75452996defdc2ff48756bde6af/detection",
+                    "https://www.virustotal.com/gui/file/58fe9776f33628fd965d1bcc442ec8dc5bfae0c648dcaec400f6090633484806/detection",
+                    "https://www.virustotal.com/gui/file/c040defb9c90074b489857f328d3e0040ac0ddab26cde132f17cccae7f1309cc/detection",
+                    "https://www.virustotal.com/gui/file/f9dfdce85f83d7a416ecc162a9f68643357b1fd10ea29e6b2cd934b967192a74/detection",
+                    "https://www.virustotal.com/gui/file/9dd37920692e36cad14e904bd720f0bde5ab473867c3e7d0d8b427a600af2cf8/detection",
+                    "https://www.virustotal.com/gui/file/2d2eebc4d408c5f261c8cd130246bca1736376a5b434f422033ff02566354da6/detection",
+                    "https://www.virustotal.com/gui/file/91514e6be3f581a77daa79e2a4905dcbdf6bdcc32ee0f713599a94d453a26fc1/detection",
+                    "https://www.virustotal.com/gui/file/3885589a3c94d0475a6d994e4644e682f4cff93f8b4d65f37508ffe706861363/detection",
+                    "https://www.virustotal.com/gui/file/9be70b7fe15cd64aed5b1adc88c2d5270bce534d167c4a42d143ae0059c3da1c/detection",
+                    "https://www.virustotal.com/gui/file/558ce8f30dc57914bfbe111f1132acc5a7420812f7e779050015b02a78856c9a/detection",
+                    "https://www.virustotal.com/gui/file/d3b477505145f896c5cd4fd948f1825acf46c82af83c0dde505310f01fc573ed/detection",
+                    "https://www.virustotal.com/gui/file/6d2efda037fe23b1fe3a5bae44f5b9f7ddfdf621c5df6cb6999d801bbdf79b0f",
+                    "https://www.virustotal.com/gui/file/7f4dba54da91c99423b5862088da784363c7edc76d63e26d72270cd1fdf6dbec",
+                    "https://www.virustotal.com/gui/file/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c/detection",
+                    "https://www.virustotal.com/gui/file/3e2d6f380eca084e9081ce2260df95358188320c6720920d404fd786b5b5927d/detection",
+                    "https://www.virustotal.com/gui/file/800d81a21291518ddeabd64f0024f057468af7789a99eecceb47193e88e36ee9/detection",
+                    "https://www.virustotal.com/gui/file/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/detection",
+                    "https://www.virustotal.com/gui/file/731c26e87dc8995a8f5ed1d22aa49286b98bcfeb5ee2a792a1763a491eb7f21b/detection",
+                    "https://www.virustotal.com/gui/file/7c1f5cf8f242dfbd920180d8423777a4e540c37c09d787d4674b259bdbe0dc42/detection",
+                    "https://www.virustotal.com/gui/file/9d920183e97fee807e34297f007aa330154a43402d6cd45e19adf7bbfb382807/detection",
+                    "https://www.virustotal.com/gui/file/17ba67b2b5ec20c5fec06a580e293eefc665fc89f8bfc00d6b9b715bffa2d845/detection",
+                    "https://www.virustotal.com/gui/file/b6e3cdf6757bb325e62cd43f31eb590e8ec63f25674b89ff65d70707af999951/detection",
+                    "https://www.virustotal.com/gui/file/844cc2551f8bbfd505800bd3d135d93064600a55c45894f89f80b81fea3b0fa1/detection",
+                    "https://www.virustotal.com/gui/file/55f1ce7d7b3cf941ea355a07623b02a6ec2007d1f5069717a449dd31405bb86b/detection",
+                    "https://www.virustotal.com/gui/file/5378249a2b439e92691fb87751adc9fc4e2dea1792309d695b7f1d9c6887b09d",
+                    "https://www.virustotal.com/gui/file/ee8c2a00545c5a761b9026a183f146efbaa4c84f010a8df8c923c21b39c38f02/detection",
+                    "https://www.virustotal.com/gui/file/d6ab910259c9bc68196aeec3e9ff4864bada22738c02ecf5ada7912ced292d28/detection",
+                    "https://www.virustotal.com/gui/file/716408476bc23c3e74a852ed6246dd60e8ed18533bedc13d4984279c97cd1a74/detection",
+                    "https://www.virustotal.com/gui/file/eae876886f19ba384f55778634a35a1d975414e83f22f6111e3e792f706301fe/detection",
+                    "https://www.virustotal.com/gui/file/30f5748dc2b143c6dde82aa215bef058cd2dc534fb476fe94f3e8950ea23ce50/detection",
+                    "https://www.virustotal.com/gui/file/3814d381f3944799777f936061703db44e922bc0f98a7ec1c98f202a0a245974/detection"
+                ]
+            },
+            {
+                "name": "anyrun",
+                "links": [
+                    "https://app.any.run/tasks/7792b635-4875-4128-9479-13c2391cd0c8/",
+                    "https://app.any.run/tasks/975bedfc-a1ef-41a6-ad7a-6af4a5adaff0/",
+                    "https://app.any.run/tasks/16a0ac37-70c4-49c1-b952-f19ca08cd53a/",
+                    "https://app.any.run/tasks/a2c7ef7e-231e-4291-a5fd-3193d1f07790/",
+                    "https://app.any.run/tasks/f4920c26-0b50-4bdf-9c3d-48829942fed6/",
+                    "https://app.any.run/tasks/a2d02e11-1410-4c4d-a4cb-81a1f01453ba/",
+                    "https://app.any.run/tasks/7fa46b29-6258-4f45-9098-c4d20ecccf69/",
+                    "https://app.any.run/tasks/78364ebb-a5f6-4b2d-8b73-eba5c6881f6a/",
+                    "https://app.any.run/tasks/e346fd5d-df8a-4821-a0aa-7f67595ea34c/",
+                    "https://app.any.run/tasks/7e9cac29-10a9-420e-9078-c643cb74c5c0",
+                    "https://app.any.run/tasks/996bcbae-56c5-49cc-9749-26c5b22b5102/",
+                    "https://app.any.run/tasks/15b43695-751c-43b5-88b6-1a8e45ec561e/",
+                    "https://app.any.run/tasks/2509910f-807c-4359-ad44-0f2b8b31e893/",
+                    "https://app.any.run/tasks/48d75938-739f-495f-a630-83aee786c790/",
+                    "https://app.any.run/tasks/f372b3a6-4343-4726-a98d-97bedc49f5fe/"
+                ]
+            },
+            {
+                "name": "hybrid",
+                "links": [
+                    "https://www.hybrid-analysis.com/sample/f9dfdce85f83d7a416ecc162a9f68643357b1fd10ea29e6b2cd934b967192a74/5cf26a6e0388386188a3afd0",
+                    "https://www.hybrid-analysis.com/sample/9be70b7fe15cd64aed5b1adc88c2d5270bce534d167c4a42d143ae0059c3da1c?environmentId=120",
+                    "https://www.hybrid-analysis.com/sample/f961ded251814ed0cbbc17f7f1594988f49a3e69f678aa7ec6bf197c2832256a/5e1df0022f0e7a775451b1fa"
+                ]
+            },
+            {
+                "name": "vmray",
+                "links": [
+                    "https://www.vmray.com/analyses/9be70b7fe15c/report/overview.html",
+                    "https://www.vmray.com/analyses/3885589a3c94/report/overview.html",
+                    "https://www.vmray.com/analyses/2d2eebc4d408/report/overview.html",
+                    "https://www.vmray.com/analyses/e8a091a84dd2/report/overview.html",
+                    "https://www.vmray.com/analyses/f9dfdce85f83/report/overview.html",
+                    "https://www.vmray.com/analyses/2f334c080214/report/overview.html",
+                    "https://www.vmray.com/analyses/800d81a21291/report/overview.html",
+                    "https://www.vmray.com/analyses/844cc2551f8b/report/overview.html",
+                    "https://www.vmray.com/analyses/b6e3cdf6757b/report/overview.html"
+                ]
+            },
+            {
+                "name": "joe",
+                "links": []
+            },
+            {
+                "name": "triage",
+                "links": [
+                    "https://tria.ge/211024-eabwbsdaa2/behavioral1",
+                    "https://tria.ge/211121-qfxwjadhfq",
+                    "https://tria.ge/210610-9aj6xcwssa"
+                ]
+            },
+            {
+                "name": "intezer",
+                "links": [
+                    "https://analyze.intezer.com/#/files/067f1b8f1e0b2bfe286f5169e17834e8cf7f4266b8d97f28ea78995dc81b0e7b",
+                    "https://analyze.intezer.com/#/analyses/6dbf03e6-4172-45b3-aeb9-29c6f696b245",
+                    "https://analyze.intezer.com/#/analyses/4847b0d2-16d1-4cd5-9ddb-0205f9471d06",
+                    "https://analyze.intezer.com/#/files/91514e6be3f581a77daa79e2a4905dcbdf6bdcc32ee0f713599a94d453a26fc1",
+                    "https://analyze.intezer.com/#/analyses/b712f108-1cef-47bf-a5ce-0defc784ac64",
+                    "https://analyze.intezer.com/#/analyses/1c90899a-60e0-440b-8d50-342d75ce5ad8",
+                    "https://analyze.intezer.com/#/analyses/4894d088-4a9a-40a4-ac1d-66be619ac045",
+                    "https://analyze.intezer.com/analyses/c845a013-40c1-4f7b-83e6-3a52004e80a5",
+                    "https://analyze.intezer.com/analyses/eaf55a59-fd6f-4090-94be-ac999551ea53",
+                    "https://analyze.intezer.com/analyses/f2f9b731-8537-4ba4-9b83-d5bc85ee8a8f",
+                    "https://analyze.intezer.com/#/files/2f334c0802147aa0eee90ff0a2b0e1022325b5cba5cb5236ed3717a2b0582a9c",
+                    "https://analyze.intezer.com/analyses/b9d55765-9f94-4a56-8b0c-05e100570e64"
+                ]
+            }
+        ],
+        "MITRE": {
+            "id": "S0449",
+            "mid": "malware--d9f7383c-95ec-4080-bbce-121c9384457b",
+            "created": "2020-05-18T16:17:59.464Z",
+            "modified": "2022-01-24T17:01:08.605Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "object_marking_ref": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "name": "Maze",
+            "type": "malware",
+            "description": "[Maze](https://attack.mitre.org/software/S0449) ransomware, previously known as \"ChaCha\", was discovered in May 2019. In addition to encrypting files on victim machines for impact, [Maze](https://attack.mitre.org/software/S0449) operators conduct information stealing campaigns prior to encryption and post the information online to extort affected companies.(Citation: FireEye Maze May 2020)(Citation: McAfee Maze March 2020)(Citation: Sophos Maze VM September 2020)",
+            "url": "https://attack.mitre.org/software/S0449",
+            "references": [
+                {
+                    "source_name": "FireEye Maze May 2020",
+                    "url": "https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html",
+                    "description": "Kennelly, J., Goody, K., Shilko, J. (2020, May 7). Navigating the MAZE: Tactics, Techniques and Procedures Associated With MAZE Ransomware Incidents. Retrieved May 18, 2020."
+                },
+                {
+                    "source_name": "McAfee Maze March 2020",
+                    "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/ransomware-maze/",
+                    "description": "Mundo, A. (2020, March 26). Ransomware Maze. Retrieved May 18, 2020."
+                },
+                {
+                    "source_name": "Sophos Maze VM September 2020",
+                    "url": "https://news.sophos.com/en-us/2020/09/17/maze-attackers-adopt-ragnar-locker-virtual-machine-technique/",
+                    "description": "Brandt, A., Mackenzie, P.. (2020, September 17). Maze Attackers Adopt Ragnar Locker Virtual Machine Technique. Retrieved October 9, 2020."
+                }
+            ],
+            "labels": [
+                "malware"
+            ],
+            "groups": [
+                {
+                    "id": "G0037",
+                    "name": "FIN6",
+                    "description": "[FIN6](https://attack.mitre.org/groups/G0037) is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)"
+                }
+            ],
+            "techniques": [
+                {
+                    "id": "T1082",
+                    "name": "System Information Discovery",
+                    "tactic": "Discovery",
+                    "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from [System Information Discovery](https://attack.mitre.org/techniques/T1082) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nTools such as [Systeminfo](https://attack.mitre.org/software/S0096) can be used to gather detailed system information. If running with privileged access, a breakdown of system data can be gathered through the <code>systemsetup</code> configuration tool on macOS. As an example, adversaries with user-level access can execute the <code>df -aH</code> command to obtain currently mounted disks and associated freely available space. Adversaries may also leverage a [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) on network devices to gather detailed system information (e.g. <code>show version</code>).(Citation: US-CERT-TA18-106A) [System Information Discovery](https://attack.mitre.org/techniques/T1082) combined with information gathered from other forms of discovery and reconnaissance can drive payload development and concealment.(Citation: OSX.FairyTale)(Citation: 20 macOS Common Tools and Techniques)\n\nInfrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure allow access to instance and virtual machine information via APIs. Successful authenticated API calls can return data such as the operating system platform and status of a particular instance or the model view of a virtual machine.(Citation: Amazon Describe Instance)(Citation: Google Instances Resource)(Citation: Microsoft Virutal Machine API)"
+                },
+                {
+                    "id": "T1568",
+                    "name": "Dynamic Resolution",
+                    "tactic": "Command and Control",
+                    "description": "Adversaries may dynamically establish connections to command and control infrastructure to evade common detections and remediations. This may be achieved by using malware that shares a common algorithm with the infrastructure the adversary uses to receive the malware's communications. These calculations can be used to dynamically adjust parameters such as the domain name, IP address, or port number the malware uses for command and control.\n\nAdversaries may use dynamic resolution for the purpose of [Fallback Channels](https://attack.mitre.org/techniques/T1008). When contact is lost with the primary command and control server malware may employ dynamic resolution as a means to reestablishing command and control.(Citation: Talos CCleanup 2017)(Citation: FireEye POSHSPY April 2017)(Citation: ESET Sednit 2017 Activity)"
+                },
+                {
+                    "id": "T1568.003",
+                    "name": "DNS Calculation",
+                    "tactic": "Command and Control",
+                    "description": "Adversaries may perform calculations on addresses returned in DNS results to determine which port and IP address to use for command and control, rather than relying on a predetermined port number or the actual returned IP address. A IP and/or port number calculation can be used to bypass egress filtering on a C2 channel.(Citation: Meyers Numbered Panda)\n\nOne implementation of [DNS Calculation](https://attack.mitre.org/techniques/T1568/003) is to take the first three octets of an IP address in a DNS response and use those values to calculate the port for command and control traffic.(Citation: Meyers Numbered Panda)(Citation: Moran 2014)(Citation: Rapid7G20Espionage)"
+                },
+                {
+                    "id": "T1568.002",
+                    "name": "Domain Generation Algorithms",
+                    "tactic": "Command and Control",
+                    "description": "Adversaries may make use of Domain Generation Algorithms (DGAs) to dynamically identify a destination domain for command and control traffic rather than relying on a list of static IP addresses or domains. This has the advantage of making it much harder for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.(Citation: Cybereason Dissecting DGAs)(Citation: Cisco Umbrella DGA)(Citation: Unit 42 DGA Feb 2019)\n\nDGAs can take the form of apparently random or \u201cgibberish\u201d strings (ex: istgmxdejdnxuyla.ru) when they construct domain names by generating each letter. Alternatively, some DGAs employ whole words as the unit by concatenating words together instead of letters (ex: cityjulydish.net). Many DGAs are time-based, generating a different domain for each time period (hourly, daily, monthly, etc). Others incorporate a seed value as well to make predicting future domains more difficult for defenders.(Citation: Cybereason Dissecting DGAs)(Citation: Cisco Umbrella DGA)(Citation: Talos CCleanup 2017)(Citation: Akamai DGA Mitigation)\n\nAdversaries may use DGAs for the purpose of [Fallback Channels](https://attack.mitre.org/techniques/T1008). When contact is lost with the primary command and control server malware may employ a DGA as a means to reestablishing command and control.(Citation: Talos CCleanup 2017)(Citation: FireEye POSHSPY April 2017)(Citation: ESET Sednit 2017 Activity)"
+                },
+                {
+                    "id": "T1568.001",
+                    "name": "Fast Flux DNS",
+                    "tactic": "Command and Control",
+                    "description": "Adversaries may use Fast Flux DNS to hide a command and control channel behind an array of rapidly changing IP addresses linked to a single domain resolution. This technique uses a fully qualified domain name, with multiple IP addresses assigned to it which are swapped with high frequency, using a combination of round robin IP addressing and short Time-To-Live (TTL) for a DNS resource record.(Citation: MehtaFastFluxPt1)(Citation: MehtaFastFluxPt2)(Citation: Fast Flux - Welivesecurity)\n\nThe simplest, \"single-flux\" method, involves registering and de-registering an addresses as part of the DNS A (address) record list for a single DNS name. These registrations have a five-minute average lifespan, resulting in a constant shuffle of IP address resolution.(Citation: Fast Flux - Welivesecurity)\n\nIn contrast, the \"double-flux\" method registers and de-registers an address as part of the DNS Name Server record list for the DNS zone, providing additional resilience for the connection. With double-flux additional hosts can act as a proxy to the C2 host, further insulating the true source of the C2 channel."
+                },
+                {
+                    "id": "T1070",
+                    "name": "Indicator Removal",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may delete or modify artifacts generated within systems to remove evidence of their presence or hinder defenses. Various artifacts may be created by an adversary or something that can be attributed to an adversary\u2019s actions. Typically these artifacts are used as defensive indicators related to monitored events, such as strings from downloaded files, logs that are generated from user actions, and other data analyzed by defenders. Location, format, and type of artifact (such as command or login history) are often specific to each platform.\n\nRemoval of these indicators may interfere with event collection, reporting, or other processes used to detect intrusion activity. This may compromise the integrity of security solutions by causing notable events to go unreported. This activity may also impede forensic analysis and incident response, due to lack of sufficient data to determine what occurred."
+                },
+                {
+                    "id": "T1070.002",
+                    "name": "Clear Linux or Mac System Logs",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may clear system logs to hide evidence of an intrusion. macOS and Linux both keep track of system or user-initiated actions via system logs. The majority of native system logging is stored under the <code>/var/log/</code> directory. Subfolders in this directory categorize logs by their related functions, such as:(Citation: Linux Logs)\n\n* <code>/var/log/messages:</code>: General and system-related messages\n* <code>/var/log/secure</code> or <code>/var/log/auth.log</code>: Authentication logs\n* <code>/var/log/utmp</code> or <code>/var/log/wtmp</code>: Login records\n* <code>/var/log/kern.log</code>: Kernel logs\n* <code>/var/log/cron.log</code>: Crond logs\n* <code>/var/log/maillog</code>: Mail server logs\n* <code>/var/log/httpd/</code>: Web server access and error logs\n"
+                },
+                {
+                    "id": "T1070.001",
+                    "name": "Clear Windows Event Logs",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may clear Windows Event Logs to hide the activity of an intrusion. Windows Event Logs are a record of a computer's alerts and notifications. There are three system-defined sources of events: System, Application, and Security, with five event types: Error, Warning, Information, Success Audit, and Failure Audit.\n\nThe event logs can be cleared with the following utility commands:\n\n* <code>wevtutil cl system</code>\n* <code>wevtutil cl application</code>\n* <code>wevtutil cl security</code>\n\nThese logs may also be cleared through other mechanisms, such as the event viewer GUI or [PowerShell](https://attack.mitre.org/techniques/T1059/001). For example, adversaries may use the PowerShell command <code>Remove-EventLog -LogName Security</code> to delete the Security EventLog and after reboot, disable future logging. Note: events may still be generated and logged in the .evtx file between the time the command is run and the reboot.(Citation: disable_win_evt_logging)"
+                },
+                {
+                    "id": "T1070.004",
+                    "name": "File Deletion",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may delete files left behind by the actions of their intrusion activity. Malware, tools, or other non-native files dropped or created on a system by an adversary (ex: [Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105)) may leave traces to indicate to what was done within a network and how. Removal of these files can occur during an intrusion, or as part of a post-intrusion process to minimize the adversary's footprint.\n\nThere are tools available from the host operating system to perform cleanup, but adversaries may use other tools as well.(Citation: Microsoft SDelete July 2016) Examples of built-in [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059) functions include <code>del</code> on Windows and <code>rm</code> or <code>unlink</code> on Linux and macOS."
+                },
+                {
+                    "id": "T1070.008",
+                    "name": "Clear Mailbox Data",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may modify mail and mail application data to remove evidence of their activity. Email applications allow users and other programs to export and delete mailbox data via command line tools or use of APIs. Mail application data can be emails, email metadata, or logs generated by the application or operating system, such as export requests. \n\nAdversaries may manipulate emails and mailbox data to remove logs, artifacts, and metadata, such as evidence of [Phishing](https://attack.mitre.org/techniques/T1566)/[Internal Spearphishing](https://attack.mitre.org/techniques/T1534), [Email Collection](https://attack.mitre.org/techniques/T1114), [Mail Protocols](https://attack.mitre.org/techniques/T1071/003) for command and control, or email-based exfiltration such as [Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048). For example, to remove evidence on Exchange servers adversaries have used the <code>ExchangePowerShell</code> [PowerShell](https://attack.mitre.org/techniques/T1059/001) module, including <code>Remove-MailboxExportRequest</code> to remove evidence of mailbox exports.(Citation: Volexity SolarWinds)(Citation: ExchangePowerShell Module) On Linux and macOS, adversaries may also delete emails through a command line utility called <code>mail</code>  or use [AppleScript](https://attack.mitre.org/techniques/T1059/002) to interact with APIs on macOS.(Citation: Cybereason Cobalt Kitty 2017)(Citation: mailx man page)\n\nAdversaries may also remove emails and metadata/headers indicative of spam or suspicious activity (for example, through the use of organization-wide transport rules) to reduce the likelihood of malicious emails being detected by security products.(Citation: Microsoft OAuth Spam 2022)"
+                },
+                {
+                    "id": "T1070.009",
+                    "name": "Clear Persistence",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may clear artifacts associated with previously established persistence on a host system to remove evidence of their activity. This may involve various actions, such as removing services, deleting executables, [Modify Registry](https://attack.mitre.org/techniques/T1112), [Plist File Modification](https://attack.mitre.org/techniques/T1647), or other methods of cleanup to prevent defenders from collecting evidence of their persistent presence.(Citation: Cylance Dust Storm) Adversaries may also delete accounts previously created to maintain persistence (i.e. [Create Account](https://attack.mitre.org/techniques/T1136)).(Citation: Talos - Cisco Attack 2022)\n\nIn some instances, artifacts of persistence may also be removed once an adversary\u2019s persistence is executed in order to prevent errors with the new instance of the malware.(Citation: NCC Group Team9 June 2020)"
+                },
+                {
+                    "id": "T1070.003",
+                    "name": "Clear Command History",
+                    "tactic": "Defense Evasion",
+                    "description": "In addition to clearing system logs, an adversary may clear the command history of a compromised account to conceal the actions undertaken during an intrusion. Various command interpreters keep track of the commands users type in their terminal so that users can retrace what they've done.\n\nOn Linux and macOS, these command histories can be accessed in a few different ways. While logged in, this command history is tracked in a file pointed to by the environment variable <code>HISTFILE</code>. When a user logs off a system, this information is flushed to a file in the user's home directory called <code>~/.bash_history</code>. The benefit of this is that it allows users to go back to commands they've used before in different sessions.\n\nAdversaries may delete their commands from these logs by manually clearing the history (<code>history -c</code>) or deleting the bash history file <code>rm ~/.bash_history</code>.  \n\nAdversaries may also leverage a [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) on network devices to clear command history data (<code>clear logging</code> and/or <code>clear history</code>).(Citation: US-CERT-TA18-106A)\n\nOn Windows hosts, PowerShell has two different command history providers: the built-in history and the command history managed by the <code>PSReadLine</code> module. The built-in history only tracks the commands used in the current session. This command history is not available to other sessions and is deleted when the session ends.\n\nThe <code>PSReadLine</code> command history tracks the commands used in all PowerShell sessions and writes them to a file (<code>$env:APPDATA\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt</code> by default). This history file is available to all sessions and contains all past history since the file is not deleted when the session ends.(Citation: Microsoft PowerShell Command History)\n\nAdversaries may run the PowerShell command <code>Clear-History</code> to flush the entire command history from a current PowerShell session. This, however, will not delete/flush the <code>ConsoleHost_history.txt</code> file. Adversaries may also delete the <code>ConsoleHost_history.txt</code> file or edit its contents to hide PowerShell commands they have run.(Citation: Sophos PowerShell command audit)(Citation: Sophos PowerShell Command History Forensics)"
+                },
+                {
+                    "id": "T1070.007",
+                    "name": "Clear Network Connection History and Configurations",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may clear or remove evidence of malicious network connections in order to clean up traces of their operations. Configuration settings as well as various artifacts that highlight connection history may be created on a system from behaviors that require network connections, such as [Remote Services](https://attack.mitre.org/techniques/T1021) or [External Remote Services](https://attack.mitre.org/techniques/T1133). Defenders may use these artifacts to monitor or otherwise analyze network connections created by adversaries.\n\nNetwork connection history may be stored in various locations on a system. For example, RDP connection history may be stored in Windows Registry values under (Citation: Microsoft RDP Removal):\n\n* <code>HKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default</code>\n* <code>HKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Servers</code>\n\nWindows may also store information about recent RDP connections in files such as <code>C:\\Users\\\\%username%\\Documents\\Default.rdp</code> and `C:\\Users\\%username%\\AppData\\Local\\Microsoft\\Terminal\nServer Client\\Cache\\`.(Citation: Moran RDPieces) Similarly, macOS and Linux hosts may store information highlighting connection history in system logs (such as those stored in `/Library/Logs` and/or `/var/log/`).(Citation: Apple Culprit Access)(Citation: FreeDesktop Journal)(Citation: Apple Unified Log Analysis Remote Login and Screen Sharing)\n\nMalicious network connections may also require changes to network configuration settings, such as [Disable or Modify System Firewall](https://attack.mitre.org/techniques/T1562/004) or tampering to enable [Proxy](https://attack.mitre.org/techniques/T1090). Adversaries may delete or modify this data to conceal indicators and/or impede defensive analysis."
+                },
+                {
+                    "id": "T1070.005",
+                    "name": "Network Share Connection Removal",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may remove share connections that are no longer useful in order to clean up traces of their operation. Windows shared drive and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) connections can be removed when no longer needed. [Net](https://attack.mitre.org/software/S0039) is an example utility that can be used to remove network share connections with the <code>net use \\\\system\\share /delete</code> command. (Citation: Technet Net Use)"
+                },
+                {
+                    "id": "T1070.006",
+                    "name": "Timestomp",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may modify file time attributes to hide new or changes to existing files. Timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. This is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools.\n\nTimestomping may be used along with file name [Masquerading](https://attack.mitre.org/techniques/T1036) to hide malware and tools.(Citation: WindowsIR Anti-Forensic Techniques)"
+                },
+                {
+                    "id": "T1529",
+                    "name": "System Shutdown/Reboot",
+                    "tactic": "Impact",
+                    "description": "Adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. Operating systems may contain commands to initiate a shutdown/reboot of a machine or network device. In some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer or network device via [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) (e.g. <code>reload</code>).(Citation: Microsoft Shutdown Oct 2017)(Citation: alert_TA18_106A)\n\nShutting down or rebooting systems may disrupt access to computer resources for legitimate users while also impeding incident response/recovery.\n\nAdversaries may attempt to shutdown/reboot a system after impacting it in other ways, such as [Disk Structure Wipe](https://attack.mitre.org/techniques/T1561/002) or [Inhibit System Recovery](https://attack.mitre.org/techniques/T1490), to hasten the intended effects on system availability.(Citation: Talos Nyetya June 2017)(Citation: Talos Olympic Destroyer 2018)"
+                },
+                {
+                    "id": "T1489",
+                    "name": "Service Stop",
+                    "tactic": "Impact",
+                    "description": "Adversaries may stop or disable services on a system to render those services unavailable to legitimate users. Stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.(Citation: Talos Olympic Destroyer 2018)(Citation: Novetta Blockbuster) \n\nAdversaries may accomplish this by disabling individual services of high importance to an organization, such as <code>MSExchangeIS</code>, which will make Exchange content inaccessible (Citation: Novetta Blockbuster). In some cases, adversaries may stop or disable many or all services to render systems unusable.(Citation: Talos Olympic Destroyer 2018) Services or processes may not allow for modification of their data stores while running. Adversaries may stop services or processes in order to conduct [Data Destruction](https://attack.mitre.org/techniques/T1485) or [Data Encrypted for Impact](https://attack.mitre.org/techniques/T1486) on the data stores of services like Exchange and SQL Server.(Citation: SecureWorks WannaCry Analysis)"
+                },
+                {
+                    "id": "T1057",
+                    "name": "Process Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software/applications running on systems within the network. Adversaries may use the information from [Process Discovery](https://attack.mitre.org/techniques/T1057) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nIn Windows environments, adversaries could obtain details on running processes using the [Tasklist](https://attack.mitre.org/software/S0057) utility via [cmd](https://attack.mitre.org/software/S0106) or <code>Get-Process</code> via [PowerShell](https://attack.mitre.org/techniques/T1059/001). Information about processes can also be extracted from the output of [Native API](https://attack.mitre.org/techniques/T1106) calls such as <code>CreateToolhelp32Snapshot</code>. In Mac and Linux, this is accomplished with the <code>ps</code> command. Adversaries may also opt to enumerate processes via /proc.\n\nOn network devices, [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) commands such as `show processes` can be used to display current running processes.(Citation: US-CERT-TA18-106A)(Citation: show_processes_cisco_cmd)"
+                },
+                {
+                    "id": "T1049",
+                    "name": "System Network Connections Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network. \n\nAn adversary who gains access to a system that is part of a cloud-based environment may map out Virtual Private Clouds or Virtual Networks in order to determine what systems and services are connected. The actions performed are likely the same types of discovery techniques depending on the operating system, but the resulting information may include details about the networked cloud environment relevant to the adversary's goals. Cloud providers may have different ways in which their virtual networks operate.(Citation: Amazon AWS VPC Guide)(Citation: Microsoft Azure Virtual Network Overview)(Citation: Google VPC Overview) Similarly, adversaries who gain access to network devices may also perform similar discovery activities to gather information about connected systems and services.\n\nUtilities and commands that acquire this information include [netstat](https://attack.mitre.org/software/S0104), \"net use,\" and \"net session\" with [Net](https://attack.mitre.org/software/S0039). In Mac and Linux, [netstat](https://attack.mitre.org/software/S0104) and <code>lsof</code> can be used to list current connections. <code>who -a</code> and <code>w</code> can be used to show which users are currently logged in, similar to \"net session\". Additionally, built-in features native to network devices and [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) may be used (e.g. <code>show ip sockets</code>, <code>show tcp brief</code>).(Citation: US-CERT-TA18-106A)"
+                },
+                {
+                    "id": "T1047",
+                    "name": "Windows Management Instrumentation",
+                    "tactic": "Execution",
+                    "description": "Adversaries may abuse Windows Management Instrumentation (WMI) to execute malicious commands and payloads. WMI is an administration feature that provides a uniform environment to access Windows system components. The WMI service enables both local and remote access, though the latter is facilitated by [Remote Services](https://attack.mitre.org/techniques/T1021) such as [Distributed Component Object Model](https://attack.mitre.org/techniques/T1021/003) (DCOM) and [Windows Remote Management](https://attack.mitre.org/techniques/T1021/006) (WinRM).(Citation: MSDN WMI) Remote WMI over DCOM operates using port 135, whereas WMI over WinRM operates over port 5985 when using HTTP and 5986 for HTTPS.(Citation: MSDN WMI)(Citation: FireEye WMI 2015)\n\nAn adversary can use WMI to interact with local and remote systems and use it as a means to execute various behaviors, such as gathering information for Discovery as well as remote Execution of files as part of Lateral Movement. (Citation: FireEye WMI SANS 2015) (Citation: FireEye WMI 2015)"
+                },
+                {
+                    "id": "T1106",
+                    "name": "Native API",
+                    "tactic": "Execution",
+                    "description": "Adversaries may interact with the native OS application programming interface (API) to execute behaviors. Native APIs provide a controlled means of calling low-level OS services within the kernel, such as those involving hardware/devices, memory, and processes.(Citation: NT API Windows)(Citation: Linux Kernel API) These native APIs are leveraged by the OS during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.\n\nNative API functions (such as <code>NtCreateProcess</code>) may be directed invoked via system calls / syscalls, but these features are also often exposed to user-mode applications via interfaces and libraries.(Citation: OutFlank System Calls)(Citation: CyberBit System Calls)(Citation: MDSec System Calls) For example, functions such as the Windows API <code>CreateProcess()</code> or GNU <code>fork()</code> will allow programs and scripts to start other processes.(Citation: Microsoft CreateProcess)(Citation: GNU Fork) This may allow API callers to execute a binary, run a CLI command, load modules, etc. as thousands of similar API functions exist for various system operations.(Citation: Microsoft Win32)(Citation: LIBC)(Citation: GLIBC)\n\nHigher level software frameworks, such as Microsoft .NET and macOS Cocoa, are also available to interact with native APIs. These frameworks typically provide language wrappers/abstractions to API functionalities and are designed for ease-of-use/portability of code.(Citation: Microsoft NET)(Citation: Apple Core Services)(Citation: MACOS Cocoa)(Citation: macOS Foundation)\n\nAdversaries may abuse these OS API functions as a means of executing behaviors. Similar to [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059), the native API and its hierarchy of interfaces provide mechanisms to interact with and utilize various components of a victimized system. While invoking API functions, adversaries may also attempt to bypass defensive tools (ex: unhooking monitored functions via [Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001))."
+                },
+                {
+                    "id": "T1490",
+                    "name": "Inhibit System Recovery",
+                    "tactic": "Impact",
+                    "description": "Adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery.(Citation: Talos Olympic Destroyer 2018)(Citation: FireEye WannaCry 2017) This may deny access to available backups and recovery options.\n\nOperating systems may contain features that can help fix corrupted systems, such as a backup catalog, volume shadow copies, and automatic repair features. Adversaries may disable or delete system recovery features to augment the effects of [Data Destruction](https://attack.mitre.org/techniques/T1485) and [Data Encrypted for Impact](https://attack.mitre.org/techniques/T1486).(Citation: Talos Olympic Destroyer 2018)(Citation: FireEye WannaCry 2017) Furthermore, adversaries may disable recovery notifications, then corrupt backups.(Citation: disable_notif_synology_ransom)\n\nA number of native Windows utilities have been used by adversaries to disable or delete system recovery features:\n\n* <code>vssadmin.exe</code> can be used to delete all volume shadow copies on a system - <code>vssadmin.exe delete shadows /all /quiet</code>\n* [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) can be used to delete volume shadow copies - <code>wmic shadowcopy delete</code>\n* <code>wbadmin.exe</code> can be used to delete the Windows Backup Catalog - <code>wbadmin.exe delete catalog -quiet</code>\n* <code>bcdedit.exe</code> can be used to disable automatic Windows recovery features by modifying boot configuration data - <code>bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no</code>\n* <code>REAgentC.exe</code> can be used to disable Windows Recovery Environment (WinRE) repair/recovery options of an infected system\n\nOn network devices, adversaries may leverage [Disk Wipe](https://attack.mitre.org/techniques/T1561) to delete backup firmware images and reformat the file system, then [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529) to reload the device. Together this activity may leave network devices completely inoperable and inhibit recovery operations.\n\nAdversaries may also delete \u201conline\u201d backups that are connected to their network \u2013 whether via network storage media or through folders that sync to cloud services.(Citation: ZDNet Ransomware Backups 2020) In cloud environments, adversaries may disable versioning and backup policies and delete snapshots, machine images, and prior versions of objects designed to be used in disaster recovery scenarios.(Citation: Dark Reading Code Spaces Cyber Attack)(Citation: Rhino Security Labs AWS S3 Ransomware)"
+                },
+                {
+                    "id": "T1486",
+                    "name": "Data Encrypted for Impact",
+                    "tactic": "Impact",
+                    "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.(Citation: US-CERT Ransomware 2016)(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)(Citation: US-CERT SamSam 2018)\n\nIn the case of ransomware, it is typical that common user files like Office documents, PDFs, images, videos, audio, text, and source code files will be encrypted (and often renamed and/or tagged with specific file markers). Adversaries may need to first employ other behaviors, such as [File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222) or [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529), in order to unlock and/or gain access to manipulate these files.(Citation: CarbonBlack Conti July 2020) In some cases, adversaries may encrypt critical system files, disk partitions, and the MBR.(Citation: US-CERT NotPetya 2017) \n\nTo maximize impact on the target organization, malware designed for encrypting data may have worm-like features to propagate across a network by leveraging other attack techniques like [Valid Accounts](https://attack.mitre.org/techniques/T1078), [OS Credential Dumping](https://attack.mitre.org/techniques/T1003), and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002).(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017) Encryption malware may also leverage [Internal Defacement](https://attack.mitre.org/techniques/T1491/001), such as changing victim wallpapers, or otherwise intimidate victims by sending ransom notes or other messages to connected printers (known as \"print bombing\").(Citation: NHS Digital Egregor Nov 2020)\n\nIn cloud environments, storage objects within compromised accounts may also be encrypted.(Citation: Rhino S3 Ransomware Part 1)"
+                },
+                {
+                    "id": "T1027",
+                    "name": "Obfuscated Files or Information",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. This is common behavior that can be used across different platforms and the network to evade defenses. \n\nPayloads may be compressed, archived, or encrypted in order to avoid detection. These payloads may be used during Initial Access or later to mitigate detection. Sometimes a user's action may be required to open and [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140) for [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016) Adversaries may also use compressed or archived scripts, such as JavaScript. \n\nPortions of files can also be encoded to hide the plain-text strings that would otherwise help defenders with discovery. (Citation: Linux/Cdorked.A We Live Security Analysis) Payloads may also be split into separate, seemingly benign files that only reveal malicious functionality when reassembled. (Citation: Carbon Black Obfuscation Sept 2016)\n\nAdversaries may also abuse [Command Obfuscation](https://attack.mitre.org/techniques/T1027/010) to obscure commands executed from payloads or directly via [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059). Environment variables, aliases, characters, and other platform/language specific semantics can be used to evade signature based detections and application control mechanisms. (Citation: FireEye Obfuscation June 2017) (Citation: FireEye Revoke-Obfuscation July 2017)(Citation: PaloAlto EncodedCommand March 2017) "
+                },
+                {
+                    "id": "T1027.008",
+                    "name": "Stripped Payloads",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may attempt to make a payload difficult to analyze by removing symbols, strings, and other human readable information. Scripts and executables may contain variables names and other strings that help developers document code functionality. Symbols are often created by an operating system\u2019s `linker` when executable payloads are compiled. Reverse engineers use these symbols and strings to analyze code and to identify functionality in payloads.(Citation: Mandiant golang stripped binaries explanation)(Citation: intezer stripped binaries elf files 2018)\n\nAdversaries may use stripped payloads in order to make malware analysis more difficult. For example, compilers and other tools may provide features to remove or obfuscate strings and symbols. Adversaries have also used stripped payload formats, such as run-only AppleScripts, a compiled and stripped version of [AppleScript](https://attack.mitre.org/techniques/T1059/002), to evade detection and analysis. The lack of human-readable information may directly hinder detection and analysis of payloads.(Citation: SentinelLabs reversing run-only applescripts 2021)"
+                },
+                {
+                    "id": "T1027.007",
+                    "name": "Dynamic API Resolution",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may obfuscate then dynamically resolve API functions called by their malware in order to conceal malicious functionalities and impair defensive analysis. Malware commonly uses various [Native API](https://attack.mitre.org/techniques/T1106) functions provided by the OS to perform various tasks such as those involving processes, files, and other system artifacts.\n\nAPI functions called by malware may leave static artifacts such as strings in payload files. Defensive analysts may also uncover which functions a binary file may execute via an import address table (IAT) or other structures that help dynamically link calling code to the shared modules that provide functions.(Citation: Huntress API Hash)(Citation: IRED API Hashing)\n\nTo avoid static or other defensive analysis, adversaries may use dynamic API resolution to conceal malware characteristics and functionalities. Similar to [Software Packing](https://attack.mitre.org/techniques/T1027/002), dynamic API resolution may change file signatures and obfuscate malicious API function calls until they are resolved and invoked during runtime.\n\nVarious methods may be used to obfuscate malware calls to API functions. For example, hashes of function names are commonly stored in malware in lieu of literal strings. Malware can use these hashes (or other identifiers) to manually reproduce the linking and loading process using functions such as `GetProcAddress()` and `LoadLibrary()`. These hashes/identifiers can also be further obfuscated using encryption or other string manipulation tricks (requiring various forms of [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140) during execution).(Citation: BlackHat API Packers)(Citation: Drakonia HInvoke)(Citation: Huntress API Hash)"
+                },
+                {
+                    "id": "T1027.002",
+                    "name": "Software Packing",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may perform software packing or virtual machine software protection to conceal their code. Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory. Virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. A virtual machine is then called to run this code.(Citation: ESET FinFisher Jan 2018) \n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.(Citation: Awesome Executable Packing)  "
+                },
+                {
+                    "id": "T1027.005",
+                    "name": "Indicator Removal from Tools",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may remove indicators from tools if they believe their malicious tool was detected, quarantined, or otherwise curtailed. They can modify the tool by removing the indicator and using the updated version that is no longer detected by the target's defensive systems or subsequent targets that may use similar systems.\n\nA good example of this is when malware is detected with a file signature and quarantined by anti-virus software. An adversary who can determine that the malware was quarantined because of its file signature may modify the file to explicitly avoid that signature, and then re-use the malware."
+                },
+                {
+                    "id": "T1027.004",
+                    "name": "Compile After Delivery",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may attempt to make payloads difficult to discover and analyze by delivering files to victims as uncompiled code. Text-based source code files may subvert analysis and scrutiny from protections targeting executables/binaries. These payloads will need to be compiled before execution; typically via native utilities such as csc.exe or GCC/MinGW.(Citation: ClearSky MuddyWater Nov 2018)\n\nSource code payloads may also be encrypted, encoded, and/or embedded within other files, such as those delivered as a [Phishing](https://attack.mitre.org/techniques/T1566). Payloads may also be delivered in formats unrecognizable and inherently benign to the native OS (ex: EXEs on macOS/Linux) before later being (re)compiled into a proper executable binary with a bundled compiler and execution framework.(Citation: TrendMicro WindowsAppMac)"
+                },
+                {
+                    "id": "T1027.010",
+                    "name": "Command Obfuscation",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may obfuscate content during command execution to impede detection. Command-line obfuscation is a method of making strings and patterns within commands and scripts more difficult to signature and analyze. This type of obfuscation can be included within commands executed by delivered payloads (e.g., [Phishing](https://attack.mitre.org/techniques/T1566) and [Drive-by Compromise](https://attack.mitre.org/techniques/T1189)) or interactively via [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059).(Citation: Akamai JS)(Citation: Malware Monday VBE)\n\nFor example, adversaries may abuse syntax that utilizes various symbols and escape characters (such as spacing,  `^`, `+`. `$`, and `%`) to make commands difficult to analyze while maintaining the same intended functionality.(Citation: RC PowerShell) Many languages support built-in obfuscation in the form of base64 or URL encoding.(Citation: Microsoft PowerShellB64) Adversaries may also manually implement command obfuscation via string splitting (`\u201cWor\u201d+\u201cd.Application\u201d`), order and casing of characters (`rev <<<'dwssap/cte/ tac'`), globing (`mkdir -p '/tmp/:&$NiA'`), as well as various tricks involving passing strings through tokens/environment variables/input streams.(Citation: Bashfuscator Command Obfuscators)(Citation: FireEye Obfuscation June 2017)\n\nAdversaries may also use tricks such as directory traversals to obfuscate references to the binary being invoked by a command (`C:\\voi\\pcw\\..\\..\\Windows\\tei\\qs\\k\\..\\..\\..\\system32\\erool\\..\\wbem\\wg\\je\\..\\..\\wmic.exe shadowcopy delete`).(Citation: Twitter Richard WMIC)\n\nTools such as <code>Invoke-Obfuscation</code> and <code>Invoke-DOSfucation</code> have also been used to obfuscate commands.(Citation: Invoke-DOSfuscation)(Citation: Invoke-Obfuscation)"
+                },
+                {
+                    "id": "T1027.001",
+                    "name": "Binary Padding",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may use binary padding to add junk data and change the on-disk representation of malware. This can be done without affecting the functionality or behavior of a binary, but can increase the size of the binary beyond what some security tools are capable of handling due to file size limitations. \n\nBinary padding effectively changes the checksum of the file and can also be used to avoid hash-based blocklists and static anti-virus signatures.(Citation: ESET OceanLotus) The padding used is commonly generated by a function to create junk data and then appended to the end or applied to sections of malware.(Citation: Securelist Malware Tricks April 2017) Increasing the file size may decrease the effectiveness of certain tools and detection capabilities that are not designed or configured to scan large files. This may also reduce the likelihood of being collected for analysis. Public file scanning services, such as VirusTotal, limits the maximum size of an uploaded file to be analyzed.(Citation: VirusTotal FAQ) "
+                },
+                {
+                    "id": "T1027.011",
+                    "name": "Fileless Storage",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may store data in \"fileless\" formats to conceal malicious activity from defenses. Fileless storage can be broadly defined as any format other than a file. Common examples of non-volatile fileless storage include the Windows Registry, event logs, or WMI repository.(Citation: Microsoft Fileless)(Citation: SecureList Fileless)\n\nSimilar to fileless in-memory behaviors such as [Reflective Code Loading](https://attack.mitre.org/techniques/T1620) and [Process Injection](https://attack.mitre.org/techniques/T1055), fileless data storage may remain undetected by anti-virus and other endpoint security tools that can only access specific file formats from disk storage.\n\nAdversaries may use fileless storage to conceal various types of stored data, including payloads/shellcode (potentially being used as part of [Persistence](https://attack.mitre.org/tactics/TA0003)) and collected data not yet exfiltrated from the victim (e.g., [Local Data Staging](https://attack.mitre.org/techniques/T1074/001)). Adversaries also often encrypt, encode, splice, or otherwise obfuscate this fileless data when stored.\n\nSome forms of fileless storage activity may indirectly create artifacts in the file system, but in central and otherwise difficult to inspect formats such as the WMI (e.g., `%SystemRoot%\\System32\\Wbem\\Repository`) or Registry (e.g., `%SystemRoot%\\System32\\Config`) physical files.(Citation: Microsoft Fileless) "
+                },
+                {
+                    "id": "T1027.009",
+                    "name": "Embedded Payloads",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may embed payloads within other files to conceal malicious content from defenses. Otherwise seemingly benign files (such as scripts and executables) may be abused to carry and obfuscate malicious payloads and content. In some cases, embedded payloads may also enable adversaries to [Subvert Trust Controls](https://attack.mitre.org/techniques/T1553) by not impacting execution controls such as digital signatures and notarization tickets.(Citation: Sentinel Labs) \n\nAdversaries may embed payloads in various file formats to hide payloads.(Citation: Microsoft Learn) This is similar to [Steganography](https://attack.mitre.org/techniques/T1027/003), though does not involve weaving malicious content into specific bytes and patterns related to legitimate digital media formats.(Citation: GitHub PSImage) \n\nFor example, adversaries have been observed embedding payloads within or as an overlay of an otherwise benign binary.(Citation: Securelist Dtrack2) Adversaries have also been observed nesting payloads (such as executables and run-only scripts) inside a file of the same format.(Citation: SentinelLabs reversing run-only applescripts 2021) \n\nEmbedded content may also be used as [Process Injection](https://attack.mitre.org/techniques/T1055) payloads used to infect benign system processes.(Citation: Trend Micro) These embedded then injected payloads may be used as part of the modules of malware designed to provide specific features such as encrypting C2 communications in support of an orchestrator module. For example, an embedded module may be injected into default browsers, allowing adversaries to then communicate via the network.(Citation: Malware Analysis Report ComRAT)"
+                },
+                {
+                    "id": "T1027.003",
+                    "name": "Steganography",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may use steganography techniques in order to prevent the detection of hidden information. Steganographic techniques can be used to hide data in digital media such as images, audio tracks, video clips, or text files.\n\n[Duqu](https://attack.mitre.org/software/S0038) was an early example of malware that used steganography. It encrypted the gathered information from a victim's system and hid it within an image before exfiltrating the image to a C2 server.(Citation: Wikipedia Duqu) \n\nBy the end of 2017, a threat group used\u202f<code>Invoke-PSImage</code>\u202fto hide [PowerShell](https://attack.mitre.org/techniques/T1059/001) commands in an image file (.png) and execute the code on a victim's system. In this particular case the [PowerShell](https://attack.mitre.org/techniques/T1059/001) code downloaded another obfuscated script to gather intelligence from the victim's machine and communicate it back to the adversary.(Citation: McAfee Malicious Doc Targets Pyeongchang Olympics)  "
+                },
+                {
+                    "id": "T1027.006",
+                    "name": "HTML Smuggling",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may smuggle data and files past content filters by hiding malicious payloads inside of seemingly benign HTML files. HTML documents can store large binary objects known as JavaScript Blobs (immutable data that represents raw bytes) that can later be constructed into file-like objects. Data may also be stored in Data URLs, which enable embedding media type or MIME files inline of HTML documents. HTML5 also introduced a download attribute that may be used to initiate file downloads.(Citation: HTML Smuggling Menlo Security 2020)(Citation: Outlflank HTML Smuggling 2018)\n\nAdversaries may deliver payloads to victims that bypass security controls through HTML Smuggling by abusing JavaScript Blobs and/or HTML5 download attributes. Security controls such as web content filters may not identify smuggled malicious files inside of HTML/JS files, as the content may be based on typically benign MIME types such as <code>text/plain</code> and/or <code>text/html</code>. Malicious files or data can be obfuscated and hidden inside of HTML files through Data URLs and/or JavaScript Blobs and can be deobfuscated when they reach the victim (i.e. [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140)), potentially bypassing content filters.\n\nFor example, JavaScript Blobs can be abused to dynamically generate malicious files in the victim machine and may be dropped to disk by abusing JavaScript functions such as <code>msSaveBlob</code>.(Citation: HTML Smuggling Menlo Security 2020)(Citation: MSTIC NOBELIUM May 2021)(Citation: Outlflank HTML Smuggling 2018)(Citation: nccgroup Smuggling HTA 2017)"
+                }
+            ],
+            "tactics": [
+                "Discovery",
+                "Command and Control",
+                "Defense Evasion",
+                "Impact",
+                "Impact",
+                "Discovery",
+                "Discovery",
+                "Execution",
+                "Execution",
+                "Impact",
+                "Impact",
+                "Defense Evasion"
+            ],
+            "platforms": [
+                "Windows"
+            ],
+            "deprecated": null,
+            "revoked": null
+        },
+        "KillChain": ""
+    }
 }

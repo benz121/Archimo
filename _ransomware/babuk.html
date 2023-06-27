@@ -6,53 +6,55 @@ Type: Ransomware
 color: yellow
 ---
 <div class="flex flex-col md:flex-row m-2 md:m-5">
-<!-- </div>h-[calc(100vh-60px)] "> -->
+  <!-- </div>h-[calc(100vh-60px)] "> -->
   {% include sidetabs.html %}
-  <div class="content mt-4 md:mt-0 ml-2 md:ml-6 mr-2 md:mr-12 border-0 border-red-400 w-[96%] md:w-9/12">
+  <div class="content mt-4 md:mt-0 ml-2 md:ml-6 mr-2 md:mr-12 border border-red-400 w-[96%] md:w-9/12">
     {% include sidetabs_with_data.html %}
     <div id="myTabContent">
       {% assign processtree = include.content %}
       {% for items in site.data.ransomware[filname].tabs %}
       {% assign foo = items[1] %}
-      <div class="p-4 rounded-lg dark:bg-gray-800" id="{{ items[0] }}" role="tabpanel" aria-labelledby="{{ items[0] }}-tab">
-          {% if items[0] == "Blogs" %}
-          <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
-              {{site.data.ransomware[filname].tabs.MITRE.Description}}
-          </p>
-              {% include listgroup_blog.html content=foo %}
-          {% elsif items[0] == "Sandbox" %}
-              {% include accordian_sandbox.html content=foo %}
-          {% elsif items[0] == "MITRE" %}
-              {% include listgroup_mitre.html content=foo %}
-          {% elsif items[0] == "KillChain" %}
-              {% include killchain_timeline.html content=foo %}
-          {% elsif items[0] == "Forensics" %}
-          <h2 class="font-semibold font-serif p-2 text-2xl">Attack Timeline During  Aug-Dec 2019</h2>
-<div class="h-56 sm:h-72 m-2 shadow-md rounded border-0 border-green-600">
-  <div class="mermaid panzoom-container">
-    flowchart LR
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-  </div>
-</div>
-<h2 class="font-semibold font-serif p-2 text-2xl">Attack Timeline During  Aug-Dec 2020</h2>
-<div class="h-56 sm:h-72 m-2 shadow-md rounded border-0 border-green-600">
-  <div class="mermaid panzoom-container">
-    flowchart LR
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-  </div>
-</div> 
-{%else%}
-<p>{{foo}}</p>
-  {% endif %}
-</div>
+      <div class="p-4 rounded-lg dark:bg-gray-800" id="{{ items[0] }}" role="tabpanel"
+        aria-labelledby="{{ items[0] }}-tab">
+        {% if items[0] == "Blogs" %}
+        <p class="text-sm mb-4 text-gray-500 dark:text-gray-400">
+          {{site.data.ransomware[filname].tabs.MITRE.Description}}
+        </p>
+        {% include listgroup_blog.html content=foo %}
+        {% elsif items[0] == "Sandbox" %}
+        {% include accordian_sandbox.html content=foo %}
+        {% elsif items[0] == "MITRE" %}
+        {% include listgroup_mitre.html content=foo %}
+        {% elsif items[0] == "KillChain" %}
+        <!-- {% include killchain_timeline.html %} -->
+        <h2 class="font-semibold font-serif p-2 text-2xl">Attack Timeline During Aug-Dec 2019</h2>
+        <div class="h-56 sm:h-72 m-2 shadow-sm rounded border border-gray-200">
+          <div class="mermaid panzoom-container">
+            flowchart LR
+            A[Christmas] -->|Get money| B(Go shopping)
+            B --> C{Let me think}
+            C -->|One| D[Laptop]
+            C -->|Two| E[iPhone]
+            C -->|Three| F[fa:fa-car Car]
+          </div>
+        </div>
+        <h2 class="font-semibold font-serif p-2 text-2xl">Attack Timeline During Aug-Dec 2020</h2>
+        <div class="h-56 sm:h-72 m-2 shadow-sm rounded border-2 border-gray-200">
+          <div class="mermaid panzoom-container">
+            flowchart LR
+            A[Christmas] -->|Get money| B(Go shopping)
+            B --> C{Let me think}
+            C -->|One| D[Laptop]
+            C -->|Two| E[iPhone]
+            C -->|Three| F[fa:fa-car Car]
+          </div>
+        </div>
+        {% elsif items[0] == "Forensics" %}
+          <p> FOrensics</p>
+        {%else%}
+          <p>{{foo}}</p>
+        {% endif %}
+      </div>
       {% endfor %}
+    </div>
   </div>
-</div>

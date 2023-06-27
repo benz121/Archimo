@@ -1,283 +1,342 @@
 {
-  "details": {
-    "Name": "Babuk",
-    "Type": "Ransomware as a Service (RaaS)",
-    "Origin Country": "",
-    "Alias": ["Babuk", "Babyk", "Vasa Locker"],
-    "Target Countries": "",
-    "status": "Active",
-    "Target Industies": "",
-    "OFAC BlackListed": "No",
-    "Extensions": [
-      ".kings",
-      ".__NIST_K571__",
-      ".Astra\u00a0",
-      ".democ",
-      ".encrypted",
-      ".Rook",
-      ".cyber",
-      ".crypt",
-      ".zazas",
-      ".blastoise",
-      ".babyk",
-      ".REDTM",
-      ".AstraLocker",
-      ".chernobyl\u00a0",
-      ".doydo",
-      ".ljubi"
-    ],
-    "website": "",
-    "Decryptors": [
-      {
-        "id": "Avast",
-        "linksby": "Tool made by  Avast ",
-        "guide": "https://www.nomoreransom.org/uploads/Avast_how-to-guide.pdf",
-        "download": "https://files.avast.com/files/decryptor/avast_decryptor_babuk.exe"
-      }
-    ],
-    "attribution": [
-      ["Trend Micro", "Babuk"],
-      ["Sogeti CERT ESEC", "Babuk"],
-      ["McAfee", "Babuk"]
-    ]
-  },
-  "threats": [
-    {
-      "id": 1,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
-      "description": "encryption"
+    "details": {
+        "Name": "Babuk",
+        "Type": "Ransomware as a Service (RaaS)",
+        "Origin Country": "",
+        "Alias": [
+            "Babuk",
+            "Babyk",
+            "Vasa Locker"
+        ],
+        "Target Countries": "",
+        "status": "Active",
+        "Target Industies": "",
+        "OFAC BlackListed": "No",
+        "Extensions": [
+            ".kings",
+            ".__NIST_K571__",
+            ".Astra\u00a0",
+            ".democ",
+            ".encrypted",
+            ".Rook",
+            ".cyber",
+            ".crypt",
+            ".zazas",
+            ".blastoise",
+            ".babyk",
+            ".REDTM",
+            ".AstraLocker",
+            ".chernobyl\u00a0",
+            ".doydo",
+            ".ljubi"
+        ],
+        "website": "",
+        "Decryptors": [
+            {
+                "id": "Avast",
+                "linksby": "Tool made by  Avast ",
+                "guide": "https://www.nomoreransom.org/uploads/Avast_how-to-guide.pdf",
+                "download": "https://files.avast.com/files/decryptor/avast_decryptor_babuk.exe"
+            }
+        ],
+        "attribution": [
+            [
+                "Trend Micro",
+                "Babuk"
+            ],
+            [
+                "Sogeti CERT ESEC",
+                "Babuk"
+            ],
+            [
+                "McAfee",
+                "Babuk"
+            ]
+        ]
     },
-    {
-      "id": 2,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
-      "description": "Double Extrotion"
-    },
-    {
-      "id": 3,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
-      "description": "highest demanded 1mil $"
-    }
-  ],
-  "avdDetail": {
-    "wallets": [
-      "35cbee78fecd7af05d85a5a905",
-      "1sHa17MgmoYmMoErrJstV6nC1DqYoKxT38r6TUh",
-      "1PbjpEYvCK7GCB4FmaZEewMjhT7N6rWnn2",
-      "bc1qpjftnrmahzc8cjs23snk2rq0vt6l0ehu4gqxus",
-      "3NRDqCmH3qfksLRLeQJ9mjbFCUXEyZkStiRDWtDo"
-    ],
-    "email": [
-      "babuckransom@tutanote.comURL:",
-      "recover300dollars@gmail.com\u0412\u0430\u0440\u0438\u0430\u043d\u0442",
-      "Trojan.Generic@ML.86",
-      "babukrip@protonmail.chYOUR",
-      "successroket@onionmail.org\u0424\u0430\u0439\u043b:",
-      "valorantskins108@gmail.com\u0424\u0430\u0439\u043b",
-      "reketboot@onionmail.org,",
-      "alexnoyz@gmx.de,",
-      "alexnoyz2@mein.gmx\u0412",
-      "ljubisupporte@protonmail.comTor-URL:",
-      "babukrip@protonmail.ch\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
-      "chernobylransomware@protonmail.comBTC:",
-      "decryptydata2@gmx.net\u0424\u0430\u0439\u043b:",
-      "decryptydata@gmx.de,",
-      "cyberwar4@rambler.ru==="
-    ]
-  },
-  "tabs": {
-    "Blogs": [
-      {
-        "tags":["Blog"],
-        "date": "Early 2021",
-        "title": "Technical Analysis of Babuk Ransomware",
-        "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-ransomware.pdf"
-      },
-      {
-        "tags":["Blog","RE"],
-        "date": "Feb 08 2021",
-        "title": "Babuk is distributed packed",
-        "url": "https://sebdraven.medium.com/babuk-is-distributed-packed-78e2f5dd2e62"
-      },
-      {
-        "tags":["Report"],
-        "date": "Early 2021",
-        "title": "cybersecchronicles_-_babuk",
-        "url": "https://www.sogeti.com/globalassets/reports/cybersecchronicles_-_babuk.pdf"
-      },
-      {
-        "tags":["Blog"],
-        "date": "Feb 05 2021",
-        "title": "New in Ransomware: Seth-Locker, Babuk",
-        "url": "https://www.trendmicro.com/en_us/research/21/b/new-in-ransomware.html"
-      }
-    ],
-    "Sandbox": [
-      {
-        "name": "virustotal",
-        "links": [
-          "https://www.virustotal.com/gui/file/049e53f72c8afa5ccb850429d55a00e2fbe799e68247fd13f5058146cf0f4cf8/detection",
-          "https://www.virustotal.com/gui/file/597f7c7dea4d318bdab40158490f504a9c62a3f5691984ee26c7ebb92cce39d8/detection",
-          "https://www.virustotal.com/gui/file/fc420e38021f9e90beedd397248c147106d2e01a6f8eabaf56f477a6afaaa496/detection",
-          "https://www.virustotal.com/gui/file/06d370217abec9468bc22c30ba3be72b8de1a7459f9e927656dcf2613a314bf6/detection",
-          "https://www.virustotal.com/gui/file/f87be226e26e873275bde549539f70210ffe5e3a129448ae807a319cbdcf7789",
-          "https://www.virustotal.com/gui/file/45ccb45a98a7d5b71b1f3e65676da1f1d1107158bd29de2ee4607902263a0497/detection",
-          "https://www.virustotal.com/gui/file/58ccba4fb2b3ed8b5f92adddd6ee331a6afdedfc755145e0432a7cb324c28053/detection",
-          "https://www.virustotal.com/gui/file/b8ce0174783c9c7ec30f96f8857c356e61365562463457d3ef0d1f62f4d302a8",
-          "https://www.virustotal.com/gui/file/ee74eb7977f2c0d99ebfb20db94e100493f86cb1221dc535b8f2ae3cdc4fd1ef/detection",
-          "https://www.virustotal.com/gui/file/36e4a3de5c4395d295bdf1d70a215d9669b626c58083ec2d8ab29513830faaa6/detection",
-          "https://www.virustotal.com/gui/file/c94a81fdf688d220827320e88cc0b89af8690142abe5c602131b6659297c7d24",
-          "https://www.virustotal.com/gui/file/8e831b6613a1817688e79bb72c367ed5c43cb112d83f10523a7f4d9271c18da0",
-          "https://www.virustotal.com/gui/file/38e05d599877bf18855ad4d178bcd76718cfad1505328d0444363d1f592b0838/detection",
-          "https://www.virustotal.com/gui/file/a35f6f7d78950a7f36e1660663aef5da56101ab0fc1c0f77b7f4642993943d03",
-          "https://www.virustotal.com/gui/file/82e560a078cd7bb4472d5af832a04c4bc8f1001bac97b1574efe9863d3f66550/detection",
-          "https://www.virustotal.com/gui/file/59e0e38b068f736e7f618c714a116ad13fb50a1932942cff9e474de317fb4592/detection",
-          "https://www.virustotal.com/gui/file/81f75c288ab8cf156f16af7bf090f86c31996fe417981a088e55b917396941b1/detection",
-          "https://www.virustotal.com/gui/file/8140004ff3cf4923c928708505754497e48d26d822a95d63bd2ed54e14f19766/detection",
-          "https://www.virustotal.com/gui/file/8203c2f00ecd3ae960cb3247a7d7bfb35e55c38939607c85dbdb5c92f0495fa9/detection",
-          "https://www.virustotal.com/gui/file/5ec6f908c37d11d3bb7782303cb0e08ff4fc82958384b1afc0441e1ff1a1e021/detection",
-          "https://www.virustotal.com/gui/file/377ee36bc4c83fc8a2ec34ecf901894ba77daeddd3a8ec5021eb6402f2490de2/detection"
-        ]
-      },
-      {
-        "name": "anyrun",
-        "links": [
-          "https://app.any.run/tasks/537b015d-8d36-4137-a05e-0a1e3bd7a3a2/",
-          "https://app.any.run/tasks/f3d93661-b463-4465-975c-c8b621d6c069/",
-          "https://app.any.run/tasks/f88663ea-9dbb-4e57-82b8-bbf358e1b279",
-          "https://app.any.run/tasks/07d3115c-7944-4613-8961-3e45f9046bdb/",
-          "https://app.any.run/tasks/c6c066c6-f9e7-4b0e-b8f6-258f9dedf75f/",
-          "https://app.any.run/tasks/6bc31631-e13c-4b9b-8218-4100525748dc/"
-        ]
-      },
-      {
-        "name": "hybrid",
-        "links": []
-      },
-      {
-        "name": "vmray",
-        "links": [
-          "https://www.vmray.com/analyses/06d370217abe/report/overview.html",
-          "https://www.vmray.com/analyses/8140004ff3cf/report/overview.html",
-          "https://www.vmray.com/analyses/ee74eb7977f2/report/overview.html"
-        ]
-      },
-      {
-        "name": "joe",
-        "links": [
-          "https://www.joesandbox.com/analysis/335556/0/html",
-          "https://www.joesandbox.com/analysis/347507/0/html"
-        ]
-      },
-      {
-        "name": "triage",
-        "links": [
-          "https://tria.ge/211216-19e8pachh4",
-          "https://tria.ge/220126-2aezbabbfq",
-          "https://tria.ge/210128-b3gdrfb24s"
-        ]
-      },
-      {
-        "name": "intezer",
-        "links": [
-          "https://analyze.intezer.com/files/597f7c7dea4d318bdab40158490f504a9c62a3f5691984ee26c7ebb92cce39d8",
-          "https://analyze.intezer.com/analyses/2aaa1dd8-772b-4b9a-8121-11e3f02e6d8e",
-          "https://analyze.intezer.com/analyses/d75c30fa-3339-4c35-a3e6-064e65dc5edc",
-          "https://analyze.intezer.com/analyses/13a7006f-3b72-441b-a3e6-1a190979b93b",
-          "https://analyze.intezer.com/analyses/ddc167a7-cd0e-4f7b-9f32-7552cb45b2f1",
-          "https://analyze.intezer.com/analyses/b6e8b7d4-8c9e-4dce-9dbf-0f87b345ca21"
-        ]
-      }
-    ],
-    "MITRE": {
-      "Name": "Babuk",
-      "ID": "S0638",
-      "Description": "[Babuk](https://attack.mitre.org/software/S0638) is a Ransomware-as-a-service (RaaS) malware that has been used since at least 2021. The operators of [Babuk](https://attack.mitre.org/software/S0638) employ a \"Big Game Hunting\" approach to targeting major enterprises and operate a leak site to post stolen data as part of their extortion scheme.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: CyberScoop Babuk February 2021)",
-      "link": "https://attack.mitre.org/software/S0638",
-      "os": "Linux, Windows",
-      "citations": [
-        "Trend Micro Ransomware February 2021",
-        "Sogeti CERT ESEC Babuk March 2021",
-        "McAfee Babuk February 2021",
-        "Medium Babuk February 2021"
-      ],
-      "GroupName": "",
-      "GroupId": "",
-      "techniques": [
+    "threats": [
         {
-          "id": "T1486",
-          "name": "Data Encrypted for Impact",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) can use ChaCha8 and ECDH to encrypt data.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Medium Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
+            "id": 1,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+            "description": "encryption"
         },
         {
-          "id": "T1140",
-          "name": "Deobfuscate/Decode Files or Information",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to unpack itself into memory using XOR.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: Medium Babuk February 2021)"
+            "id": 2,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+            "description": "Double Extrotion"
         },
         {
-          "id": "T1562.001",
-          "name": "Disable or Modify Tools",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) can stop anti-virus services on a compromised host.(Citation: Sogeti CERT ESEC Babuk March 2021)"
-        },
-        {
-          "id": "T1083",
-          "name": "File and Directory Discovery",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to enumerate files on a targeted system.(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
-        },
-        {
-          "id": "T1490",
-          "name": "Inhibit System Recovery",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to delete shadow volumes using <code>vssadmin.exe delete shadows /all /quiet</code>.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)"
-        },
-        {
-          "id": "T1106",
-          "name": "Native API",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) can use multiple Windows API calls for actions on compromised hosts including discovery and execution.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Medium Babuk February 2021)"
-        },
-        {
-          "id": "T1135",
-          "name": "Network Share Discovery",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to enumerate network shares.(Citation: Sogeti CERT ESEC Babuk March 2021)"
-        },
-        {
-          "id": "T1057",
-          "name": "Process Discovery",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to check running processes on a targeted system.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
-        },
-        {
-          "id": "T1489",
-          "name": "Service Stop",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) can stop specific services related to backups.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
-        },
-        {
-          "id": "T1027.002",
-          "name": "Software Packing",
-          "description": "Versions of [Babuk](https://attack.mitre.org/software/S0638) have been packed.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Medium Babuk February 2021)"
-        },
-        {
-          "id": "T1082",
-          "name": "System Information Discovery",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) can enumerate disk volumes, get disk information, and query service status.(Citation: McAfee Babuk February 2021)"
-        },
-        {
-          "id": "T1049",
-          "name": "System Network Connections Discovery",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) can use \u201cWNetOpenEnumW\u201d and \u201cWNetEnumResourceW\u201d to enumerate files in network resources for encryption.(Citation: McAfee Babuk February 2021)"
-        },
-        {
-          "id": "T1007",
-          "name": "System Service Discovery",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) can enumerate all services running on a compromised host.(Citation: McAfee Babuk February 2021)"
-        },
-        {
-          "id": "T1059.003",
-          "name": "Windows Command Shell",
-          "description": "[Babuk](https://attack.mitre.org/software/S0638) has the ability to use the command line to control execution on compromised hosts.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)"
+            "id": 3,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+            "description": "highest demanded 1mil $"
         }
-      ]
+    ],
+    "avdDetail": {
+        "wallets": [
+            "35cbee78fecd7af05d85a5a905",
+            "1sHa17MgmoYmMoErrJstV6nC1DqYoKxT38r6TUh",
+            "1PbjpEYvCK7GCB4FmaZEewMjhT7N6rWnn2",
+            "bc1qpjftnrmahzc8cjs23snk2rq0vt6l0ehu4gqxus",
+            "3NRDqCmH3qfksLRLeQJ9mjbFCUXEyZkStiRDWtDo"
+        ],
+        "email": [
+            "babuckransom@tutanote.comURL:",
+            "recover300dollars@gmail.com\u0412\u0430\u0440\u0438\u0430\u043d\u0442",
+            "Trojan.Generic@ML.86",
+            "babukrip@protonmail.chYOUR",
+            "successroket@onionmail.org\u0424\u0430\u0439\u043b:",
+            "valorantskins108@gmail.com\u0424\u0430\u0439\u043b",
+            "reketboot@onionmail.org,",
+            "alexnoyz@gmx.de,",
+            "alexnoyz2@mein.gmx\u0412",
+            "ljubisupporte@protonmail.comTor-URL:",
+            "babukrip@protonmail.ch\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439",
+            "chernobylransomware@protonmail.comBTC:",
+            "decryptydata2@gmx.net\u0424\u0430\u0439\u043b:",
+            "decryptydata@gmx.de,",
+            "cyberwar4@rambler.ru==="
+        ]
     },
-    "KillChain": "i thing we need to remove this or move content from 'Forensics' tab to this one",
-    "RE": " reuse everything from blog template all articles related to RE of TA",
-    "Timeline": "Create a Gant Chart for individual TA and their progress of TTP'S over time ",
-    "Forensics":""
-  }
+    "tabs": {
+        "Blogs": [
+            {
+                "date": "Early 2021",
+                "tags":["Blog"],
+                "title": "Technical Analysis of Babuk Ransomware",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-ransomware.pdf"
+            },
+            {
+                "date": "Feb 08 2021",
+                "tags":["Blog","RE"],
+                "title": "Babuk is distributed packed",
+                "url": "https://sebdraven.medium.com/babuk-is-distributed-packed-78e2f5dd2e62"
+            },
+            {
+                "date": "Early 2021",
+                "tags":["Blog"],
+                "title": "cybersecchronicles_-_babuk",
+                "url": "https://www.sogeti.com/globalassets/reports/cybersecchronicles_-_babuk.pdf"
+            },
+            {
+                "date": "Feb 05 2021",
+                "tags":["Blog"],
+                "title": "New in Ransomware: Seth-Locker, Babuk",
+                "url": "https://www.trendmicro.com/en_us/research/21/b/new-in-ransomware.html"
+            }
+        ],
+        "Sandbox": [
+            {
+                "name": "virustotal",
+                "links": [
+                    "https://www.virustotal.com/gui/file/049e53f72c8afa5ccb850429d55a00e2fbe799e68247fd13f5058146cf0f4cf8/detection",
+                    "https://www.virustotal.com/gui/file/597f7c7dea4d318bdab40158490f504a9c62a3f5691984ee26c7ebb92cce39d8/detection",
+                    "https://www.virustotal.com/gui/file/fc420e38021f9e90beedd397248c147106d2e01a6f8eabaf56f477a6afaaa496/detection",
+                    "https://www.virustotal.com/gui/file/06d370217abec9468bc22c30ba3be72b8de1a7459f9e927656dcf2613a314bf6/detection",
+                    "https://www.virustotal.com/gui/file/f87be226e26e873275bde549539f70210ffe5e3a129448ae807a319cbdcf7789",
+                    "https://www.virustotal.com/gui/file/45ccb45a98a7d5b71b1f3e65676da1f1d1107158bd29de2ee4607902263a0497/detection",
+                    "https://www.virustotal.com/gui/file/58ccba4fb2b3ed8b5f92adddd6ee331a6afdedfc755145e0432a7cb324c28053/detection",
+                    "https://www.virustotal.com/gui/file/b8ce0174783c9c7ec30f96f8857c356e61365562463457d3ef0d1f62f4d302a8",
+                    "https://www.virustotal.com/gui/file/ee74eb7977f2c0d99ebfb20db94e100493f86cb1221dc535b8f2ae3cdc4fd1ef/detection",
+                    "https://www.virustotal.com/gui/file/36e4a3de5c4395d295bdf1d70a215d9669b626c58083ec2d8ab29513830faaa6/detection",
+                    "https://www.virustotal.com/gui/file/c94a81fdf688d220827320e88cc0b89af8690142abe5c602131b6659297c7d24",
+                    "https://www.virustotal.com/gui/file/8e831b6613a1817688e79bb72c367ed5c43cb112d83f10523a7f4d9271c18da0",
+                    "https://www.virustotal.com/gui/file/38e05d599877bf18855ad4d178bcd76718cfad1505328d0444363d1f592b0838/detection",
+                    "https://www.virustotal.com/gui/file/a35f6f7d78950a7f36e1660663aef5da56101ab0fc1c0f77b7f4642993943d03",
+                    "https://www.virustotal.com/gui/file/82e560a078cd7bb4472d5af832a04c4bc8f1001bac97b1574efe9863d3f66550/detection",
+                    "https://www.virustotal.com/gui/file/59e0e38b068f736e7f618c714a116ad13fb50a1932942cff9e474de317fb4592/detection",
+                    "https://www.virustotal.com/gui/file/81f75c288ab8cf156f16af7bf090f86c31996fe417981a088e55b917396941b1/detection",
+                    "https://www.virustotal.com/gui/file/8140004ff3cf4923c928708505754497e48d26d822a95d63bd2ed54e14f19766/detection",
+                    "https://www.virustotal.com/gui/file/8203c2f00ecd3ae960cb3247a7d7bfb35e55c38939607c85dbdb5c92f0495fa9/detection",
+                    "https://www.virustotal.com/gui/file/5ec6f908c37d11d3bb7782303cb0e08ff4fc82958384b1afc0441e1ff1a1e021/detection",
+                    "https://www.virustotal.com/gui/file/377ee36bc4c83fc8a2ec34ecf901894ba77daeddd3a8ec5021eb6402f2490de2/detection"
+                ]
+            },
+            {
+                "name": "anyrun",
+                "links": [
+                    "https://app.any.run/tasks/537b015d-8d36-4137-a05e-0a1e3bd7a3a2/",
+                    "https://app.any.run/tasks/f3d93661-b463-4465-975c-c8b621d6c069/",
+                    "https://app.any.run/tasks/f88663ea-9dbb-4e57-82b8-bbf358e1b279",
+                    "https://app.any.run/tasks/07d3115c-7944-4613-8961-3e45f9046bdb/",
+                    "https://app.any.run/tasks/c6c066c6-f9e7-4b0e-b8f6-258f9dedf75f/",
+                    "https://app.any.run/tasks/6bc31631-e13c-4b9b-8218-4100525748dc/"
+                ]
+            },
+            {
+                "name": "hybrid",
+                "links": []
+            },
+            {
+                "name": "vmray",
+                "links": [
+                    "https://www.vmray.com/analyses/06d370217abe/report/overview.html",
+                    "https://www.vmray.com/analyses/8140004ff3cf/report/overview.html",
+                    "https://www.vmray.com/analyses/ee74eb7977f2/report/overview.html"
+                ]
+            },
+            {
+                "name": "joe",
+                "links": [
+                    "https://www.joesandbox.com/analysis/335556/0/html",
+                    "https://www.joesandbox.com/analysis/347507/0/html"
+                ]
+            },
+            {
+                "name": "triage",
+                "links": [
+                    "https://tria.ge/211216-19e8pachh4",
+                    "https://tria.ge/220126-2aezbabbfq",
+                    "https://tria.ge/210128-b3gdrfb24s"
+                ]
+            },
+            {
+                "name": "intezer",
+                "links": [
+                    "https://analyze.intezer.com/files/597f7c7dea4d318bdab40158490f504a9c62a3f5691984ee26c7ebb92cce39d8",
+                    "https://analyze.intezer.com/analyses/2aaa1dd8-772b-4b9a-8121-11e3f02e6d8e",
+                    "https://analyze.intezer.com/analyses/d75c30fa-3339-4c35-a3e6-064e65dc5edc",
+                    "https://analyze.intezer.com/analyses/13a7006f-3b72-441b-a3e6-1a190979b93b",
+                    "https://analyze.intezer.com/analyses/ddc167a7-cd0e-4f7b-9f32-7552cb45b2f1",
+                    "https://analyze.intezer.com/analyses/b6e8b7d4-8c9e-4dce-9dbf-0f87b345ca21"
+                ]
+            }
+        ],
+        "MITRE": {
+            "id": "S0638",
+            "mid": "malware--61c7a91a-0b83-461d-ad32-75d96eed4a09",
+            "created": "2021-08-11T17:36:46.197Z",
+            "modified": "2021-10-13T14:29:38.795Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "object_marking_ref": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "name": "Babuk",
+            "type": "malware",
+            "description": "[Babuk](https://attack.mitre.org/software/S0638) is a Ransomware-as-a-service (RaaS) malware that has been used since at least 2021. The operators of [Babuk](https://attack.mitre.org/software/S0638) employ a \"Big Game Hunting\" approach to targeting major enterprises and operate a leak site to post stolen data as part of their extortion scheme.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: CyberScoop Babuk February 2021)",
+            "url": "https://attack.mitre.org/software/S0638",
+            "references": [
+                {
+                    "source_name": "Babyk",
+                    "description": "(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)(Citation: Trend Micro Ransomware February 2021)"
+                },
+                {
+                    "source_name": "Vasa Locker",
+                    "description": "(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation: McAfee Babuk February 2021)"
+                },
+                {
+                    "source_name": "Sogeti CERT ESEC Babuk March 2021",
+                    "url": "https://www.sogeti.com/globalassets/reports/cybersecchronicles_-_babuk.pdf",
+                    "description": "Sogeti. (2021, March). Babuk Ransomware. Retrieved August 11, 2021."
+                },
+                {
+                    "source_name": "McAfee Babuk February 2021",
+                    "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-babuk-ransomware.pdf",
+                    "description": "Mundo, A. et al. (2021, February). Technical Analysis of Babuk Ransomware. Retrieved August 11, 2021."
+                },
+                {
+                    "source_name": "CyberScoop Babuk February 2021",
+                    "url": "https://www.cyberscoop.com/babuk-ransomware-serco-attack/",
+                    "description": "Lyngaas, S. (2021, February 4). Meet Babuk, a ransomware attacker blamed for the Serco breach. Retrieved August 11, 2021."
+                },
+                {
+                    "source_name": "Trend Micro Ransomware February 2021",
+                    "url": "https://www.trendmicro.com/en_us/research/21/b/new-in-ransomware.html",
+                    "description": "Centero, R. et al. (2021, February 5). New in Ransomware: Seth-Locker, Babuk Locker, Maoloa, TeslaCrypt, and CobraLocker. Retrieved August 11, 2021."
+                }
+            ],
+            "labels": [
+                "malware"
+            ],
+            "groups": [],
+            "techniques": [
+                {
+                    "id": "T1082",
+                    "name": "System Information Discovery",
+                    "tactic": "Discovery",
+                    "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from [System Information Discovery](https://attack.mitre.org/techniques/T1082) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nTools such as [Systeminfo](https://attack.mitre.org/software/S0096) can be used to gather detailed system information. If running with privileged access, a breakdown of system data can be gathered through the <code>systemsetup</code> configuration tool on macOS. As an example, adversaries with user-level access can execute the <code>df -aH</code> command to obtain currently mounted disks and associated freely available space. Adversaries may also leverage a [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) on network devices to gather detailed system information (e.g. <code>show version</code>).(Citation: US-CERT-TA18-106A) [System Information Discovery](https://attack.mitre.org/techniques/T1082) combined with information gathered from other forms of discovery and reconnaissance can drive payload development and concealment.(Citation: OSX.FairyTale)(Citation: 20 macOS Common Tools and Techniques)\n\nInfrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure allow access to instance and virtual machine information via APIs. Successful authenticated API calls can return data such as the operating system platform and status of a particular instance or the model view of a virtual machine.(Citation: Amazon Describe Instance)(Citation: Google Instances Resource)(Citation: Microsoft Virutal Machine API)"
+                },
+                {
+                    "id": "T1486",
+                    "name": "Data Encrypted for Impact",
+                    "tactic": "Impact",
+                    "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.(Citation: US-CERT Ransomware 2016)(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)(Citation: US-CERT SamSam 2018)\n\nIn the case of ransomware, it is typical that common user files like Office documents, PDFs, images, videos, audio, text, and source code files will be encrypted (and often renamed and/or tagged with specific file markers). Adversaries may need to first employ other behaviors, such as [File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222) or [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529), in order to unlock and/or gain access to manipulate these files.(Citation: CarbonBlack Conti July 2020) In some cases, adversaries may encrypt critical system files, disk partitions, and the MBR.(Citation: US-CERT NotPetya 2017) \n\nTo maximize impact on the target organization, malware designed for encrypting data may have worm-like features to propagate across a network by leveraging other attack techniques like [Valid Accounts](https://attack.mitre.org/techniques/T1078), [OS Credential Dumping](https://attack.mitre.org/techniques/T1003), and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002).(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017) Encryption malware may also leverage [Internal Defacement](https://attack.mitre.org/techniques/T1491/001), such as changing victim wallpapers, or otherwise intimidate victims by sending ransom notes or other messages to connected printers (known as \"print bombing\").(Citation: NHS Digital Egregor Nov 2020)\n\nIn cloud environments, storage objects within compromised accounts may also be encrypted.(Citation: Rhino S3 Ransomware Part 1)"
+                },
+                {
+                    "id": "T1489",
+                    "name": "Service Stop",
+                    "tactic": "Impact",
+                    "description": "Adversaries may stop or disable services on a system to render those services unavailable to legitimate users. Stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.(Citation: Talos Olympic Destroyer 2018)(Citation: Novetta Blockbuster) \n\nAdversaries may accomplish this by disabling individual services of high importance to an organization, such as <code>MSExchangeIS</code>, which will make Exchange content inaccessible (Citation: Novetta Blockbuster). In some cases, adversaries may stop or disable many or all services to render systems unusable.(Citation: Talos Olympic Destroyer 2018) Services or processes may not allow for modification of their data stores while running. Adversaries may stop services or processes in order to conduct [Data Destruction](https://attack.mitre.org/techniques/T1485) or [Data Encrypted for Impact](https://attack.mitre.org/techniques/T1486) on the data stores of services like Exchange and SQL Server.(Citation: SecureWorks WannaCry Analysis)"
+                },
+                {
+                    "id": "T1007",
+                    "name": "System Service Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may try to gather information about registered local system services. Adversaries may obtain information about services using tools as well as OS utility commands such as <code>sc query</code>, <code>tasklist /svc</code>, <code>systemctl --type=service</code>, and <code>net start</code>.\n\nAdversaries may use the information from [System Service Discovery](https://attack.mitre.org/techniques/T1007) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions."
+                },
+                {
+                    "id": "T1490",
+                    "name": "Inhibit System Recovery",
+                    "tactic": "Impact",
+                    "description": "Adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery.(Citation: Talos Olympic Destroyer 2018)(Citation: FireEye WannaCry 2017) This may deny access to available backups and recovery options.\n\nOperating systems may contain features that can help fix corrupted systems, such as a backup catalog, volume shadow copies, and automatic repair features. Adversaries may disable or delete system recovery features to augment the effects of [Data Destruction](https://attack.mitre.org/techniques/T1485) and [Data Encrypted for Impact](https://attack.mitre.org/techniques/T1486).(Citation: Talos Olympic Destroyer 2018)(Citation: FireEye WannaCry 2017) Furthermore, adversaries may disable recovery notifications, then corrupt backups.(Citation: disable_notif_synology_ransom)\n\nA number of native Windows utilities have been used by adversaries to disable or delete system recovery features:\n\n* <code>vssadmin.exe</code> can be used to delete all volume shadow copies on a system - <code>vssadmin.exe delete shadows /all /quiet</code>\n* [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) can be used to delete volume shadow copies - <code>wmic shadowcopy delete</code>\n* <code>wbadmin.exe</code> can be used to delete the Windows Backup Catalog - <code>wbadmin.exe delete catalog -quiet</code>\n* <code>bcdedit.exe</code> can be used to disable automatic Windows recovery features by modifying boot configuration data - <code>bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no</code>\n* <code>REAgentC.exe</code> can be used to disable Windows Recovery Environment (WinRE) repair/recovery options of an infected system\n\nOn network devices, adversaries may leverage [Disk Wipe](https://attack.mitre.org/techniques/T1561) to delete backup firmware images and reformat the file system, then [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529) to reload the device. Together this activity may leave network devices completely inoperable and inhibit recovery operations.\n\nAdversaries may also delete \u201conline\u201d backups that are connected to their network \u2013 whether via network storage media or through folders that sync to cloud services.(Citation: ZDNet Ransomware Backups 2020) In cloud environments, adversaries may disable versioning and backup policies and delete snapshots, machine images, and prior versions of objects designed to be used in disaster recovery scenarios.(Citation: Dark Reading Code Spaces Cyber Attack)(Citation: Rhino Security Labs AWS S3 Ransomware)"
+                },
+                {
+                    "id": "T1083",
+                    "name": "File and Directory Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from [File and Directory Discovery](https://attack.mitre.org/techniques/T1083) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nMany command shell utilities can be used to obtain this information. Examples include <code>dir</code>, <code>tree</code>, <code>ls</code>, <code>find</code>, and <code>locate</code>.(Citation: Windows Commands JPCERT) Custom tools may also be used to gather file and directory information and interact with the [Native API](https://attack.mitre.org/techniques/T1106). Adversaries may also leverage a [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) on network devices to gather file and directory information (e.g. <code>dir</code>, <code>show flash</code>, and/or <code>nvram</code>).(Citation: US-CERT-TA18-106A)"
+                },
+                {
+                    "id": "T1140",
+                    "name": "Deobfuscate/Decode Files or Information",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may use [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027) to hide artifacts of an intrusion from analysis. They may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. Methods for doing that include built-in functionality of malware or by using utilities present on the system.\n\nOne such example is the use of [certutil](https://attack.mitre.org/software/S0160) to decode a remote access tool portable executable file that has been hidden inside a certificate file.(Citation: Malwarebytes Targeted Attack against Saudi Arabia) Another example is using the Windows <code>copy /b</code> command to reassemble binary fragments into a malicious payload.(Citation: Carbon Black Obfuscation Sept 2016)\n\nSometimes a user's action may be required to open it for deobfuscation or decryption as part of [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016)"
+                },
+                {
+                    "id": "T1106",
+                    "name": "Native API",
+                    "tactic": "Execution",
+                    "description": "Adversaries may interact with the native OS application programming interface (API) to execute behaviors. Native APIs provide a controlled means of calling low-level OS services within the kernel, such as those involving hardware/devices, memory, and processes.(Citation: NT API Windows)(Citation: Linux Kernel API) These native APIs are leveraged by the OS during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.\n\nNative API functions (such as <code>NtCreateProcess</code>) may be directed invoked via system calls / syscalls, but these features are also often exposed to user-mode applications via interfaces and libraries.(Citation: OutFlank System Calls)(Citation: CyberBit System Calls)(Citation: MDSec System Calls) For example, functions such as the Windows API <code>CreateProcess()</code> or GNU <code>fork()</code> will allow programs and scripts to start other processes.(Citation: Microsoft CreateProcess)(Citation: GNU Fork) This may allow API callers to execute a binary, run a CLI command, load modules, etc. as thousands of similar API functions exist for various system operations.(Citation: Microsoft Win32)(Citation: LIBC)(Citation: GLIBC)\n\nHigher level software frameworks, such as Microsoft .NET and macOS Cocoa, are also available to interact with native APIs. These frameworks typically provide language wrappers/abstractions to API functionalities and are designed for ease-of-use/portability of code.(Citation: Microsoft NET)(Citation: Apple Core Services)(Citation: MACOS Cocoa)(Citation: macOS Foundation)\n\nAdversaries may abuse these OS API functions as a means of executing behaviors. Similar to [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059), the native API and its hierarchy of interfaces provide mechanisms to interact with and utilize various components of a victimized system. While invoking API functions, adversaries may also attempt to bypass defensive tools (ex: unhooking monitored functions via [Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001))."
+                },
+                {
+                    "id": "T1135",
+                    "name": "Network Share Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may look for folders and drives shared on remote systems as a means of identifying sources of information to gather as a precursor for Collection and to identify potential systems of interest for Lateral Movement. Networks often contain shared network drives and folders that enable users to access file directories on various systems across a network. \n\nFile sharing over a Windows network occurs over the SMB protocol. (Citation: Wikipedia Shared Resource) (Citation: TechNet Shared Folder) [Net](https://attack.mitre.org/software/S0039) can be used to query a remote system for available shared drives using the <code>net view \\\\\\\\remotesystem</code> command. It can also be used to query shared drives on the local system using <code>net share</code>. For macOS, the <code>sharing -l</code> command lists all shared points used for smb services."
+                },
+                {
+                    "id": "T1057",
+                    "name": "Process Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software/applications running on systems within the network. Adversaries may use the information from [Process Discovery](https://attack.mitre.org/techniques/T1057) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nIn Windows environments, adversaries could obtain details on running processes using the [Tasklist](https://attack.mitre.org/software/S0057) utility via [cmd](https://attack.mitre.org/software/S0106) or <code>Get-Process</code> via [PowerShell](https://attack.mitre.org/techniques/T1059/001). Information about processes can also be extracted from the output of [Native API](https://attack.mitre.org/techniques/T1106) calls such as <code>CreateToolhelp32Snapshot</code>. In Mac and Linux, this is accomplished with the <code>ps</code> command. Adversaries may also opt to enumerate processes via /proc.\n\nOn network devices, [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) commands such as `show processes` can be used to display current running processes.(Citation: US-CERT-TA18-106A)(Citation: show_processes_cisco_cmd)"
+                },
+                {
+                    "id": "T1049",
+                    "name": "System Network Connections Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network. \n\nAn adversary who gains access to a system that is part of a cloud-based environment may map out Virtual Private Clouds or Virtual Networks in order to determine what systems and services are connected. The actions performed are likely the same types of discovery techniques depending on the operating system, but the resulting information may include details about the networked cloud environment relevant to the adversary's goals. Cloud providers may have different ways in which their virtual networks operate.(Citation: Amazon AWS VPC Guide)(Citation: Microsoft Azure Virtual Network Overview)(Citation: Google VPC Overview) Similarly, adversaries who gain access to network devices may also perform similar discovery activities to gather information about connected systems and services.\n\nUtilities and commands that acquire this information include [netstat](https://attack.mitre.org/software/S0104), \"net use,\" and \"net session\" with [Net](https://attack.mitre.org/software/S0039). In Mac and Linux, [netstat](https://attack.mitre.org/software/S0104) and <code>lsof</code> can be used to list current connections. <code>who -a</code> and <code>w</code> can be used to show which users are currently logged in, similar to \"net session\". Additionally, built-in features native to network devices and [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) may be used (e.g. <code>show ip sockets</code>, <code>show tcp brief</code>).(Citation: US-CERT-TA18-106A)"
+                }
+            ],
+            "tactics": [
+                "Discovery",
+                "Impact",
+                "Impact",
+                "Discovery",
+                "Impact",
+                "Discovery",
+                "Defense Evasion",
+                "Execution",
+                "Discovery",
+                "Discovery",
+                "Discovery"
+            ],
+            "platforms": [
+                "Windows",
+                "Linux"
+            ],
+            "deprecated": null,
+            "revoked": null
+        },
+        "KillChain": "",
+        "Forensics": ""
+    }
 }

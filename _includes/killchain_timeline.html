@@ -1,20 +1,82 @@
-<ol class="relative border-l border-gray-200 dark:border-gray-700">                  
-    {% for items in include.content %}
+<h2 class="text-3xl uppercase pb-4 font-light">
+    Mitre Mapping
+</h2>
+<div class="w-11/12 overflow-hidden shadow-md">
+    <table class="text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr class="dark:bg-gray-800 dark:border-gray-700">
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Reconnaissance</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Resource Development</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Initial Access</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Execution</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Persistence</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Privilege Escalation</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Defense Evasion</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Credential Access</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Discovery</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Lateral Movement</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Collection</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Command and Control</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Exfiltration</th>
+                <th class="px-2 font-semibold text-gray-900 dark:text-white">Impact</th>
+            </tr>
+        </thead>
+        <tbody>
+        {%for group in site.data['group'] %}
+            {%if group.name=="TrickBot" %}
+            {%assign ReconnaissanceItems =group.techniques | where: 'tactic','Reconnaissance' %}
+            {%assign ResourceDevelopmentItems =group.techniques | where: 'tactic','Resource Development' %}
+            {%assign InitialAccessItems =group.techniques | where: 'tactic','Initial Access' %}
+            {%assign ExecutionItems =group.techniques | where: 'tactic','Execution' %}
+            {%assign PersistenceItems =group.techniques | where: 'tactic','Persistence' %}
+            {%assign PrivilegeEscalationItems =group.techniques | where: 'tactic','Privilege Escalation' %}
+            {%assign DefenseEvasionItems =group.techniques | where: 'tactic','Defense Evasion' %}
+            {%assign CredentialAccessItems =group.techniques | where: 'tactic','Credential Access' %}
+            {%assign DiscoveryItems =group.techniques | where: 'tactic','Discovery' %}
+            {%assign LateralMovementItems =group.techniques | where: 'tactic','Lateral Movement' %}
+            {%assign CollectionItems =group.techniques | where: 'tactic','Collection' %}
+            {%assign CommandandControlItems =group.techniques | where: 'tactic','Command and Control' %}
+            {%assign ExfiltrationItems =group.techniques | where: 'tactic','Exfiltration' %}
+            {%assign ImpactItems =group.techniques | where: 'tactic','Impact' %}
 
-<li class="mb-10 ml-8">            
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-            {{items[1].icon}}             
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            {{items[1].name}}
-             <!-- <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span> -->
-        </h3>
-        <!-- <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 13th, 2022</time> -->
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            {{items[1].description}}
-        </p>
-    </li>    
-    {% endfor %}
-</ol>
+            {% assign findlarge = "" | split:"," %}
+            {% assign findlarge = findlarge | ReconnaissanceItems.size | push: ResourceDevelopmentItems.size | push: InitialAccessItems.size | push: ExecutionItems.size | push: PersistenceItems.size | push: PrivilegeEscalationItems.size | push: DefenseEvasionItems.size | push: CredentialAccessItems.size | push: DiscoveryItems.size | push: LateralMovementItems.size | push: CollectionItems.size | push: CommandandControlItems.size | push: ExfiltrationItems.size | push: ImpactItems.size %}
+            {% assign maxRows = findlarge | sort | last %}
+            {% for i in (0..maxRows) %}
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    ReconnaissanceItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    ResourceDevelopmentItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    InitialAccessItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{ ExecutionItems[i].name }}
+                </td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{ PersistenceItems[i].name
+                    }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    PrivilegeEscalationItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    DefenseEvasionItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    CredentialAccessItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{ DiscoveryItems[i].name }}
+                </td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    LateralMovementItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{ CollectionItems[i].name
+                    }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{
+                    CommandandControlItems[i].name }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{ ExfiltrationItems[i].name
+                    }}</td>
+                <td class="py-2 bg-white text-xs font-semibold text-gray-600">{{ ImpactItems[i].name }}
+                </td>
+            </tr>
+            {% endfor %}
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
 
-
+</div>

@@ -1,521 +1,722 @@
 {
-  "details": {
-    "Name": "Revil",
-    "Origin Country": "Russia",
-    "Type": "Ransomware as a Service (RaaS)",
-    "Alias": ["Sodin", "Sodinokibi"],
-    "Target Countries": ["US","MiddleEast"],
-    "status": "Active",
-    "Target Industies": ["HealthCare","Oil&Gas","Educational Institutions"],
-    "OFAC BlackListed": "Yes",
-    "Extensions": [
-      ".e5W7fivNP",
-      ".bydes",
-      ".BcDdBdBcbc",
-      ".CaEdDadCcE",
-      ".bbCceaBDEc",
-      ".avdn",
-      ".bBCbeaeaae",
-      ".BCAEAEAEED",
-      ".JGHh4eBP8Fd1I",
-      ".bdCDdCBaAd"
-    ],
-    "website":["yes","http://moishddxqnpdxpababec6exozpl2yr7idfhdldiz5525ao25bmasxhid.onion"],
-    "Decryptors": [
-      {
-        "id": "Bitdefender",
-        "linksby": "Tool made by  Bitdefender ",
-        "guide": "https://www.nomoreransom.org/uploads/REvil_documentation.pdf",
-        "download": "http://download.bitdefender.com/am/malware_removal/BDREvilDecryptor.exe"
-      },
-      {
-        "id": "Bitdefender1",
-        "linksby": "Tool made by  Bitdefender1 ",
-        "guide": "https://www.nomoreransom.org/uploads/REvil_documentation.pdf",
-        "download": "http://download.com/am/malware_removal/BDREvilDecryptor.exe"
-      }
-    ],
-    "attribution": [
-        ["CrowdStrike","CarbonSpider"],["FBI","FIN7"],["Talos","Sodinokibi"],["Kaspersky","Sodin"],["Kaspersksy","Sodind"]
-    ]
-  },
-  "threats": [
-    {
-      "id":1,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
-      "description": "encryption"
+    "details": {
+        "Name": "Revil",
+        "Origin Country": "Russia",
+        "Type": "Ransomware as a Service (RaaS)",
+        "Alias": [
+            "Sodin",
+            "Sodinokibi"
+        ],
+        "Target Countries": [
+            "US",
+            "MiddleEast"
+        ],
+        "status": "Active",
+        "Target Industies": [
+            "HealthCare",
+            "Oil&Gas",
+            "Educational Institutions"
+        ],
+        "OFAC BlackListed": "Yes",
+        "Extensions": [
+            ".e5W7fivNP",
+            ".bydes",
+            ".BcDdBdBcbc",
+            ".CaEdDadCcE",
+            ".bbCceaBDEc",
+            ".avdn",
+            ".bBCbeaeaae",
+            ".BCAEAEAEED",
+            ".JGHh4eBP8Fd1I",
+            ".bdCDdCBaAd"
+        ],
+        "website": [
+            "yes",
+            "http://moishddxqnpdxpababec6exozpl2yr7idfhdldiz5525ao25bmasxhid.onion"
+        ],
+        "Decryptors": [
+            {
+                "id": "Bitdefender",
+                "linksby": "Tool made by  Bitdefender ",
+                "guide": "https://www.nomoreransom.org/uploads/REvil_documentation.pdf",
+                "download": "http://download.bitdefender.com/am/malware_removal/BDREvilDecryptor.exe"
+            },
+            {
+                "id": "Bitdefender1",
+                "linksby": "Tool made by  Bitdefender1 ",
+                "guide": "https://www.nomoreransom.org/uploads/REvil_documentation.pdf",
+                "download": "http://download.com/am/malware_removal/BDREvilDecryptor.exe"
+            }
+        ],
+        "attribution": [
+            [
+                "CrowdStrike",
+                "CarbonSpider"
+            ],
+            [
+                "FBI",
+                "FIN7"
+            ],
+            [
+                "Talos",
+                "Sodinokibi"
+            ],
+            [
+                "Kaspersky",
+                "Sodin"
+            ],
+            [
+                "Kaspersksy",
+                "Sodind"
+            ]
+        ]
     },
-    {
-      "id":2,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
-      "description": "Double Extrotion"
-    },
-    {
-      "id":3,
-      "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
-      "description": "highest demanded 1mil $"
-    }
-],
-  "avdDetail": {
-    "wallets": [
-      "329b5d5965774f5bdf724b7e7bfd33",
-      "3d5b02e4ce98a8a514d2755488",
-      "3Ny14YzMxYTA4TUhqNSt4SEkzZmthR",
-      "3Pg4atmvjJTE8nqFqzQ5Pug1SCtyKSuviy",
-      "1LS82ZUZHV1dGZGFMMCswZy9SMW1kZFRYQWlUaXZ",
-      "335BkP3nZMTNhMNe85rTM7FQjvV8Xuy1FV",
-      "1f7d9ccdacbbf96b2f828eae253ce6a",
-      "3e30b669a37a2daddd9f2acb2ac0",
-      "3B34E6896F2395E56DB1D10EB41FEDBA",
-      "10fd9f0e6abb0aeded5ee942567c9e",
-      "3475ef7fff5cef303891cd4108437f0",
-      "35nC4aE67j1PisdhYxKfYtNfDWu1kqz6V2",
-      "1c64bd94357269a3e113a314b4808"
-    ],
-    "email": []
-  },
-  "tabs": {
-    "Blogs": [
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.bleepingcomputer.com/news/security/revil-ransomware-has-a-new-windows-safe-mode-encryption-mode/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-sodinokibi-ransomware.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.gdatasoftware.com/blog/2019/06/31724-strange-bits-sodinokibi-spam-cinarat-and-fake-g-data"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.group-ib.com/whitepapers/ransomware-uncovered.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://securityintelligence.com/posts/ransomware-2020-attack-trends-new-techniques-affecting-organizations-worldwide/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://securelist.com/sodin-ransomware/91473/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-crescendo/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-what-the-code-tells-us/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.picussecurity.com/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-sodinokibi-ransomware.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.group-ib.com/whitepapers/ransomware-uncovered.html"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.gdatasoftware.com/blog/2019/06/31724-strange-bits-sodinokibi-spam-cinarat-and-fake-g-data"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://securelist.com/sodin-ransomware/91473/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-what-the-code-tells-us/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.picussecurity.com/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-crescendo/"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
-      },
-      {
-        "date": "",
-        "title": "",
-        "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
-      }
-    ],
-    "Sandbox": [
-      {
-        "name": "virustotal",
-        "links": [
-          "https://www.virustotal.com/gui/file/fed9e1bfcbd37a9f6df28c65adbb07ecc9745ed96a03ddaf3716d4324730b3df/detection",
-          "https://www.virustotal.com/gui/file/01aa2cf8db4badde36f1896d341e31c0fe91a51772f1aa50b9f59ba368973993/detection",
-          "https://www.virustotal.com/gui/file/771376ceaedc086a5005336e56423572b1d827e6fa53a6487dd274a577d26c43/detection",
-          "https://www.virustotal.com/",
-          "https://www.virustotal.com/gui/file/12bc439445f10a04b574d49ed8ccc405e2dfaa493747585439643e8a2129e5e5/detection",
-          "https://www.virustotal.com/gui/file/fa4626e2c5984d7868a685c5102530bd8260d0b31ef06d2ce2da7636da48d2d6/detection",
-          "https://www.virustotal.com/gui/file/de1793d8db7f58f0ef53bee7fb0942ef4c6c348e4a547b6cfeb74ffa8de56cdf/detection",
-          "https://www.virustotal.com/gui/file/05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2/detection",
-          "https://www.virustotal.com/gui/file/cc4d665c468bcb850baf9baab764bb58e8b0ddcb8a8274b6335db5af86af72fb/detection",
-          "https://www.virustotal.com/gui/file/982d910b04625e284fc6ff5217f6708433af0939d6ac2301cd88ceea3e362b87/detection",
-          "https://www.virustotal.com/gui/file/1c2513c56929fe7826d7aa78ea57ddb1c713e5443aebae2f147d10d14f585400/detection",
-          "https://www.virustotal.com/gui/file/f9d9f8ee449c2f4953ae5b21ab1978f8881d559734f57dfb2fe7722e55c895ec/detection",
-          "https://www.virustotal.com/gui/file/fcf076de61f050573def84a471da943d940a8c9fd8120021eca893fea9bcaed3/detection",
-          "https://www.virustotal.com/gui/file/cd674d6aab60773d6af8554cbc28e902221aeec9b9734c98bb5a1a836c2f166c/detection",
-          "https://www.virustotal.com/gui/file/87c3639e83b5ea1d26b75215a974c5126185017bf9392601ceb41fc5aa58284f/detection",
-          "https://www.virustotal.com/gui/file/3b6d04d6b629c1bdab4f15b0aa0d1e7792078b21cf876ec4c630243de1b47ac3/detection"
-        ]
-      },
-      {
-        "name": "anyrun",
-        "links": [
-          "https://app.any.run/tasks/673109dc-d36a-4937-947b-76b03a6d25f1/",
-          "https://app.any.run/tasks/c550e70e-17a1-473f-a69b-85866ff52cc8/",
-          "https://app.any.run/tasks/eebf2636-7a9c-446c-9732-49c2ebfa91d6/",
-          "https://app.any.run/tasks/5a6c0582-2fea-456f-b214-865cca02bbc7/",
-          "https://app.any.run/tasks/472b5424-60e6-4553-bf69-c0a441dcc3d7/",
-          "https://app.any.run/tasks/cca08b38-00a9-4b4b-a37f-b5dadc91d985/",
-          "https://app.any.run/tasks/a18d7792-cb45-420a-a504-385d760bfd20/"
-        ]
-      },
-      {
-        "name": "hybrid",
-        "links": [
-          "https://www.hybrid-analysis.com/sample/3b6d04d6b629c1bdab4f15b0aa0d1e7792078b21cf876ec4c630243de1b47ac3?environmentId=120",
-          "https://www.hybrid-analysis.com/sample/12bc439445f10a04b574d49ed8ccc405e2dfaa493747585439643e8a2129e5e5?environmentId=120",
-          "https://www.hybrid-analysis.com/sample/fa4626e2c5984d7868a685c5102530bd8260d0b31ef06d2ce2da7636da48d2d6?environmentId=120",
-          "https://www.hybrid-analysis.com/sample/fed9e1bfcbd37a9f6df28c65adbb07ecc9745ed96a03ddaf3716d4324730b3df/5edd43b099d5000fe24708aa"
-        ]
-      },
-      {
-        "name": "vmray",
-        "links": [
-          "https://www.vmray.com/analyses/f9d9f8ee449c/report/overview.html",
-          "https://www.vmray.com/analyses/05af0cf40590/report/overview.html",
-          "https://www.vmray.com/analyses/3b6d04d6b629/report/overview.html",
-          "https://www.vmray.com/analyses/fcf076de61f0/report/overview.html",
-          "https://www.vmray.com/analyses/01aa2cf8db4b/report/overview.html",
-          "https://www.vmray.com/analyses/87c3639e83b5/report/overview.html",
-          "https://www.vmray.com/analyses/1c2513c56929/report/overview.html"
-        ]
-      },
-      {
-        "name": "joe",
-        "links": ["https://www.joesandbox.com/analysis/235948/0/html"]
-      },
-      {
-        "name": "triage",
-        "links": [
-          "https://tria.ge/reports/200621-wraj43zgpa/behavioral1",
-          "https://tria.ge/reports/200607-gdq88mtksj/static1",
-          "https://tria.ge/reports/200613-xm7v6eqp82/static1"
-        ]
-      },
-      {
-        "name": "intezer",
-        "links": [
-          "https://analyze.intezer.com/#/analyses/39c60c4c-f9e5-4fdb-a33e-50fd5ab2f25a",
-          "https://analyze.intezer.com/#/analyses/1d184d82-d1c9-4471-ac6d-943b408530ba",
-          "https://analyze.intezer.com/#/analyses/70332d68-73d6-4fb1-8975-d58bb06b90ee",
-          "https://analyze.intezer.com/#/analyses/3e32f050-42b3-4958-a47c-fc690c2b7448",
-          "https://analyze.intezer.com/#/analyses/146979da-f11f-4a82-b016-3ed4ee3e0aa5",
-          "https://analyze.intezer.com/#/analyses/729513f3-a121-4778-873e-5c7caa093e15",
-          "https://analyze.intezer.com/#/analyses/52715b66-669a-4421-ad2f-7cc05397508a/sub/8e3840b2-ad24-431f-a1d3-f641255ee86c",
-          "https://analyze.intezer.com/#/files/982d910b04625e284fc6ff5217f6708433af0939d6ac2301cd88ceea3e362b87",
-          "https://analyze.intezer.com/#/analyses/daaee4c8-ff8a-441e-8f40-a121299f69ae",
-          "https://analyze.intezer.com/#/analyses/7495340d-e2b2-4c00-a00d-03e67409f35c",
-          "https://analyze.intezer.com/files/cd674d6aab60773d6af8554cbc28e902221aeec9b9734c98bb5a1a836c2f166c?vt"
-        ]
-      }
-    ],
-    "MITRE": {
-      "Name": "REvil",
-      "ID": "S0496",
-      "Description": "[REvil](https://attack.mitre.org/software/S0496) is a ransomware family that has been linked to the [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) group and operated as ransomware-as-a-service (RaaS) since at least April 2019. [REvil](https://attack.mitre.org/software/S0496), which as been used against organizations in the manufacturing, transportation, and electric sectors, is highly configurable and shares code similarities with the GandCrab RaaS.(Citation: Secureworks REvil September 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)",
-      "link": "https://attack.mitre.org/software/S0496",
-      "os": "Windows",
-      "citations": [
-        "FBI Flash FIN7 USB",
-        "CrowdStrike Carbon Spider August 2021",
-        "Secureworks REvil September 2019",
-        "IBM Ransomware Trends September 2020",
-        "Secureworks GandCrab and REvil September 2019",
-        "Cylance Sodinokibi July 2019",
-        "Talos Sodinokibi April 2019",
-        "Secureworks REvil September 2019",
-        "Intel 471 REvil March 2020",
-        "Tetra Defense Sodinokibi March 2020",
-        "Picus Sodinokibi January 2020",
-        "Kaspersky Sodin July 2019",
-        "G Data Sodinokibi June 2019",
-        "Secureworks GandCrab and REvil September 2019",
-        "Group IB Ransomware May 2020",
-        "McAfee REvil October 2019",
-        "McAfee Sodinokibi October 2019",
-        "BleepingComputer REvil 2021"
-      ],
-      "GroupName": "FIN7",
-      "GroupId": "G0046",
-      "techniques": [
+    "threats": [
         {
-          "id": "T1573.002",
-          "name": "Asymmetric Cryptography",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has encrypted C2 communications with the ECIES algorithm.(Citation: Kaspersky Sodin July 2019)",
-          "commands_used":[
-            "wbadmin delete catalog -quiet",
-            "bcdedit /set {default} recoveryenabled no",
-            "wmic shadowcopy delete",
-            "bcdedit /set {default} bootstatuspolicy ignoreallfailures",
-            "vssadmin delete shadows /all /quiet"
-
-          ]
+            "id": 1,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'> <path fill-rule='evenodd'     d='M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z'     clip-rule='evenodd' /> </svg>",
+            "description": "encryption"
         },
         {
-          "id": "T1134.002",
-          "name": "Create Process with Token",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can launch an instance of itself with administrative rights using runas.(Citation: Secureworks REvil September 2019)"
+            "id": 2,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path fill-rule='evenodd'         d='M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z'         clip-rule='evenodd' /> </svg>",
+            "description": "Double Extrotion"
         },
         {
-          "id": "T1485",
-          "name": "Data Destruction",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has the capability to destroy files and folders.(Citation: Kaspersky Sodin July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1486",
-          "name": "Data Encrypted for Impact",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can encrypt files on victim systems and demands a ransom to decrypt the files.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Talos Sodinokibi April 2019)(Citation: McAfee REvil October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)(Citation: Tetra Defense Sodinokibi March 2020)"
-        },
-        {
-          "id": "T1140",
-          "name": "Deobfuscate/Decode Files or Information",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can decode encrypted strings to enable execution of commands and payloads.(Citation: G Data Sodinokibi June 2019)(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1562.001",
-          "name": "Disable or Modify Tools",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can connect to and disable the Symantec server on the victim's network.(Citation: Cylance Sodinokibi July 2019)"
-        },
-        {
-          "id": "T1069.002",
-          "name": "Domain Groups",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can identify the domain membership of a compromised host.(Citation: Kaspersky Sodin July 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1189",
-          "name": "Drive-by Compromise",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has infected victim machines through compromised websites and exploit kits.(Citation: Secureworks REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks GandCrab and REvil September 2019)"
-        },
-        {
-          "id": "T1041",
-          "name": "Exfiltration Over C2 Channel",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can exfiltrate host and malware information to C2 servers.(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1070.004",
-          "name": "File Deletion",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can mark its binary code for deletion after reboot.(Citation: Intel 471 REvil March 2020)"
-        },
-        {
-          "id": "T1083",
-          "name": "File and Directory Discovery",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has the ability to identify specific files and directories that are not to be encrypted.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1105",
-          "name": "Ingress Tool Transfer",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can download a copy of itself from an attacker controlled IP address to the victim machine.(Citation: Talos Sodinokibi April 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Picus Sodinokibi January 2020)"
-        },
-        {
-          "id": "T1490",
-          "name": "Inhibit System Recovery",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can use vssadmin to delete volume shadow copies and bcdedit to disable recovery features.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Talos Sodinokibi April 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)(Citation: Tetra Defense Sodinokibi March 2020)"
-        },
-        {
-          "id": "T1204.002",
-          "name": "Malicious File",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has been executed via malicious MS Word e-mail attachments.(Citation: G Data Sodinokibi June 2019)(Citation: McAfee REvil October 2019)(Citation: Picus Sodinokibi January 2020)"
-        },
-        {
-          "id": "T1036.005",
-          "name": "Match Legitimate Name or Location",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can mimic the names of known executables.(Citation: Picus Sodinokibi January 2020)"
-        },
-        {
-          "id": "T1112",
-          "name": "Modify Registry",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can save encryption parameters and system information to the Registry.(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1106",
-          "name": "Native API",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can use Native API for execution and to retrieve active services.(Citation: Secureworks REvil September 2019)(Citation: Intel 471 REvil March 2020)"
-        },
-        {
-          "id": "T1027",
-          "name": "Obfuscated Files or Information",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has used encrypted strings and configuration files.(Citation: G Data Sodinokibi June 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1059.001",
-          "name": "PowerShell",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has used PowerShell to delete volume shadow copies and download files.(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Talos Sodinokibi April 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)"
-        },
-        {
-          "id": "T1055",
-          "name": "Process Injection",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can inject itself into running processes on a compromised host.(Citation: McAfee REvil October 2019)"
-        },
-        {
-          "id": "T1012",
-          "name": "Query Registry",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can query the Registry to get random file extensions to append to encrypted files.(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1562.009",
-          "name": "Safe Mode Boot",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can force a reboot in safe mode with networking.(Citation: BleepingComputer REvil 2021)"
-        },
-        {
-          "id": "T1489",
-          "name": "Service Stop",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has the capability to stop services and kill processes.(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1566.001",
-          "name": "Spearphishing Attachment",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has been distributed via malicious e-mail attachments including MS Word Documents.(Citation: G Data Sodinokibi June 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Picus Sodinokibi January 2020)"
-        },
-        {
-          "id": "T1082",
-          "name": "System Information Discovery",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can identify the username, machine name, system language, keyboard layout, OS version, and system drive information on a compromised host.(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1614.001",
-          "name": "System Language Discovery",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can check the system language using <code>GetUserDefaultUILanguage</code> and <code>GetSystemDefaultUILanguage</code>. If the language is found in the list, the process terminates.(Citation: Kaspersky Sodin July 2019)\n"
-        },
-        {
-          "id": "T1007",
-          "name": "System Service Discovery",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can enumerate active services.(Citation: Intel 471 REvil March 2020)"
-        },
-        {
-          "id": "T1134.001",
-          "name": "Token Impersonation/Theft",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can obtain the token from the user that launched the explorer.exe process to avoid affecting the desktop of the SYSTEM user.(Citation: McAfee Sodinokibi October 2019)"
-        },
-        {
-          "id": "T1059.005",
-          "name": "Visual Basic",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has used obfuscated VBA macros for execution.(Citation: G Data Sodinokibi June 2019)(Citation: Picus Sodinokibi January 2020)"
-        },
-        {
-          "id": "T1071.001",
-          "name": "Web Protocols",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) has used HTTP and HTTPS in communication with C2.(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: Intel 471 REvil March 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1059.003",
-          "name": "Windows Command Shell",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can use the Windows command line to delete volume shadow copies and disable recovery.(Citation: Cylance Sodinokibi July 2019)(Citation: Talos Sodinokibi April 2019)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)"
-        },
-        {
-          "id": "T1047",
-          "name": "Windows Management Instrumentation",
-          "description": "[REvil](https://attack.mitre.org/software/S0496) can use WMI to monitor for and kill specific processes listed in its configuration file.(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Group IB Ransomware May 2020)"
+            "id": 3,
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='w-4 h-4'>     <path d='M10.75 10.818v2.614A3.13 3.13 0 0011.888 13c.482-.315.612-.648.612-.875 0-.227-.13-.56-.612-.875a3.13 3.13 0 00-1.138-.432zM8.33 8.62c.053.055.115.11.184.164.208.16.46.284.736.363V6.603a2.45 2.45 0 00-.35.13c-.14.065-.27.143-.386.233-.377.292-.514.627-.514.909 0 .184.058.39.202.592.037.051.08.102.128.152z' />     <path fill-rule='evenodd' d='M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-6a.75.75 0 01.75.75v.316a3.78 3.78 0 011.653.713c.426.33.744.74.925 1.2a.75.75 0 01-1.395.55 1.35 1.35 0 00-.447-.563 2.187 2.187 0 00-.736-.363V9.3c.698.093 1.383.32 1.959.696.787.514 1.29 1.27 1.29 2.13 0 .86-.504 1.616-1.29 2.13-.576.377-1.261.603-1.96.696v.299a.75.75 0 11-1.5 0v-.3c-.697-.092-1.382-.318-1.958-.695-.482-.315-.857-.717-1.078-1.188a.75.75 0 111.359-.636c.08.173.245.376.54.569.313.205.706.353 1.138.432v-2.748a3.782 3.782 0 01-1.653-.713C6.9 9.433 6.5 8.681 6.5 7.875c0-.805.4-1.558 1.097-2.096a3.78 3.78 0 011.653-.713V4.75A.75.75 0 0110 4z' clip-rule='evenodd' />   </svg>   ",
+            "description": "highest demanded 1mil $"
         }
-      ]
+    ],
+    "avdDetail": {
+        "wallets": [
+            "329b5d5965774f5bdf724b7e7bfd33",
+            "3d5b02e4ce98a8a514d2755488",
+            "3Ny14YzMxYTA4TUhqNSt4SEkzZmthR",
+            "3Pg4atmvjJTE8nqFqzQ5Pug1SCtyKSuviy",
+            "1LS82ZUZHV1dGZGFMMCswZy9SMW1kZFRYQWlUaXZ",
+            "335BkP3nZMTNhMNe85rTM7FQjvV8Xuy1FV",
+            "1f7d9ccdacbbf96b2f828eae253ce6a",
+            "3e30b669a37a2daddd9f2acb2ac0",
+            "3B34E6896F2395E56DB1D10EB41FEDBA",
+            "10fd9f0e6abb0aeded5ee942567c9e",
+            "3475ef7fff5cef303891cd4108437f0",
+            "35nC4aE67j1PisdhYxKfYtNfDWu1kqz6V2",
+            "1c64bd94357269a3e113a314b4808"
+        ],
+        "email": []
     },
-    "KillChain": {
-      "Recon": {
-        "name": "Reconnanosesncs",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
-        "description": "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
-      },
-      "Weaponization": {
-        "name": "Weaponization",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
-        "description": "Weaponization Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
-      }
+    "tabs": {
+        "Blogs": [
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.bleepingcomputer.com/news/security/revil-ransomware-has-a-new-windows-safe-mode-encryption-mode/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-sodinokibi-ransomware.html"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://therecord.media/fbi-fin7-hackers-target-us-companies-with-badusb-devices-to-install-ransomware/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.gdatasoftware.com/blog/2019/06/31724-strange-bits-sodinokibi-spam-cinarat-and-fake-g-data"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.group-ib.com/whitepapers/ransomware-uncovered.html"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://securityintelligence.com/posts/ransomware-2020-attack-trends-new-techniques-affecting-organizations-worldwide/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://securelist.com/sodin-ransomware/91473/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-crescendo/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-what-the-code-tells-us/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.picussecurity.com/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-sodinokibi-ransomware.html"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.group-ib.com/whitepapers/ransomware-uncovered.html"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.gdatasoftware.com/blog/2019/06/31724-strange-bits-sodinokibi-spam-cinarat-and-fake-g-data"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://securelist.com/sodin-ransomware/91473/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-what-the-code-tells-us/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.picussecurity.com/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-crescendo/"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
+            },
+            {
+                "date": "",
+                "title": "",
+                "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+            }
+        ],
+        "Sandbox": [
+            {
+                "name": "virustotal",
+                "links": [
+                    "https://www.virustotal.com/gui/file/fed9e1bfcbd37a9f6df28c65adbb07ecc9745ed96a03ddaf3716d4324730b3df/detection",
+                    "https://www.virustotal.com/gui/file/01aa2cf8db4badde36f1896d341e31c0fe91a51772f1aa50b9f59ba368973993/detection",
+                    "https://www.virustotal.com/gui/file/771376ceaedc086a5005336e56423572b1d827e6fa53a6487dd274a577d26c43/detection",
+                    "https://www.virustotal.com/",
+                    "https://www.virustotal.com/gui/file/12bc439445f10a04b574d49ed8ccc405e2dfaa493747585439643e8a2129e5e5/detection",
+                    "https://www.virustotal.com/gui/file/fa4626e2c5984d7868a685c5102530bd8260d0b31ef06d2ce2da7636da48d2d6/detection",
+                    "https://www.virustotal.com/gui/file/de1793d8db7f58f0ef53bee7fb0942ef4c6c348e4a547b6cfeb74ffa8de56cdf/detection",
+                    "https://www.virustotal.com/gui/file/05af0cf40590aef24b28fa04c6b4998b7ab3b7f26e60c507adb84f3d837778f2/detection",
+                    "https://www.virustotal.com/gui/file/cc4d665c468bcb850baf9baab764bb58e8b0ddcb8a8274b6335db5af86af72fb/detection",
+                    "https://www.virustotal.com/gui/file/982d910b04625e284fc6ff5217f6708433af0939d6ac2301cd88ceea3e362b87/detection",
+                    "https://www.virustotal.com/gui/file/1c2513c56929fe7826d7aa78ea57ddb1c713e5443aebae2f147d10d14f585400/detection",
+                    "https://www.virustotal.com/gui/file/f9d9f8ee449c2f4953ae5b21ab1978f8881d559734f57dfb2fe7722e55c895ec/detection",
+                    "https://www.virustotal.com/gui/file/fcf076de61f050573def84a471da943d940a8c9fd8120021eca893fea9bcaed3/detection",
+                    "https://www.virustotal.com/gui/file/cd674d6aab60773d6af8554cbc28e902221aeec9b9734c98bb5a1a836c2f166c/detection",
+                    "https://www.virustotal.com/gui/file/87c3639e83b5ea1d26b75215a974c5126185017bf9392601ceb41fc5aa58284f/detection",
+                    "https://www.virustotal.com/gui/file/3b6d04d6b629c1bdab4f15b0aa0d1e7792078b21cf876ec4c630243de1b47ac3/detection"
+                ]
+            },
+            {
+                "name": "anyrun",
+                "links": [
+                    "https://app.any.run/tasks/673109dc-d36a-4937-947b-76b03a6d25f1/",
+                    "https://app.any.run/tasks/c550e70e-17a1-473f-a69b-85866ff52cc8/",
+                    "https://app.any.run/tasks/eebf2636-7a9c-446c-9732-49c2ebfa91d6/",
+                    "https://app.any.run/tasks/5a6c0582-2fea-456f-b214-865cca02bbc7/",
+                    "https://app.any.run/tasks/472b5424-60e6-4553-bf69-c0a441dcc3d7/",
+                    "https://app.any.run/tasks/cca08b38-00a9-4b4b-a37f-b5dadc91d985/",
+                    "https://app.any.run/tasks/a18d7792-cb45-420a-a504-385d760bfd20/"
+                ]
+            },
+            {
+                "name": "hybrid",
+                "links": [
+                    "https://www.hybrid-analysis.com/sample/3b6d04d6b629c1bdab4f15b0aa0d1e7792078b21cf876ec4c630243de1b47ac3?environmentId=120",
+                    "https://www.hybrid-analysis.com/sample/12bc439445f10a04b574d49ed8ccc405e2dfaa493747585439643e8a2129e5e5?environmentId=120",
+                    "https://www.hybrid-analysis.com/sample/fa4626e2c5984d7868a685c5102530bd8260d0b31ef06d2ce2da7636da48d2d6?environmentId=120",
+                    "https://www.hybrid-analysis.com/sample/fed9e1bfcbd37a9f6df28c65adbb07ecc9745ed96a03ddaf3716d4324730b3df/5edd43b099d5000fe24708aa"
+                ]
+            },
+            {
+                "name": "vmray",
+                "links": [
+                    "https://www.vmray.com/analyses/f9d9f8ee449c/report/overview.html",
+                    "https://www.vmray.com/analyses/05af0cf40590/report/overview.html",
+                    "https://www.vmray.com/analyses/3b6d04d6b629/report/overview.html",
+                    "https://www.vmray.com/analyses/fcf076de61f0/report/overview.html",
+                    "https://www.vmray.com/analyses/01aa2cf8db4b/report/overview.html",
+                    "https://www.vmray.com/analyses/87c3639e83b5/report/overview.html",
+                    "https://www.vmray.com/analyses/1c2513c56929/report/overview.html"
+                ]
+            },
+            {
+                "name": "joe",
+                "links": [
+                    "https://www.joesandbox.com/analysis/235948/0/html"
+                ]
+            },
+            {
+                "name": "triage",
+                "links": [
+                    "https://tria.ge/reports/200621-wraj43zgpa/behavioral1",
+                    "https://tria.ge/reports/200607-gdq88mtksj/static1",
+                    "https://tria.ge/reports/200613-xm7v6eqp82/static1"
+                ]
+            },
+            {
+                "name": "intezer",
+                "links": [
+                    "https://analyze.intezer.com/#/analyses/39c60c4c-f9e5-4fdb-a33e-50fd5ab2f25a",
+                    "https://analyze.intezer.com/#/analyses/1d184d82-d1c9-4471-ac6d-943b408530ba",
+                    "https://analyze.intezer.com/#/analyses/70332d68-73d6-4fb1-8975-d58bb06b90ee",
+                    "https://analyze.intezer.com/#/analyses/3e32f050-42b3-4958-a47c-fc690c2b7448",
+                    "https://analyze.intezer.com/#/analyses/146979da-f11f-4a82-b016-3ed4ee3e0aa5",
+                    "https://analyze.intezer.com/#/analyses/729513f3-a121-4778-873e-5c7caa093e15",
+                    "https://analyze.intezer.com/#/analyses/52715b66-669a-4421-ad2f-7cc05397508a/sub/8e3840b2-ad24-431f-a1d3-f641255ee86c",
+                    "https://analyze.intezer.com/#/files/982d910b04625e284fc6ff5217f6708433af0939d6ac2301cd88ceea3e362b87",
+                    "https://analyze.intezer.com/#/analyses/daaee4c8-ff8a-441e-8f40-a121299f69ae",
+                    "https://analyze.intezer.com/#/analyses/7495340d-e2b2-4c00-a00d-03e67409f35c",
+                    "https://analyze.intezer.com/files/cd674d6aab60773d6af8554cbc28e902221aeec9b9734c98bb5a1a836c2f166c?vt"
+                ]
+            }
+        ],
+        "MITRE": {
+            "id": "S0496",
+            "mid": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",
+            "created": "2020-08-04T15:06:14.796Z",
+            "modified": "2023-03-26T20:06:33.317Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "object_marking_ref": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "name": "REvil",
+            "type": "malware",
+            "description": "[REvil](https://attack.mitre.org/software/S0496) is a ransomware family that has been linked to the [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) group and operated as ransomware-as-a-service (RaaS) since at least April 2019. [REvil](https://attack.mitre.org/software/S0496), which as been used against organizations in the manufacturing, transportation, and electric sectors, is highly configurable and shares code similarities with the GandCrab RaaS.(Citation: Secureworks REvil September 2019)(Citation: Intel 471 REvil March 2020)(Citation: Group IB Ransomware May 2020)",
+            "url": "https://attack.mitre.org/software/S0496",
+            "references": [
+                {
+                    "source_name": "Sodin",
+                    "description": "(Citation: Intel 471 REvil March 2020)(Citation: Kaspersky Sodin July 2019)"
+                },
+                {
+                    "source_name": "Sodinokibi",
+                    "description": "(Citation: Secureworks REvil September 2019)(Citation: Intel 471 REvil March 2020)(Citation: G Data Sodinokibi June 2019)(Citation: Kaspersky Sodin July 2019)(Citation: Cylance Sodinokibi July 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Talos Sodinokibi April 2019)(Citation: McAfee Sodinokibi October 2019)(Citation: McAfee REvil October 2019)(Citation: Picus Sodinokibi January 2020)(Citation: Secureworks REvil September 2019)(Citation: Tetra Defense Sodinokibi March 2020)"
+                },
+                {
+                    "source_name": "Talos Sodinokibi April 2019",
+                    "description": "Cadieux, P, et al (2019, April 30). Sodinokibi ransomware exploits WebLogic Server vulnerability. Retrieved August 4, 2020.",
+                    "url": "https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html"
+                },
+                {
+                    "source_name": "Secureworks REvil September 2019",
+                    "description": "Counter Threat Unit Research Team. (2019, September 24). REvil/Sodinokibi Ransomware. Retrieved August 4, 2020.",
+                    "url": "https://www.secureworks.com/research/revil-sodinokibi-ransomware"
+                },
+                {
+                    "source_name": "Cylance Sodinokibi July 2019",
+                    "description": "Cylance. (2019, July 3). hreat Spotlight: Sodinokibi Ransomware. Retrieved August 4, 2020.",
+                    "url": "https://threatvector.cylance.com/en_us/home/threat-spotlight-sodinokibi-ransomware.html"
+                },
+                {
+                    "source_name": "Group IB Ransomware May 2020",
+                    "description": "Group IB. (2020, May). Ransomware Uncovered: Attackers\u2019 Latest Methods. Retrieved August 5, 2020.",
+                    "url": "https://www.group-ib.com/whitepapers/ransomware-uncovered.html"
+                },
+                {
+                    "source_name": "G Data Sodinokibi June 2019",
+                    "description": "Han, Karsten. (2019, June 4). Strange Bits: Sodinokibi Spam, CinaRAT, and Fake G DATA. Retrieved August 4, 2020.",
+                    "url": "https://www.gdatasoftware.com/blog/2019/06/31724-strange-bits-sodinokibi-spam-cinarat-and-fake-g-data"
+                },
+                {
+                    "source_name": "Intel 471 REvil March 2020",
+                    "description": "Intel 471 Malware Intelligence team. (2020, March 31). REvil Ransomware-as-a-Service \u2013 An analysis of a ransomware affiliate operation. Retrieved August 4, 2020.",
+                    "url": "https://intel471.com/blog/revil-ransomware-as-a-service-an-analysis-of-a-ransomware-affiliate-operation/"
+                },
+                {
+                    "source_name": "Kaspersky Sodin July 2019",
+                    "description": "Mamedov, O, et al. (2019, July 3). Sodin ransomware exploits Windows vulnerability and processor architecture. Retrieved August 4, 2020.",
+                    "url": "https://securelist.com/sodin-ransomware/91473/"
+                },
+                {
+                    "source_name": "McAfee Sodinokibi October 2019",
+                    "description": "McAfee. (2019, October 2). McAfee ATR Analyzes Sodinokibi aka REvil Ransomware-as-a-Service \u2013 What The Code Tells Us. Retrieved August 4, 2020.",
+                    "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-what-the-code-tells-us/"
+                },
+                {
+                    "source_name": "Picus Sodinokibi January 2020",
+                    "description": "Ozarslan, S. (2020, January 15). A Brief History of Sodinokibi. Retrieved August 5, 2020.",
+                    "url": "https://www.picussecurity.com/blog/a-brief-history-and-further-technical-analysis-of-sodinokibi-ransomware"
+                },
+                {
+                    "source_name": "McAfee REvil October 2019",
+                    "description": "Saavedra-Morales, J, et al. (2019, October 20). McAfee ATR Analyzes Sodinokibi aka REvil Ransomware-as-a-Service \u2013 Crescendo. Retrieved August 5, 2020.",
+                    "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/mcafee-atr-analyzes-sodinokibi-aka-revil-ransomware-as-a-service-crescendo/"
+                },
+                {
+                    "source_name": "Secureworks GandCrab and REvil September 2019",
+                    "description": "Secureworks . (2019, September 24). REvil: The GandCrab Connection. Retrieved August 4, 2020.",
+                    "url": "https://www.secureworks.com/blog/revil-the-gandcrab-connection"
+                },
+                {
+                    "source_name": "Tetra Defense Sodinokibi March 2020",
+                    "description": "Tetra Defense. (2020, March). CAUSE AND EFFECT: SODINOKIBI RANSOMWARE ANALYSIS. Retrieved December 14, 2020.",
+                    "url": "https://www.tetradefense.com/incident-response-services/cause-and-effect-sodinokibi-ransomware-analysis"
+                }
+            ],
+            "labels": [
+                "malware"
+            ],
+            "groups": [
+                {
+                    "id": "G0115",
+                    "name": "GOLD SOUTHFIELD",
+                    "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) is a financially motivated threat group active since at least 2018 that operates the [REvil](https://attack.mitre.org/software/S0496) Ransomware-as-a Service (RaaS). [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) provides backend infrastructure for affiliates recruited on underground forums to perpetrate high value deployments. By early 2020, [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) started capitalizing on the new trend of stealing data and further extorting the victim to pay for their data to not get publicly leaked.(Citation: Secureworks REvil September 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Secureworks GOLD SOUTHFIELD)(Citation: CrowdStrike Evolution of Pinchy Spider July 2021)"
+                },
+                {
+                    "id": "G0046",
+                    "name": "FIN7",
+                    "description": "[FIN7](https://attack.mitre.org/groups/G0046) is a financially-motivated threat group that has been active since 2013 primarily targeting the U.S. retail, restaurant, and hospitality sectors, often using point-of-sale malware. A portion of [FIN7](https://attack.mitre.org/groups/G0046) was run out of a front company called Combi Security. Since 2020 [FIN7](https://attack.mitre.org/groups/G0046) shifted operations to a big game hunting (BGH) approach including use of [REvil](https://attack.mitre.org/software/S0496) ransomware and their own Ransomware as a Service (RaaS), Darkside. [FIN7](https://attack.mitre.org/groups/G0046) may be linked to the [Carbanak](https://attack.mitre.org/groups/G0008) Group, but there appears to be several groups using [Carbanak](https://attack.mitre.org/software/S0030) malware and are therefore tracked separately.(Citation: FireEye FIN7 March 2017)(Citation: FireEye FIN7 April 2017)(Citation: FireEye CARBANAK June 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: CrowdStrike Carbon Spider August 2021)"
+                }
+            ],
+            "techniques": [
+                {
+                    "id": "T1027",
+                    "name": "Obfuscated Files or Information",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may attempt to make an executable or file difficult to discover or analyze by encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. This is common behavior that can be used across different platforms and the network to evade defenses. \n\nPayloads may be compressed, archived, or encrypted in order to avoid detection. These payloads may be used during Initial Access or later to mitigate detection. Sometimes a user's action may be required to open and [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140) for [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016) Adversaries may also use compressed or archived scripts, such as JavaScript. \n\nPortions of files can also be encoded to hide the plain-text strings that would otherwise help defenders with discovery. (Citation: Linux/Cdorked.A We Live Security Analysis) Payloads may also be split into separate, seemingly benign files that only reveal malicious functionality when reassembled. (Citation: Carbon Black Obfuscation Sept 2016)\n\nAdversaries may also abuse [Command Obfuscation](https://attack.mitre.org/techniques/T1027/010) to obscure commands executed from payloads or directly via [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059). Environment variables, aliases, characters, and other platform/language specific semantics can be used to evade signature based detections and application control mechanisms. (Citation: FireEye Obfuscation June 2017) (Citation: FireEye Revoke-Obfuscation July 2017)(Citation: PaloAlto EncodedCommand March 2017) "
+                },
+                {
+                    "id": "T1027.008",
+                    "name": "Stripped Payloads",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may attempt to make a payload difficult to analyze by removing symbols, strings, and other human readable information. Scripts and executables may contain variables names and other strings that help developers document code functionality. Symbols are often created by an operating system\u2019s `linker` when executable payloads are compiled. Reverse engineers use these symbols and strings to analyze code and to identify functionality in payloads.(Citation: Mandiant golang stripped binaries explanation)(Citation: intezer stripped binaries elf files 2018)\n\nAdversaries may use stripped payloads in order to make malware analysis more difficult. For example, compilers and other tools may provide features to remove or obfuscate strings and symbols. Adversaries have also used stripped payload formats, such as run-only AppleScripts, a compiled and stripped version of [AppleScript](https://attack.mitre.org/techniques/T1059/002), to evade detection and analysis. The lack of human-readable information may directly hinder detection and analysis of payloads.(Citation: SentinelLabs reversing run-only applescripts 2021)"
+                },
+                {
+                    "id": "T1027.007",
+                    "name": "Dynamic API Resolution",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may obfuscate then dynamically resolve API functions called by their malware in order to conceal malicious functionalities and impair defensive analysis. Malware commonly uses various [Native API](https://attack.mitre.org/techniques/T1106) functions provided by the OS to perform various tasks such as those involving processes, files, and other system artifacts.\n\nAPI functions called by malware may leave static artifacts such as strings in payload files. Defensive analysts may also uncover which functions a binary file may execute via an import address table (IAT) or other structures that help dynamically link calling code to the shared modules that provide functions.(Citation: Huntress API Hash)(Citation: IRED API Hashing)\n\nTo avoid static or other defensive analysis, adversaries may use dynamic API resolution to conceal malware characteristics and functionalities. Similar to [Software Packing](https://attack.mitre.org/techniques/T1027/002), dynamic API resolution may change file signatures and obfuscate malicious API function calls until they are resolved and invoked during runtime.\n\nVarious methods may be used to obfuscate malware calls to API functions. For example, hashes of function names are commonly stored in malware in lieu of literal strings. Malware can use these hashes (or other identifiers) to manually reproduce the linking and loading process using functions such as `GetProcAddress()` and `LoadLibrary()`. These hashes/identifiers can also be further obfuscated using encryption or other string manipulation tricks (requiring various forms of [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140) during execution).(Citation: BlackHat API Packers)(Citation: Drakonia HInvoke)(Citation: Huntress API Hash)"
+                },
+                {
+                    "id": "T1027.002",
+                    "name": "Software Packing",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may perform software packing or virtual machine software protection to conceal their code. Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory. Virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. A virtual machine is then called to run this code.(Citation: ESET FinFisher Jan 2018) \n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.(Citation: Awesome Executable Packing)  "
+                },
+                {
+                    "id": "T1027.005",
+                    "name": "Indicator Removal from Tools",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may remove indicators from tools if they believe their malicious tool was detected, quarantined, or otherwise curtailed. They can modify the tool by removing the indicator and using the updated version that is no longer detected by the target's defensive systems or subsequent targets that may use similar systems.\n\nA good example of this is when malware is detected with a file signature and quarantined by anti-virus software. An adversary who can determine that the malware was quarantined because of its file signature may modify the file to explicitly avoid that signature, and then re-use the malware."
+                },
+                {
+                    "id": "T1027.004",
+                    "name": "Compile After Delivery",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may attempt to make payloads difficult to discover and analyze by delivering files to victims as uncompiled code. Text-based source code files may subvert analysis and scrutiny from protections targeting executables/binaries. These payloads will need to be compiled before execution; typically via native utilities such as csc.exe or GCC/MinGW.(Citation: ClearSky MuddyWater Nov 2018)\n\nSource code payloads may also be encrypted, encoded, and/or embedded within other files, such as those delivered as a [Phishing](https://attack.mitre.org/techniques/T1566). Payloads may also be delivered in formats unrecognizable and inherently benign to the native OS (ex: EXEs on macOS/Linux) before later being (re)compiled into a proper executable binary with a bundled compiler and execution framework.(Citation: TrendMicro WindowsAppMac)"
+                },
+                {
+                    "id": "T1027.010",
+                    "name": "Command Obfuscation",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may obfuscate content during command execution to impede detection. Command-line obfuscation is a method of making strings and patterns within commands and scripts more difficult to signature and analyze. This type of obfuscation can be included within commands executed by delivered payloads (e.g., [Phishing](https://attack.mitre.org/techniques/T1566) and [Drive-by Compromise](https://attack.mitre.org/techniques/T1189)) or interactively via [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059).(Citation: Akamai JS)(Citation: Malware Monday VBE)\n\nFor example, adversaries may abuse syntax that utilizes various symbols and escape characters (such as spacing,  `^`, `+`. `$`, and `%`) to make commands difficult to analyze while maintaining the same intended functionality.(Citation: RC PowerShell) Many languages support built-in obfuscation in the form of base64 or URL encoding.(Citation: Microsoft PowerShellB64) Adversaries may also manually implement command obfuscation via string splitting (`\u201cWor\u201d+\u201cd.Application\u201d`), order and casing of characters (`rev <<<'dwssap/cte/ tac'`), globing (`mkdir -p '/tmp/:&$NiA'`), as well as various tricks involving passing strings through tokens/environment variables/input streams.(Citation: Bashfuscator Command Obfuscators)(Citation: FireEye Obfuscation June 2017)\n\nAdversaries may also use tricks such as directory traversals to obfuscate references to the binary being invoked by a command (`C:\\voi\\pcw\\..\\..\\Windows\\tei\\qs\\k\\..\\..\\..\\system32\\erool\\..\\wbem\\wg\\je\\..\\..\\wmic.exe shadowcopy delete`).(Citation: Twitter Richard WMIC)\n\nTools such as <code>Invoke-Obfuscation</code> and <code>Invoke-DOSfucation</code> have also been used to obfuscate commands.(Citation: Invoke-DOSfuscation)(Citation: Invoke-Obfuscation)"
+                },
+                {
+                    "id": "T1027.001",
+                    "name": "Binary Padding",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may use binary padding to add junk data and change the on-disk representation of malware. This can be done without affecting the functionality or behavior of a binary, but can increase the size of the binary beyond what some security tools are capable of handling due to file size limitations. \n\nBinary padding effectively changes the checksum of the file and can also be used to avoid hash-based blocklists and static anti-virus signatures.(Citation: ESET OceanLotus) The padding used is commonly generated by a function to create junk data and then appended to the end or applied to sections of malware.(Citation: Securelist Malware Tricks April 2017) Increasing the file size may decrease the effectiveness of certain tools and detection capabilities that are not designed or configured to scan large files. This may also reduce the likelihood of being collected for analysis. Public file scanning services, such as VirusTotal, limits the maximum size of an uploaded file to be analyzed.(Citation: VirusTotal FAQ) "
+                },
+                {
+                    "id": "T1027.011",
+                    "name": "Fileless Storage",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may store data in \"fileless\" formats to conceal malicious activity from defenses. Fileless storage can be broadly defined as any format other than a file. Common examples of non-volatile fileless storage include the Windows Registry, event logs, or WMI repository.(Citation: Microsoft Fileless)(Citation: SecureList Fileless)\n\nSimilar to fileless in-memory behaviors such as [Reflective Code Loading](https://attack.mitre.org/techniques/T1620) and [Process Injection](https://attack.mitre.org/techniques/T1055), fileless data storage may remain undetected by anti-virus and other endpoint security tools that can only access specific file formats from disk storage.\n\nAdversaries may use fileless storage to conceal various types of stored data, including payloads/shellcode (potentially being used as part of [Persistence](https://attack.mitre.org/tactics/TA0003)) and collected data not yet exfiltrated from the victim (e.g., [Local Data Staging](https://attack.mitre.org/techniques/T1074/001)). Adversaries also often encrypt, encode, splice, or otherwise obfuscate this fileless data when stored.\n\nSome forms of fileless storage activity may indirectly create artifacts in the file system, but in central and otherwise difficult to inspect formats such as the WMI (e.g., `%SystemRoot%\\System32\\Wbem\\Repository`) or Registry (e.g., `%SystemRoot%\\System32\\Config`) physical files.(Citation: Microsoft Fileless) "
+                },
+                {
+                    "id": "T1027.009",
+                    "name": "Embedded Payloads",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may embed payloads within other files to conceal malicious content from defenses. Otherwise seemingly benign files (such as scripts and executables) may be abused to carry and obfuscate malicious payloads and content. In some cases, embedded payloads may also enable adversaries to [Subvert Trust Controls](https://attack.mitre.org/techniques/T1553) by not impacting execution controls such as digital signatures and notarization tickets.(Citation: Sentinel Labs) \n\nAdversaries may embed payloads in various file formats to hide payloads.(Citation: Microsoft Learn) This is similar to [Steganography](https://attack.mitre.org/techniques/T1027/003), though does not involve weaving malicious content into specific bytes and patterns related to legitimate digital media formats.(Citation: GitHub PSImage) \n\nFor example, adversaries have been observed embedding payloads within or as an overlay of an otherwise benign binary.(Citation: Securelist Dtrack2) Adversaries have also been observed nesting payloads (such as executables and run-only scripts) inside a file of the same format.(Citation: SentinelLabs reversing run-only applescripts 2021) \n\nEmbedded content may also be used as [Process Injection](https://attack.mitre.org/techniques/T1055) payloads used to infect benign system processes.(Citation: Trend Micro) These embedded then injected payloads may be used as part of the modules of malware designed to provide specific features such as encrypting C2 communications in support of an orchestrator module. For example, an embedded module may be injected into default browsers, allowing adversaries to then communicate via the network.(Citation: Malware Analysis Report ComRAT)"
+                },
+                {
+                    "id": "T1027.003",
+                    "name": "Steganography",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may use steganography techniques in order to prevent the detection of hidden information. Steganographic techniques can be used to hide data in digital media such as images, audio tracks, video clips, or text files.\n\n[Duqu](https://attack.mitre.org/software/S0038) was an early example of malware that used steganography. It encrypted the gathered information from a victim's system and hid it within an image before exfiltrating the image to a C2 server.(Citation: Wikipedia Duqu) \n\nBy the end of 2017, a threat group used\u202f<code>Invoke-PSImage</code>\u202fto hide [PowerShell](https://attack.mitre.org/techniques/T1059/001) commands in an image file (.png) and execute the code on a victim's system. In this particular case the [PowerShell](https://attack.mitre.org/techniques/T1059/001) code downloaded another obfuscated script to gather intelligence from the victim's machine and communicate it back to the adversary.(Citation: McAfee Malicious Doc Targets Pyeongchang Olympics)  "
+                },
+                {
+                    "id": "T1027.006",
+                    "name": "HTML Smuggling",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may smuggle data and files past content filters by hiding malicious payloads inside of seemingly benign HTML files. HTML documents can store large binary objects known as JavaScript Blobs (immutable data that represents raw bytes) that can later be constructed into file-like objects. Data may also be stored in Data URLs, which enable embedding media type or MIME files inline of HTML documents. HTML5 also introduced a download attribute that may be used to initiate file downloads.(Citation: HTML Smuggling Menlo Security 2020)(Citation: Outlflank HTML Smuggling 2018)\n\nAdversaries may deliver payloads to victims that bypass security controls through HTML Smuggling by abusing JavaScript Blobs and/or HTML5 download attributes. Security controls such as web content filters may not identify smuggled malicious files inside of HTML/JS files, as the content may be based on typically benign MIME types such as <code>text/plain</code> and/or <code>text/html</code>. Malicious files or data can be obfuscated and hidden inside of HTML files through Data URLs and/or JavaScript Blobs and can be deobfuscated when they reach the victim (i.e. [Deobfuscate/Decode Files or Information](https://attack.mitre.org/techniques/T1140)), potentially bypassing content filters.\n\nFor example, JavaScript Blobs can be abused to dynamically generate malicious files in the victim machine and may be dropped to disk by abusing JavaScript functions such as <code>msSaveBlob</code>.(Citation: HTML Smuggling Menlo Security 2020)(Citation: MSTIC NOBELIUM May 2021)(Citation: Outlflank HTML Smuggling 2018)(Citation: nccgroup Smuggling HTA 2017)"
+                },
+                {
+                    "id": "T1140",
+                    "name": "Deobfuscate/Decode Files or Information",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may use [Obfuscated Files or Information](https://attack.mitre.org/techniques/T1027) to hide artifacts of an intrusion from analysis. They may require separate mechanisms to decode or deobfuscate that information depending on how they intend to use it. Methods for doing that include built-in functionality of malware or by using utilities present on the system.\n\nOne such example is the use of [certutil](https://attack.mitre.org/software/S0160) to decode a remote access tool portable executable file that has been hidden inside a certificate file.(Citation: Malwarebytes Targeted Attack against Saudi Arabia) Another example is using the Windows <code>copy /b</code> command to reassemble binary fragments into a malicious payload.(Citation: Carbon Black Obfuscation Sept 2016)\n\nSometimes a user's action may be required to open it for deobfuscation or decryption as part of [User Execution](https://attack.mitre.org/techniques/T1204). The user may also be required to input a password to open a password protected compressed/encrypted file that was provided by the adversary. (Citation: Volexity PowerDuke November 2016)"
+                },
+                {
+                    "id": "T1486",
+                    "name": "Data Encrypted for Impact",
+                    "tactic": "Impact",
+                    "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.(Citation: US-CERT Ransomware 2016)(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)(Citation: US-CERT SamSam 2018)\n\nIn the case of ransomware, it is typical that common user files like Office documents, PDFs, images, videos, audio, text, and source code files will be encrypted (and often renamed and/or tagged with specific file markers). Adversaries may need to first employ other behaviors, such as [File and Directory Permissions Modification](https://attack.mitre.org/techniques/T1222) or [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529), in order to unlock and/or gain access to manipulate these files.(Citation: CarbonBlack Conti July 2020) In some cases, adversaries may encrypt critical system files, disk partitions, and the MBR.(Citation: US-CERT NotPetya 2017) \n\nTo maximize impact on the target organization, malware designed for encrypting data may have worm-like features to propagate across a network by leveraging other attack techniques like [Valid Accounts](https://attack.mitre.org/techniques/T1078), [OS Credential Dumping](https://attack.mitre.org/techniques/T1003), and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002).(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017) Encryption malware may also leverage [Internal Defacement](https://attack.mitre.org/techniques/T1491/001), such as changing victim wallpapers, or otherwise intimidate victims by sending ransom notes or other messages to connected printers (known as \"print bombing\").(Citation: NHS Digital Egregor Nov 2020)\n\nIn cloud environments, storage objects within compromised accounts may also be encrypted.(Citation: Rhino S3 Ransomware Part 1)"
+                },
+                {
+                    "id": "T1083",
+                    "name": "File and Directory Discovery",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system. Adversaries may use the information from [File and Directory Discovery](https://attack.mitre.org/techniques/T1083) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nMany command shell utilities can be used to obtain this information. Examples include <code>dir</code>, <code>tree</code>, <code>ls</code>, <code>find</code>, and <code>locate</code>.(Citation: Windows Commands JPCERT) Custom tools may also be used to gather file and directory information and interact with the [Native API](https://attack.mitre.org/techniques/T1106). Adversaries may also leverage a [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) on network devices to gather file and directory information (e.g. <code>dir</code>, <code>show flash</code>, and/or <code>nvram</code>).(Citation: US-CERT-TA18-106A)"
+                },
+                {
+                    "id": "T1489",
+                    "name": "Service Stop",
+                    "tactic": "Impact",
+                    "description": "Adversaries may stop or disable services on a system to render those services unavailable to legitimate users. Stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.(Citation: Talos Olympic Destroyer 2018)(Citation: Novetta Blockbuster) \n\nAdversaries may accomplish this by disabling individual services of high importance to an organization, such as <code>MSExchangeIS</code>, which will make Exchange content inaccessible (Citation: Novetta Blockbuster). In some cases, adversaries may stop or disable many or all services to render systems unusable.(Citation: Talos Olympic Destroyer 2018) Services or processes may not allow for modification of their data stores while running. Adversaries may stop services or processes in order to conduct [Data Destruction](https://attack.mitre.org/techniques/T1485) or [Data Encrypted for Impact](https://attack.mitre.org/techniques/T1486) on the data stores of services like Exchange and SQL Server.(Citation: SecureWorks WannaCry Analysis)"
+                },
+                {
+                    "id": "T1055",
+                    "name": "Process Injection",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject code into processes in order to evade process-based defenses as well as possibly elevate privileges. Process injection is a method of executing arbitrary code in the address space of a separate live process. Running code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via process injection may also evade detection from security products since the execution is masked under a legitimate process. \n\nThere are many different ways to inject code into a process, many of which abuse legitimate functionalities. These implementations exist for every major OS but are typically platform specific. \n\nMore sophisticated samples may perform multiple process injections to segment modules and further evade detection, utilizing named pipes or other inter-process communication (IPC) mechanisms as a communication channel. "
+                },
+                {
+                    "id": "T1055.005",
+                    "name": "Thread Local Storage",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into processes via thread local storage (TLS) callbacks in order to evade process-based defenses as well as possibly elevate privileges. TLS callback injection is a method of executing arbitrary code in the address space of a separate live process. \n\nTLS callback injection involves manipulating pointers inside a portable executable (PE) to redirect a process to malicious code before reaching the code's legitimate entry point. TLS callbacks are normally used by the OS to setup and/or cleanup data used by threads. Manipulating TLS callbacks may be performed by allocating and writing to specific offsets within a process\u2019 memory space using other [Process Injection](https://attack.mitre.org/techniques/T1055) techniques such as [Process Hollowing](https://attack.mitre.org/techniques/T1055/012).(Citation: FireEye TLS Nov 2017)\n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via TLS callback injection may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.014",
+                    "name": "VDSO Hijacking",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into processes via VDSO hijacking in order to evade process-based defenses as well as possibly elevate privileges. Virtual dynamic shared object (vdso) hijacking is a method of executing arbitrary code in the address space of a separate live process. \n\nVDSO hijacking involves redirecting calls to dynamically linked shared libraries. Memory protections may prevent writing executable code to a process via [Ptrace System Calls](https://attack.mitre.org/techniques/T1055/008). However, an adversary may hijack the syscall interface code stubs mapped into a process from the vdso shared object to execute syscalls to open and map a malicious shared object. This code can then be invoked by redirecting the execution flow of the process via patched memory address references stored in a process' global offset table (which store absolute addresses of mapped library functions).(Citation: ELF Injection May 2009)(Citation: Backtrace VDSO)(Citation: VDSO Aug 2005)(Citation: Syscall 2014)\n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via VDSO hijacking may also evade detection from security products since the execution is masked under a legitimate process.  "
+                },
+                {
+                    "id": "T1055.015",
+                    "name": "ListPlanting",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may abuse list-view controls to inject malicious code into hijacked processes in order to evade process-based defenses as well as possibly elevate privileges. ListPlanting is a method of executing arbitrary code in the address space of a separate live process. Code executed via ListPlanting may also evade detection from security products since the execution is masked under a legitimate process.\n\nList-view controls are user interface windows used to display collections of items.(Citation: Microsoft List View Controls) Information about an application's list-view settings are stored within the process' memory in a <code>SysListView32</code> control.\n\nListPlanting (a form of message-passing \"shatter attack\") may be performed by copying code into the virtual address space of a process that uses a list-view control then using that code as a custom callback for sorting the listed items.(Citation: Modexp Windows Process Injection) Adversaries must first copy code into the target process\u2019 memory space, which can be performed various ways including by directly obtaining a handle to the <code>SysListView32</code> child of the victim process window (via Windows API calls such as <code>FindWindow</code> and/or <code>EnumWindows</code>) or other [Process Injection](https://attack.mitre.org/techniques/T1055) methods.\n\nSome variations of ListPlanting may allocate memory in the target process but then use window messages to copy the payload, to avoid the use of the highly monitored <code>WriteProcessMemory</code> function. For example, an adversary can use the <code>PostMessage</code> and/or <code>SendMessage</code> API functions to send <code>LVM_SETITEMPOSITION</code> and <code>LVM_GETITEMPOSITION</code> messages, effectively copying a payload 2 bytes at a time to the allocated memory.(Citation: ESET InvisiMole June 2020) \n\nFinally, the payload is triggered by sending the <code>LVM_SORTITEMS</code> message to the <code>SysListView32</code> child of the process window, with the payload within the newly allocated buffer passed and executed as the <code>ListView_SortItems</code> callback."
+                },
+                {
+                    "id": "T1055.009",
+                    "name": "Proc Memory",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into processes via the /proc filesystem in order to evade process-based defenses as well as possibly elevate privileges. Proc memory injection is a method of executing arbitrary code in the address space of a separate live process. \n\nProc memory injection involves enumerating the memory of a process via the /proc filesystem (<code>/proc/[pid]</code>) then crafting a return-oriented programming (ROP) payload with available gadgets/instructions. Each running process has its own directory, which includes memory mappings. Proc memory injection is commonly performed by overwriting the target processes\u2019 stack using memory mappings provided by the /proc filesystem. This information can be used to enumerate offsets (including the stack) and gadgets (or instructions within the program that can be used to build a malicious payload) otherwise hidden by process memory protections such as address space layout randomization (ASLR). Once enumerated, the target processes\u2019 memory map within <code>/proc/[pid]/maps</code> can be overwritten using dd.(Citation: Uninformed Needle)(Citation: GDS Linux Injection)(Citation: DD Man) \n\nOther techniques such as [Dynamic Linker Hijacking](https://attack.mitre.org/techniques/T1574/006) may be used to populate a target process with more available gadgets. Similar to [Process Hollowing](https://attack.mitre.org/techniques/T1055/012), proc memory injection may target child processes (such as a backgrounded copy of sleep).(Citation: GDS Linux Injection) \n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via proc memory injection may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.012",
+                    "name": "Process Hollowing",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into suspended and hollowed processes in order to evade process-based defenses. Process hollowing is a method of executing arbitrary code in the address space of a separate live process.  \n\nProcess hollowing is commonly performed by creating a process in a suspended state then unmapping/hollowing its memory, which can then be replaced with malicious code. A victim process can be created with native Windows API calls such as <code>CreateProcess</code>, which includes a flag to suspend the processes primary thread. At this point the process can be unmapped using APIs calls such as <code>ZwUnmapViewOfSection</code> or <code>NtUnmapViewOfSection</code>  before being written to, realigned to the injected code, and resumed via <code>VirtualAllocEx</code>, <code>WriteProcessMemory</code>, <code>SetThreadContext</code>, then <code>ResumeThread</code> respectively.(Citation: Leitch Hollowing)(Citation: Elastic Process Injection July 2017)\n\nThis is very similar to [Thread Local Storage](https://attack.mitre.org/techniques/T1055/005) but creates a new process rather than targeting an existing process. This behavior will likely not result in elevated privileges since the injected process was spawned from (and thus inherits the security context) of the injecting process. However, execution via process hollowing may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.003",
+                    "name": "Thread Execution Hijacking",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into hijacked processes in order to evade process-based defenses as well as possibly elevate privileges. Thread Execution Hijacking is a method of executing arbitrary code in the address space of a separate live process. \n\nThread Execution Hijacking is commonly performed by suspending an existing process then unmapping/hollowing its memory, which can then be replaced with malicious code or the path to a DLL. A handle to an existing victim process is first created with native Windows API calls such as <code>OpenThread</code>. At this point the process can be suspended then written to, realigned to the injected code, and resumed via <code>SuspendThread </code>, <code>VirtualAllocEx</code>, <code>WriteProcessMemory</code>, <code>SetThreadContext</code>, then <code>ResumeThread</code> respectively.(Citation: Elastic Process Injection July 2017)\n\nThis is very similar to [Process Hollowing](https://attack.mitre.org/techniques/T1055/012) but targets an existing process rather than creating a process in a suspended state.  \n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via Thread Execution Hijacking may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.008",
+                    "name": "Ptrace System Calls",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into processes via ptrace (process trace) system calls in order to evade process-based defenses as well as possibly elevate privileges. Ptrace system call injection is a method of executing arbitrary code in the address space of a separate live process. \n\nPtrace system call injection involves attaching to and modifying a running process. The ptrace system call enables a debugging process to observe and control another process (and each individual thread), including changing memory and register values.(Citation: PTRACE man) Ptrace system call injection is commonly performed by writing arbitrary code into a running process (ex: <code>malloc</code>) then invoking that memory with <code>PTRACE_SETREGS</code> to set the register containing the next instruction to execute. Ptrace system call injection can also be done with <code>PTRACE_POKETEXT</code>/<code>PTRACE_POKEDATA</code>, which copy data to a specific address in the target processes\u2019 memory (ex: the current address of the next instruction). (Citation: PTRACE man)(Citation: Medium Ptrace JUL 2018) \n\nPtrace system call injection may not be possible targeting processes that are non-child processes and/or have higher-privileges.(Citation: BH Linux Inject) \n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via ptrace system call injection may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.001",
+                    "name": "Dynamic-link Library Injection",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject dynamic-link libraries (DLLs) into processes in order to evade process-based defenses as well as possibly elevate privileges. DLL injection is a method of executing arbitrary code in the address space of a separate live process.  \n\nDLL injection is commonly performed by writing the path to a DLL in the virtual address space of the target process before loading the DLL by invoking a new thread. The write can be performed with native Windows API calls such as <code>VirtualAllocEx</code> and <code>WriteProcessMemory</code>, then invoked with <code>CreateRemoteThread</code> (which calls the <code>LoadLibrary</code> API responsible for loading the DLL). (Citation: Elastic Process Injection July 2017) \n\nVariations of this method such as reflective DLL injection (writing a self-mapping DLL into a process) and memory module (map DLL when writing into process) overcome the address relocation issue as well as the additional APIs to invoke execution (since these methods load and execute the files in memory by manually preforming the function of <code>LoadLibrary</code>).(Citation: Elastic HuntingNMemory June 2017)(Citation: Elastic Process Injection July 2017) \n\nAnother variation of this method, often referred to as Module Stomping/Overloading or DLL Hollowing, may be leveraged to conceal injected code within a process. This method involves loading a legitimate DLL into a remote process then manually overwriting the module's <code>AddressOfEntryPoint</code> before starting a new thread in the target process.(Citation: Module Stomping for Shellcode Injection) This variation allows attackers to hide malicious injected code by potentially backing its execution with a legitimate DLL file on disk.(Citation: Hiding Malicious Code with Module Stomping) \n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via DLL injection may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.004",
+                    "name": "Asynchronous Procedure Call",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into processes via the asynchronous procedure call (APC) queue in order to evade process-based defenses as well as possibly elevate privileges. APC injection is a method of executing arbitrary code in the address space of a separate live process. \n\nAPC injection is commonly performed by attaching malicious code to the APC Queue (Citation: Microsoft APC) of a process's thread. Queued APC functions are executed when the thread enters an alterable state.(Citation: Microsoft APC) A handle to an existing victim process is first created with native Windows API calls such as <code>OpenThread</code>. At this point <code>QueueUserAPC</code> can be used to invoke a function (such as <code>LoadLibrayA</code> pointing to a malicious DLL). \n\nA variation of APC injection, dubbed \"Early Bird injection\", involves creating a suspended process in which malicious code can be written and executed before the process' entry point (and potentially subsequent anti-malware hooks) via an APC. (Citation: CyberBit Early Bird Apr 2018) AtomBombing (Citation: ENSIL AtomBombing Oct 2016) is another variation that utilizes APCs to invoke malicious code previously written to the global atom table.(Citation: Microsoft Atom Table)\n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via APC injection may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.013",
+                    "name": "Process Doppelg\u00e4nging",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into process via process doppelg\u00e4nging in order to evade process-based defenses as well as possibly elevate privileges. Process doppelg\u00e4nging is a method of executing arbitrary code in the address space of a separate live process. \n\nWindows Transactional NTFS (TxF) was introduced in Vista as a method to perform safe file operations. (Citation: Microsoft TxF) To ensure data integrity, TxF enables only one transacted handle to write to a file at a given time. Until the write handle transaction is terminated, all other handles are isolated from the writer and may only read the committed version of the file that existed at the time the handle was opened. (Citation: Microsoft Basic TxF Concepts) To avoid corruption, TxF performs an automatic rollback if the system or application fails during a write transaction. (Citation: Microsoft Where to use TxF)\n\nAlthough deprecated, the TxF application programming interface (API) is still enabled as of Windows 10. (Citation: BlackHat Process Doppelg\u00e4nging Dec 2017)\n\nAdversaries may abuse TxF to a perform a file-less variation of [Process Injection](https://attack.mitre.org/techniques/T1055). Similar to [Process Hollowing](https://attack.mitre.org/techniques/T1055/012), process doppelg\u00e4nging involves replacing the memory of a legitimate process, enabling the veiled execution of malicious code that may evade defenses and detection. Process doppelg\u00e4nging's use of TxF also avoids the use of highly-monitored API functions such as <code>NtUnmapViewOfSection</code>, <code>VirtualProtectEx</code>, and <code>SetThreadContext</code>. (Citation: BlackHat Process Doppelg\u00e4nging Dec 2017)\n\nProcess Doppelg\u00e4nging is implemented in 4 steps (Citation: BlackHat Process Doppelg\u00e4nging Dec 2017):\n\n* Transact \u2013 Create a TxF transaction using a legitimate executable then overwrite the file with malicious code. These changes will be isolated and only visible within the context of the transaction.\n* Load \u2013 Create a shared section of memory and load the malicious executable.\n* Rollback \u2013 Undo changes to original executable, effectively removing malicious code from the file system.\n* Animate \u2013 Create a process from the tainted section of memory and initiate execution.\n\nThis behavior will likely not result in elevated privileges since the injected process was spawned from (and thus inherits the security context) of the injecting process. However, execution via process doppelg\u00e4nging may evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.002",
+                    "name": "Portable Executable Injection",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject portable executables (PE) into processes in order to evade process-based defenses as well as possibly elevate privileges. PE injection is a method of executing arbitrary code in the address space of a separate live process. \n\nPE injection is commonly performed by copying code (perhaps without a file on disk) into the virtual address space of the target process before invoking it via a new thread. The write can be performed with native Windows API calls such as <code>VirtualAllocEx</code> and <code>WriteProcessMemory</code>, then invoked with <code>CreateRemoteThread</code> or additional code (ex: shellcode). The displacement of the injected code does introduce the additional requirement for functionality to remap memory references. (Citation: Elastic Process Injection July 2017) \n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via PE injection may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1055.011",
+                    "name": "Extra Window Memory Injection",
+                    "tactic": "Privilege Escalation",
+                    "description": "Adversaries may inject malicious code into process via Extra Window Memory (EWM) in order to evade process-based defenses as well as possibly elevate privileges. EWM injection is a method of executing arbitrary code in the address space of a separate live process. \n\nBefore creating a window, graphical Windows-based processes must prescribe to or register a windows class, which stipulate appearance and behavior (via windows procedures, which are functions that handle input/output of data).(Citation: Microsoft Window Classes) Registration of new windows classes can include a request for up to 40 bytes of EWM to be appended to the allocated memory of each instance of that class. This EWM is intended to store data specific to that window and has specific application programming interface (API) functions to set and get its value. (Citation: Microsoft GetWindowLong function) (Citation: Microsoft SetWindowLong function)\n\nAlthough small, the EWM is large enough to store a 32-bit pointer and is often used to point to a windows procedure. Malware may possibly utilize this memory location in part of an attack chain that includes writing code to shared sections of the process\u2019s memory, placing a pointer to the code in EWM, then invoking execution by returning execution control to the address in the process\u2019s EWM.\n\nExecution granted through EWM injection may allow access to both the target process's memory and possibly elevated privileges. Writing payloads to shared sections also avoids the use of highly monitored API calls such as <code>WriteProcessMemory</code> and <code>CreateRemoteThread</code>.(Citation: Elastic Process Injection July 2017) More sophisticated malware samples may also potentially bypass protection mechanisms such as data execution prevention (DEP) by triggering a combination of windows procedures and other system functions that will rewrite the malicious payload inside an executable portion of the target process.  (Citation: MalwareTech Power Loader Aug 2013) (Citation: WeLiveSecurity Gapz and Redyms Mar 2013)\n\nRunning code in the context of another process may allow access to the process's memory, system/network resources, and possibly elevated privileges. Execution via EWM injection may also evade detection from security products since the execution is masked under a legitimate process. "
+                },
+                {
+                    "id": "T1106",
+                    "name": "Native API",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may interact with the native OS application programming interface (API) to execute behaviors. Native APIs provide a controlled means of calling low-level OS services within the kernel, such as those involving hardware/devices, memory, and processes.(Citation: NT API Windows)(Citation: Linux Kernel API) These native APIs are leveraged by the OS during system boot (when other system components are not yet initialized) as well as carrying out tasks and requests during routine operations.\n\nNative API functions (such as <code>NtCreateProcess</code>) may be directed invoked via system calls / syscalls, but these features are also often exposed to user-mode applications via interfaces and libraries.(Citation: OutFlank System Calls)(Citation: CyberBit System Calls)(Citation: MDSec System Calls) For example, functions such as the Windows API <code>CreateProcess()</code> or GNU <code>fork()</code> will allow programs and scripts to start other processes.(Citation: Microsoft CreateProcess)(Citation: GNU Fork) This may allow API callers to execute a binary, run a CLI command, load modules, etc. as thousands of similar API functions exist for various system operations.(Citation: Microsoft Win32)(Citation: LIBC)(Citation: GLIBC)\n\nHigher level software frameworks, such as Microsoft .NET and macOS Cocoa, are also available to interact with native APIs. These frameworks typically provide language wrappers/abstractions to API functionalities and are designed for ease-of-use/portability of code.(Citation: Microsoft NET)(Citation: Apple Core Services)(Citation: MACOS Cocoa)(Citation: macOS Foundation)\n\nAdversaries may abuse these OS API functions as a means of executing behaviors. Similar to [Command and Scripting Interpreter](https://attack.mitre.org/techniques/T1059), the native API and its hierarchy of interfaces provide mechanisms to interact with and utilize various components of a victimized system. While invoking API functions, adversaries may also attempt to bypass defensive tools (ex: unhooking monitored functions via [Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001))."
+                },
+                {
+                    "id": "T1112",
+                    "name": "Modify Registry",
+                    "tactic": "Execution",
+                    "description": "Adversaries may interact with the Windows Registry to hide configuration information within Registry keys, remove information as part of cleaning up, or as part of other techniques to aid in persistence and execution.\n\nAccess to specific areas of the Registry depends on account permissions, some requiring administrator-level access. The built-in Windows command-line utility [Reg](https://attack.mitre.org/software/S0075) may be used for local or remote Registry modification. (Citation: Microsoft Reg) Other tools may also be used, such as a remote access tool, which may contain functionality to interact with the Registry through the Windows API.\n\nRegistry modifications may also include actions to hide keys, such as prepending key names with a null character, which will cause an error and/or be ignored when read via [Reg](https://attack.mitre.org/software/S0075) or other utilities using the Win32 API. (Citation: Microsoft Reghide NOV 2006) Adversaries may abuse these pseudo-hidden keys to conceal payloads/commands used to maintain persistence. (Citation: TrendMicro POWELIKS AUG 2014) (Citation: SpectorOps Hiding Reg Jul 2017)\n\nThe Registry of a remote system may be modified to aid in execution of files as part of lateral movement. It requires the remote Registry service to be running on the target system. (Citation: Microsoft Remote) Often [Valid Accounts](https://attack.mitre.org/techniques/T1078) are required, along with access to the remote system's [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002) for RPC communication."
+                },
+                {
+                    "id": "T1485",
+                    "name": "Data Destruction",
+                    "tactic": "Defense Evasion",
+                    "description": "Adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources. Data destruction is likely to render stored data irrecoverable by forensic techniques through overwriting files or data on local and remote drives.(Citation: Symantec Shamoon 2012)(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alto Shamoon Nov 2016)(Citation: Kaspersky StoneDrill 2017)(Citation: Unit 42 Shamoon3 2018)(Citation: Talos Olympic Destroyer 2018) Common operating system file deletion commands such as <code>del</code> and <code>rm</code> often only remove pointers to files without wiping the contents of the files themselves, making the files recoverable by proper forensic methodology. This behavior is distinct from [Disk Content Wipe](https://attack.mitre.org/techniques/T1561/001) and [Disk Structure Wipe](https://attack.mitre.org/techniques/T1561/002) because individual files are destroyed rather than sections of a storage disk or the disk's logical structure.\n\nAdversaries may attempt to overwrite files and directories with randomly generated data to make it irrecoverable.(Citation: Kaspersky StoneDrill 2017)(Citation: Unit 42 Shamoon3 2018) In some cases politically oriented image files have been used to overwrite data.(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alto Shamoon Nov 2016)(Citation: Kaspersky StoneDrill 2017)\n\nTo maximize impact on the target organization in operations where network-wide availability interruption is the goal, malware designed for destroying data may have worm-like features to propagate across a network by leveraging additional techniques like [Valid Accounts](https://attack.mitre.org/techniques/T1078), [OS Credential Dumping](https://attack.mitre.org/techniques/T1003), and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002).(Citation: Symantec Shamoon 2012)(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alto Shamoon Nov 2016)(Citation: Kaspersky StoneDrill 2017)(Citation: Talos Olympic Destroyer 2018).\n\nIn cloud environments, adversaries may leverage access to delete cloud storage, cloud storage accounts, machine images, and other infrastructure crucial to operations to damage an organization or their customers.(Citation: Data Destruction - Threat Post)(Citation: DOJ  - Cisco Insider)"
+                },
+                {
+                    "id": "T1189",
+                    "name": "Drive-by Compromise",
+                    "tactic": "Impact",
+                    "description": "Adversaries may gain access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is typically targeted for exploitation, but adversaries may also use compromised websites for non-exploitation behavior such as acquiring [Application Access Token](https://attack.mitre.org/techniques/T1550/001).\n\nMultiple ways of delivering exploit code to a browser exist (i.e., [Drive-by Target](https://attack.mitre.org/techniques/T1608/004)), including:\n\n* A legitimate website is compromised where adversaries have injected some form of malicious code such as JavaScript, iFrames, and cross-site scripting\n* Script files served to a legitimate website from a publicly writeable cloud storage bucket are modified by an adversary\n* Malicious ads are paid for and served through legitimate ad providers (i.e., [Malvertising](https://attack.mitre.org/techniques/T1583/008))\n* Built-in web application interfaces are leveraged for the insertion of any other kind of object that can be used to display web content or contain a script that executes on the visiting client (e.g. forum posts, comments, and other user controllable web content).\n\nOften the website used by an adversary is one visited by a specific community, such as government, a particular industry, or region, where the goal is to compromise a specific user or set of users based on a shared interest. This kind of targeted campaign is often referred to a strategic web compromise or watering hole attack. There are several known examples of this occurring.(Citation: Shadowserver Strategic Web Compromise)\n\nTypical drive-by compromise process:\n\n1. A user visits a website that is used to host the adversary controlled content.\n2. Scripts automatically execute, typically searching versions of the browser and plugins for a potentially vulnerable version. \n    * The user may be required to assist in this process by enabling scripting or active website components and ignoring warning dialog boxes.\n3. Upon finding a vulnerable version, exploit code is delivered to the browser.\n4. If exploitation is successful, then it will give the adversary code execution on the user's system unless other protections are in place.\n    * In some cases a second visit to the website after the initial scan is required before exploit code is delivered.\n\nUnlike [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190), the focus of this technique is to exploit software on a client endpoint upon visiting a website. This will commonly give an adversary access to systems on the internal network instead of external systems that may be in a DMZ.\n\nAdversaries may also use compromised websites to deliver a user to a malicious application designed to [Steal Application Access Token](https://attack.mitre.org/techniques/T1528)s, like OAuth tokens, to gain access to protected applications and information. These malicious applications have been delivered through popups on legitimate websites.(Citation: Volexity OceanLotus Nov 2017)"
+                },
+                {
+                    "id": "T1490",
+                    "name": "Inhibit System Recovery",
+                    "tactic": "Initial Access",
+                    "description": "Adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery.(Citation: Talos Olympic Destroyer 2018)(Citation: FireEye WannaCry 2017) This may deny access to available backups and recovery options.\n\nOperating systems may contain features that can help fix corrupted systems, such as a backup catalog, volume shadow copies, and automatic repair features. Adversaries may disable or delete system recovery features to augment the effects of [Data Destruction](https://attack.mitre.org/techniques/T1485) and [Data Encrypted for Impact](https://attack.mitre.org/techniques/T1486).(Citation: Talos Olympic Destroyer 2018)(Citation: FireEye WannaCry 2017) Furthermore, adversaries may disable recovery notifications, then corrupt backups.(Citation: disable_notif_synology_ransom)\n\nA number of native Windows utilities have been used by adversaries to disable or delete system recovery features:\n\n* <code>vssadmin.exe</code> can be used to delete all volume shadow copies on a system - <code>vssadmin.exe delete shadows /all /quiet</code>\n* [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) can be used to delete volume shadow copies - <code>wmic shadowcopy delete</code>\n* <code>wbadmin.exe</code> can be used to delete the Windows Backup Catalog - <code>wbadmin.exe delete catalog -quiet</code>\n* <code>bcdedit.exe</code> can be used to disable automatic Windows recovery features by modifying boot configuration data - <code>bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no</code>\n* <code>REAgentC.exe</code> can be used to disable Windows Recovery Environment (WinRE) repair/recovery options of an infected system\n\nOn network devices, adversaries may leverage [Disk Wipe](https://attack.mitre.org/techniques/T1561) to delete backup firmware images and reformat the file system, then [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529) to reload the device. Together this activity may leave network devices completely inoperable and inhibit recovery operations.\n\nAdversaries may also delete \u201conline\u201d backups that are connected to their network \u2013 whether via network storage media or through folders that sync to cloud services.(Citation: ZDNet Ransomware Backups 2020) In cloud environments, adversaries may disable versioning and backup policies and delete snapshots, machine images, and prior versions of objects designed to be used in disaster recovery scenarios.(Citation: Dark Reading Code Spaces Cyber Attack)(Citation: Rhino Security Labs AWS S3 Ransomware)"
+                },
+                {
+                    "id": "T1012",
+                    "name": "Query Registry",
+                    "tactic": "Impact",
+                    "description": "Adversaries may interact with the Windows Registry to gather information about the system, configuration, and installed software.\n\nThe Registry contains a significant amount of information about the operating system, configuration, software, and security.(Citation: Wikipedia Windows Registry) Information can easily be queried using the [Reg](https://attack.mitre.org/software/S0075) utility, though other means to access the Registry exist. Some of the information may help adversaries to further their operation within a network. Adversaries may use the information from [Query Registry](https://attack.mitre.org/techniques/T1012) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions."
+                },
+                {
+                    "id": "T1082",
+                    "name": "System Information Discovery",
+                    "tactic": "Discovery",
+                    "description": "An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from [System Information Discovery](https://attack.mitre.org/techniques/T1082) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nTools such as [Systeminfo](https://attack.mitre.org/software/S0096) can be used to gather detailed system information. If running with privileged access, a breakdown of system data can be gathered through the <code>systemsetup</code> configuration tool on macOS. As an example, adversaries with user-level access can execute the <code>df -aH</code> command to obtain currently mounted disks and associated freely available space. Adversaries may also leverage a [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) on network devices to gather detailed system information (e.g. <code>show version</code>).(Citation: US-CERT-TA18-106A) [System Information Discovery](https://attack.mitre.org/techniques/T1082) combined with information gathered from other forms of discovery and reconnaissance can drive payload development and concealment.(Citation: OSX.FairyTale)(Citation: 20 macOS Common Tools and Techniques)\n\nInfrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure allow access to instance and virtual machine information via APIs. Successful authenticated API calls can return data such as the operating system platform and status of a particular instance or the model view of a virtual machine.(Citation: Amazon Describe Instance)(Citation: Google Instances Resource)(Citation: Microsoft Virutal Machine API)"
+                },
+                {
+                    "id": "T1041",
+                    "name": "Exfiltration Over C2 Channel",
+                    "tactic": "Discovery",
+                    "description": "Adversaries may steal data by exfiltrating it over an existing command and control channel. Stolen data is encoded into the normal communications channel using the same protocol as command and control communications."
+                },
+                {
+                    "id": "T1047",
+                    "name": "Windows Management Instrumentation",
+                    "tactic": "Exfiltration",
+                    "description": "Adversaries may abuse Windows Management Instrumentation (WMI) to execute malicious commands and payloads. WMI is an administration feature that provides a uniform environment to access Windows system components. The WMI service enables both local and remote access, though the latter is facilitated by [Remote Services](https://attack.mitre.org/techniques/T1021) such as [Distributed Component Object Model](https://attack.mitre.org/techniques/T1021/003) (DCOM) and [Windows Remote Management](https://attack.mitre.org/techniques/T1021/006) (WinRM).(Citation: MSDN WMI) Remote WMI over DCOM operates using port 135, whereas WMI over WinRM operates over port 5985 when using HTTP and 5986 for HTTPS.(Citation: MSDN WMI)(Citation: FireEye WMI 2015)\n\nAn adversary can use WMI to interact with local and remote systems and use it as a means to execute various behaviors, such as gathering information for Discovery as well as remote Execution of files as part of Lateral Movement. (Citation: FireEye WMI SANS 2015) (Citation: FireEye WMI 2015)"
+                },
+                {
+                    "id": "T1105",
+                    "name": "Ingress Tool Transfer",
+                    "tactic": "Execution",
+                    "description": "Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as [ftp](https://attack.mitre.org/software/S0095). Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. [Lateral Tool Transfer](https://attack.mitre.org/techniques/T1570)). \n\nFiles can also be transferred using various [Web Service](https://attack.mitre.org/techniques/T1102)s as well as native or otherwise present tools on the victim system.(Citation: PTSecurity Cobalt Dec 2016)\n\nOn Windows, adversaries may use various utilities to download tools, such as `copy`, `finger`, [certutil](https://attack.mitre.org/software/S0160), and [PowerShell](https://attack.mitre.org/techniques/T1059/001) commands such as <code>IEX(New-Object Net.WebClient).downloadString()</code> and <code>Invoke-WebRequest</code>. On Linux and macOS systems, a variety of utilities also exist, such as `curl`, `scp`, `sftp`, `tftp`, `rsync`, `finger`, and `wget`.(Citation: t1105_lolbas)"
+                },
+                {
+                    "id": "T1007",
+                    "name": "System Service Discovery",
+                    "tactic": "Command and Control",
+                    "description": "Adversaries may try to gather information about registered local system services. Adversaries may obtain information about services using tools as well as OS utility commands such as <code>sc query</code>, <code>tasklist /svc</code>, <code>systemctl --type=service</code>, and <code>net start</code>.\n\nAdversaries may use the information from [System Service Discovery](https://attack.mitre.org/techniques/T1007) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions."
+                }
+            ],
+            "tactics": [
+                "Defense Evasion",
+                "Defense Evasion",
+                "Impact",
+                "Discovery",
+                "Impact",
+                "Privilege Escalation",
+                "Defense Evasion",
+                "Execution",
+                "Defense Evasion",
+                "Impact",
+                "Initial Access",
+                "Impact",
+                "Discovery",
+                "Discovery",
+                "Exfiltration",
+                "Execution",
+                "Command and Control",
+                "Discovery"
+            ],
+            "platforms": [
+                "Windows"
+            ],
+            "deprecated": false,
+            "revoked": false
+        },
+        "KillChain": {
+            "Recon": {
+                "name": "Reconnanosesncs",
+                "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
+                "description": "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
+            },
+            "Weaponization": {
+                "name": "Weaponization",
+                "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor' class='text-blue-600 w-3 h-3'><path fill-rule='evenodd' d='M1 8a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 018.07 3h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0016.07 6H17a2 2 0 012 2v7a2 2 0 01-2 2H3a2 2 0 01-2-2V8zm13.5 3a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM10 14a3 3 0 100-6 3 3 0 000 6z' clip-rule='evenodd' /></svg> ",
+                "description": "Weaponization Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages."
+            }
+        }
     }
-  }
 }
