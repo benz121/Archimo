@@ -1,6 +1,7 @@
 /* * {margin: 0; padding: 0;} */
 
 /* modification for topbutton copy */
+
 .highlight{
   padding: 0px !important;
   margin: 0px !important;
@@ -30,22 +31,38 @@
   /* background: rgb(248, 246, 246); */
   /* max-height: 300px; */
   overflow: hidden;
+  z-index: 999;
+  /* display: none; */
 }
 
 .autoscrollbar:hover{
-overflow: auto;
+overflow-x: scroll;
+z-index: 999;
+/* display: block; */
 /* transition-duration: 200ms; */
 }
 
 .mostly-customized-scrollbar::-webkit-scrollbar {
-  width: 5px;
+  width: 4px;
   height: 8px;
-  background-color: rgb(202, 201, 201); /* or add it to the track */
+  background-color: rgb(224, 224, 224); /* or add it to the track */
+  z-index: 999;
 }
 .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
   background: rgb(122, 122, 122);
+  border-radius: 4px;
 }
 
+.darkscrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+  background-color: rgb(78, 78, 78); /* or add it to the track */
+  z-index: 999;
+}
+.darkscrollbar::-webkit-scrollbar-thumb {
+  background: rgb(56, 56, 56);
+  border-radius: 4px;
+}
 .blog-search-overlay {
   position: fixed;
   top: 0;

@@ -6,7 +6,7 @@ module.exports = {
     './**/*.html',
     './**/*.md'
   ],
-
+  darkMode: 'media',
   theme: {
     extend: {},
   },

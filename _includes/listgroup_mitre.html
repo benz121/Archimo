@@ -7,10 +7,10 @@
 <div class="w-full text-sm font-medium text-gray-900 bg-white border-b border-gray-200
  dark:bg-gray-700 dark:border-gray-600 dark:text-white">
     <div class="border-b border-gray-200 block p-4 w-full hover:bg-gray-100 focus:outline-none
- focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600
-  dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
+ focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700
+  dark:hover:text-white dark:focus:ring-gray-500">
             <span
-                class="inline-flex items-center justify-center px-2 py-0.5 text-xs font-medium text-gray-700 bg-gray-200 rounded dark:bg-gray-700 dark:text-gray-400 {% if tag == 'RE' %}text-red-600 font-semibold{% else %}{% endif %} ">
+                class="inline-flex items-center justify-center px-2 py-0.5 text-xs font-medium text-gray-700 bg-gray-200 rounded dark:bg-gray-900 dark:text-gray-400 {% if tag == 'RE' %}text-red-600 font-semibold{% else %}{% endif %} ">
                 {{tech.tactic}}
             </span>
             {% assign subtech = tech.id | split: "." %}
@@ -19,7 +19,7 @@
             {% endcapture %}
 
             <a href="{{mitre_url}}" class="hover:text-blue-700 dark:border-gray-600 dark:hover:bg-gray-600
-          dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white">
+          dark:hover:text-white dark:focus:ring-gray-500 dark:focus:text-white dark:hover:underline">
                 <p class="flex items-center text-xs py-2 divide-x divide-gray-400">
                     <span class="text-sm pr-4 font-bold">
                         {{subtech[0]}}
@@ -47,10 +47,10 @@
                 </p>
             </a>
         <div class="mx-auto">
-            <span class="overflow-hidden max-h-12 text-xs hidden sm:block text-gray-500">
+            <span class="overflow-hidden max-h-12 text-xs hidden sm:block text-gray-500 dark:text-gray-400">
                 {{tech.description}}
             </span>
-            <button class="text-xs text-blue-500 hover:underline mt-2" onclick="toggleParagraph(this)">Read More</button>
+            <button class="hidden sm:block text-xs text-blue-500 hover:underline mt-2" onclick="toggleParagraph(this)">Read More</button>
         </div>
         {% if tech.commands_used %}
         <div
